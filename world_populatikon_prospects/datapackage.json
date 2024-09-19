@@ -1,0 +1,39 @@
+{
+  "profile": "data-package",
+  "resources": [
+    {
+      "name": "urban_rural_population",
+      "path": "https://population.un.org/wup/Download/Files/WUP2018-F01-Total_Urban_Rural.xls",
+      "profile": "tabular-data-resource",
+      "schema": {}
+    }
+	{
+		"name": "location_list",
+		"path": "https://population.un.org/wup/Download/Files/WUP2018-F00-Locations.xlsx",
+		"profile": "tabular-data-resource",
+		"schema": {}
+	}
+  ],
+  "keywords": [
+	"data sources",
+    "population",
+    "UN"
+  ],
+  "homepage": "https://population.un.org/wup/Download/",
+  "name": "world-urb",
+  "licenses": [
+    {
+      "path": "http://creativecommons.org/licenses/by/3.0/igo/",
+      "name": "CC BY 3.0 IGO",
+      "title": "CC BY 3.0 IGO"
+    }
+  ],
+  "title": "World Urbanization Prospects",
+  "description": "Population of Urban and Rural Areas at Mid-Year (thousands) and Percentage Urban, 2018",
+  "contributors": [
+    {
+      "title": "United Nations",
+      "role": "author"
+    }
+  ]
+}
