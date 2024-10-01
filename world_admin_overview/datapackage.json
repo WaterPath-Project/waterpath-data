@@ -1,0 +1,43 @@
+{
+  "profile": "data-package",
+  "resources": [
+	{
+		"name": "countries-overview",
+		"path": "data/countries.json",
+		"profile": "tabular-data-resource",
+		"schema": {}
+	}
+  ],
+  "keywords": [
+	"data sources",
+	"admin_level_0",
+    "GADM"
+  ],
+  "homepage": "https://waterpath-project.github.io/waterpath-web/",
+  "name": "world-admin-overview",
+  "licenses": [
+    {
+      "path": " https://creativecommons.org/licenses/by/4.0/ ",
+      "name": "CC BY 4.0",
+      "title": "CC BY 4.0"
+    }
+  ],
+  "title": "World - Countries information and Administration units by country",
+  "description": "Metadata for countries and depth of administrative units.",
+  "contributors": [
+    {
+      "title": "Panagis Katsivelis",
+      "role": "author"
+    }
+  ],
+  "sources": [
+	  {
+		"title": "GADM",
+		"path": "https://gadm.org/"
+	  },
+	  {
+		"title": "ISO-3166-Countries-with-Regional-Codes",
+		"path": "https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes"
+	  }
+  ],
+}

@@ -1,0 +1,43 @@
+{
+  "profile": "data-package",
+  "resources": [
+	{
+		"name": "world-urbanisation",
+		"path": "data/urbanisation.json",
+		"profile": "tabular-data-resource",
+		"schema": {}
+	}
+  ],
+  "keywords": [
+	"data sources",
+    "population",
+    "UN"
+  ],
+  "homepage": "https://waterpath-project.github.io/waterpath-web/",
+  "name": "world-urbanisation",
+  "licenses": [
+    {
+      "path": " https://creativecommons.org/licenses/by/4.0/ ",
+      "name": "CC BY 4.0",
+      "title": "CC BY 4.0"
+    }
+  ],
+  "title": "World Urbanisation Prospects by country",
+  "description": "Population of Urban and Rural Areas at Mid-Year (thousands) and Percentage Urban, 2018",
+  "contributors": [
+    {
+      "title": "Panagis Katsivelis",
+      "role": "author"
+    }
+  ],
+  "sources": [
+	  {
+		"title": "World Urbanisation Prospects: Population of Urban and Rural Areas at Mid-Year (thousands) and Percentage Urban, 2018",
+		"path": "https://population.un.org/wup/Download/Files/WUP2018-F01-Total_Urban_Rural.xls"
+	  },
+	  {
+		"title": "Location list with codes, description, region, subregion, development groups and income groups",
+		"path": "https://population.un.org/wup/Download/Files/WUP2018-F00-Locations.xlsx"
+	  }
+  ],
+}

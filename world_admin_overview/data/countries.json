@@ -1,0 +1,3475 @@
+[
+  {
+    "NAME_0":"Aruba",
+    "GID_0":"ABW",
+    "ALPHA_2":"AW",
+    "COUNTRY_CODE":533,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"Caribbean",
+    "MAX_LEVEL":0.0,
+    "ADMIN_LABELS":[
+
+    ]
+  },
+  {
+    "NAME_0":"Afghanistan",
+    "GID_0":"AFG",
+    "ALPHA_2":"AF",
+    "COUNTRY_CODE":4,
+    "REGION":"Asia",
+    "SUB_REGION":"Southern Asia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Province",
+      "District"
+    ]
+  },
+  {
+    "NAME_0":"Angola",
+    "GID_0":"AGO",
+    "ALPHA_2":"AO",
+    "COUNTRY_CODE":24,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Middle Africa",
+    "MAX_LEVEL":3.0,
+    "ADMIN_LABELS":[
+      "Province",
+      "Municpality|CityCouncil",
+      "Commune"
+    ]
+  },
+  {
+    "NAME_0":"Anguilla",
+    "GID_0":"AIA",
+    "ALPHA_2":"AI",
+    "COUNTRY_CODE":660,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"Caribbean",
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "District\/Island"
+    ]
+  },
+  {
+    "NAME_0":"Åland",
+    "GID_0":"ALA",
+    "ALPHA_2":"AX",
+    "COUNTRY_CODE":248,
+    "REGION":"Europe",
+    "SUB_REGION":"Northern Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Sub-Region",
+      "Municipality"
+    ]
+  },
+  {
+    "NAME_0":"Albania",
+    "GID_0":"ALB",
+    "ALPHA_2":"AL",
+    "COUNTRY_CODE":8,
+    "REGION":"Europe",
+    "SUB_REGION":"Southern Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":3.0,
+    "ADMIN_LABELS":[
+      "County",
+      "NA",
+      "NA"
+    ]
+  },
+  {
+    "NAME_0":"Andorra",
+    "GID_0":"AND",
+    "ALPHA_2":"AD",
+    "COUNTRY_CODE":20,
+    "REGION":"Europe",
+    "SUB_REGION":"Southern Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "Parish"
+    ]
+  },
+  {
+    "NAME_0":"United Arab Emirates",
+    "GID_0":"ARE",
+    "ALPHA_2":"AE",
+    "COUNTRY_CODE":784,
+    "REGION":"Asia",
+    "SUB_REGION":"Western Asia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":3.0,
+    "ADMIN_LABELS":[
+      "Emirate",
+      "MunicipalRegion\/District\/Township\/Village\/Sector\/Region\/Emirate",
+      "Municipality\/NA\/District"
+    ]
+  },
+  {
+    "NAME_0":"Argentina",
+    "GID_0":"ARG",
+    "ALPHA_2":"AR",
+    "COUNTRY_CODE":32,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"South America",
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Province\/FederalDistrict",
+      "Part\/Department\/FederalDistrict"
+    ]
+  },
+  {
+    "NAME_0":"Armenia",
+    "GID_0":"ARM",
+    "ALPHA_2":"AM",
+    "COUNTRY_CODE":51,
+    "REGION":"Asia",
+    "SUB_REGION":"Western Asia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "Province\/City"
+    ]
+  },
+  {
+    "NAME_0":"American Samoa",
+    "GID_0":"ASM",
+    "ALPHA_2":"AS",
+    "COUNTRY_CODE":16,
+    "REGION":"Oceania",
+    "SUB_REGION":"Polynesia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":3.0,
+    "ADMIN_LABELS":[
+      "District",
+      "County\/Island",
+      "Village"
+    ]
+  },
+  {
+    "NAME_0":"Antarctica",
+    "GID_0":"ATA",
+    "ALPHA_2":"AQ",
+    "COUNTRY_CODE":10,
+    "REGION":null,
+    "SUB_REGION":null,
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":0.0,
+    "ADMIN_LABELS":[
+
+    ]
+  },
+  {
+    "NAME_0":"French Southern Territories",
+    "GID_0":"ATF",
+    "ALPHA_2":"TF",
+    "COUNTRY_CODE":260,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Eastern Africa",
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "District"
+    ]
+  },
+  {
+    "NAME_0":"Antigua and Barbuda",
+    "GID_0":"ATG",
+    "ALPHA_2":"AG",
+    "COUNTRY_CODE":28,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"Caribbean",
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "Dependency\/Parish"
+    ]
+  },
+  {
+    "NAME_0":"Australia",
+    "GID_0":"AUS",
+    "ALPHA_2":"AU",
+    "COUNTRY_CODE":36,
+    "REGION":"Oceania",
+    "SUB_REGION":"Australia and New Zealand",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Territory\/State",
+      "Territory\/UnincorporatedArea\/City\/Area\/Region\/Shire\/Town\/Municipality\/DistrictCouncil\/AboriginalCouncil\/RegionalCouncil\/RuralCity\/Statereserve\/Borough\/Islands"
+    ]
+  },
+  {
+    "NAME_0":"Austria",
+    "GID_0":"AUT",
+    "ALPHA_2":"AT",
+    "COUNTRY_CODE":40,
+    "REGION":"Europe",
+    "SUB_REGION":"Western Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":4.0,
+    "ADMIN_LABELS":[
+      "State",
+      "District\/StatutoryCity",
+      "Municipality",
+      "Cadastralcommunity"
+    ]
+  },
+  {
+    "NAME_0":"Azerbaijan",
+    "GID_0":"AZE",
+    "ALPHA_2":"AZ",
+    "COUNTRY_CODE":31,
+    "REGION":"Asia",
+    "SUB_REGION":"Western Asia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Region",
+      "District\/City"
+    ]
+  },
+  {
+    "NAME_0":"Burundi",
+    "GID_0":"BDI",
+    "ALPHA_2":"BI",
+    "COUNTRY_CODE":108,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Eastern Africa",
+    "MAX_LEVEL":4.0,
+    "ADMIN_LABELS":[
+      "Province",
+      "Commune\/Waterbody",
+      "Colline\/NA\/Waterbody",
+      "SousColline\/NA\/Waterbody"
+    ]
+  },
+  {
+    "NAME_0":"Belgium",
+    "GID_0":"BEL",
+    "ALPHA_2":"BE",
+    "COUNTRY_CODE":56,
+    "REGION":"Europe",
+    "SUB_REGION":"Western Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":4.0,
+    "ADMIN_LABELS":[
+      "Region",
+      "CapitalRegion\/Province\/Provincie",
+      "Arrondissement",
+      "Commune"
+    ]
+  },
+  {
+    "NAME_0":"Benin",
+    "GID_0":"BEN",
+    "ALPHA_2":"BJ",
+    "COUNTRY_CODE":204,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Western Africa",
+    "MAX_LEVEL":3.0,
+    "ADMIN_LABELS":[
+      "Department",
+      "Commune\/NA",
+      "Borough"
+    ]
+  },
+  {
+    "NAME_0":"Bonaire, Sint Eustatius and Saba",
+    "GID_0":"BES",
+    "ALPHA_2":"BQ",
+    "COUNTRY_CODE":535,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"Caribbean",
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "Municipality"
+    ]
+  },
+  {
+    "NAME_0":"Burkina Faso",
+    "GID_0":"BFA",
+    "ALPHA_2":"BF",
+    "COUNTRY_CODE":854,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Western Africa",
+    "MAX_LEVEL":3.0,
+    "ADMIN_LABELS":[
+      "Region",
+      "Province",
+      "Department"
+    ]
+  },
+  {
+    "NAME_0":"Bangladesh",
+    "GID_0":"BGD",
+    "ALPHA_2":"BD",
+    "COUNTRY_CODE":50,
+    "REGION":"Asia",
+    "SUB_REGION":"Southern Asia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":4.0,
+    "ADMIN_LABELS":[
+      "Division",
+      "Distict",
+      "Upazilla",
+      "Union\/Municipality"
+    ]
+  },
+  {
+    "NAME_0":"Bulgaria",
+    "GID_0":"BGR",
+    "ALPHA_2":"BG",
+    "COUNTRY_CODE":100,
+    "REGION":"Europe",
+    "SUB_REGION":"Eastern Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Province",
+      "Municipality\/City"
+    ]
+  },
+  {
+    "NAME_0":"Bahrain",
+    "GID_0":"BHR",
+    "ALPHA_2":"BH",
+    "COUNTRY_CODE":48,
+    "REGION":"Asia",
+    "SUB_REGION":"Western Asia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "Governorate"
+    ]
+  },
+  {
+    "NAME_0":"Bahamas",
+    "GID_0":"BHS",
+    "ALPHA_2":"BS",
+    "COUNTRY_CODE":44,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"Caribbean",
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "District"
+    ]
+  },
+  {
+    "NAME_0":"Bosnia and Herzegovina",
+    "GID_0":"BIH",
+    "ALPHA_2":"BA",
+    "COUNTRY_CODE":70,
+    "REGION":"Europe",
+    "SUB_REGION":"Southern Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":3.0,
+    "ADMIN_LABELS":[
+      "District\/Entity",
+      "Canton",
+      "Commune"
+    ]
+  },
+  {
+    "NAME_0":"Saint-Barthélemy",
+    "GID_0":"BLM",
+    "ALPHA_2":"BL",
+    "COUNTRY_CODE":652,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"Caribbean",
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Parish",
+      "Quarter"
+    ]
+  },
+  {
+    "NAME_0":"Belarus",
+    "GID_0":"BLR",
+    "ALPHA_2":"BY",
+    "COUNTRY_CODE":112,
+    "REGION":"Europe",
+    "SUB_REGION":"Eastern Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Region\/City",
+      "District"
+    ]
+  },
+  {
+    "NAME_0":"Belize",
+    "GID_0":"BLZ",
+    "ALPHA_2":"BZ",
+    "COUNTRY_CODE":84,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"Central America",
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "District"
+    ]
+  },
+  {
+    "NAME_0":"Bermuda",
+    "GID_0":"BMU",
+    "ALPHA_2":"BM",
+    "COUNTRY_CODE":60,
+    "REGION":"Americas",
+    "SUB_REGION":"Northern America",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "Parish\/Municipality"
+    ]
+  },
+  {
+    "NAME_0":"Bolivia",
+    "GID_0":"BOL",
+    "ALPHA_2":"BO",
+    "COUNTRY_CODE":68,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"South America",
+    "MAX_LEVEL":3.0,
+    "ADMIN_LABELS":[
+      "Department",
+      "Province",
+      "Distrito\/Waterbody"
+    ]
+  },
+  {
+    "NAME_0":"Brazil",
+    "GID_0":"BRA",
+    "ALPHA_2":"BR",
+    "COUNTRY_CODE":76,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"South America",
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "State\/FederalDistrict",
+      "Municipality"
+    ]
+  },
+  {
+    "NAME_0":"Barbados",
+    "GID_0":"BRB",
+    "ALPHA_2":"BB",
+    "COUNTRY_CODE":52,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"Caribbean",
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "Parish"
+    ]
+  },
+  {
+    "NAME_0":"Brunei",
+    "GID_0":"BRN",
+    "ALPHA_2":"BN",
+    "COUNTRY_CODE":96,
+    "REGION":"Asia",
+    "SUB_REGION":"South-eastern Asia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "District",
+      "Mukim"
+    ]
+  },
+  {
+    "NAME_0":"Bhutan",
+    "GID_0":"BTN",
+    "ALPHA_2":"BT",
+    "COUNTRY_CODE":64,
+    "REGION":"Asia",
+    "SUB_REGION":"Southern Asia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "District",
+      "Villageblock"
+    ]
+  },
+  {
+    "NAME_0":"Bouvet Island",
+    "GID_0":"BVT",
+    "ALPHA_2":"BV",
+    "COUNTRY_CODE":74,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"South America",
+    "MAX_LEVEL":0.0,
+    "ADMIN_LABELS":[
+
+    ]
+  },
+  {
+    "NAME_0":"Botswana",
+    "GID_0":"BWA",
+    "ALPHA_2":"BW",
+    "COUNTRY_CODE":72,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Southern Africa",
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "District\/City\/Town",
+      "Sub-district\/TownCouncil\/Unknown\/City\/Town"
+    ]
+  },
+  {
+    "NAME_0":"Central African Republic",
+    "GID_0":"CAF",
+    "ALPHA_2":"CF",
+    "COUNTRY_CODE":140,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Middle Africa",
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Prefecture\/AutonomousCommune\/EconomicPrefecture",
+      "Sub-prefecture"
+    ]
+  },
+  {
+    "NAME_0":"Canada",
+    "GID_0":"CAN",
+    "ALPHA_2":"CA",
+    "COUNTRY_CODE":124,
+    "REGION":"Americas",
+    "SUB_REGION":"Northern America",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":3.0,
+    "ADMIN_LABELS":[
+      "Province\/Territory",
+      "CensusDivision\/RegionalDistrict\/Region\/County\/District\/RegionalMunicipality\/Waterbody\/UnitedCounty\/DistrictMunicipality\/UnitedCounties\/RegionalCountyMunicipality\/Territory",
+      "Town\/Village\/MunicipalDistrict\/CountyMunicipality\/City\/ImprovementDistrict\/IndianReserve\/SummerVillage\/SpecializedMunicipality\/IndianSettlement\/RegionalMunicipality\/SpecialArea\/RegionalDistrictElectoralArea\/DistrictMunicipality\/IslandMunicipality\/Nisga'aVillage\/Nisga'aLand\/IndianGovernmentDistrict\/RuralMunicipality\/Unorganized\/LocalGovernmentDistrict\/Parish\/RuralCommunity\/SubdivisionofUnorganized\/Region\/Settlement\/Hamlet\/CharteredCommunity\/SubdivisionofCountyMunicipali\/Township\/Waterbody\/Community\/TownshipandRoyalty\/Ville\/Municipality\/CantonMunicipality\/ParishMunicipality\/UnitedCantonsMunicipality\/InuiteLand\/VillageNordique\/LandReserved\/VillageCri\/VillageNaskapi\/ResortVillage\/NorthernVillage\/NorthernHamlet\/TeslinLand"
+    ]
+  },
+  {
+    "NAME_0":"Cocos Islands",
+    "GID_0":"CCK",
+    "ALPHA_2":"CC",
+    "COUNTRY_CODE":166,
+    "REGION":"Oceania",
+    "SUB_REGION":"Australia and New Zealand",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":0.0,
+    "ADMIN_LABELS":[
+
+    ]
+  },
+  {
+    "NAME_0":"Switzerland",
+    "GID_0":"CHE",
+    "ALPHA_2":"CH",
+    "COUNTRY_CODE":756,
+    "REGION":"Europe",
+    "SUB_REGION":"Western Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":3.0,
+    "ADMIN_LABELS":[
+      "Canton",
+      "District\/Waterbody",
+      "Municipality\/Waterbody\/WaterBody"
+    ]
+  },
+  {
+    "NAME_0":"Chile",
+    "GID_0":"CHL",
+    "ALPHA_2":"CL",
+    "COUNTRY_CODE":152,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"South America",
+    "MAX_LEVEL":3.0,
+    "ADMIN_LABELS":[
+      "Region\/MetropolianRegion",
+      "Province",
+      "Municipality"
+    ]
+  },
+  {
+    "NAME_0":"China",
+    "GID_0":"CHN",
+    "ALPHA_2":"CN",
+    "COUNTRY_CODE":156,
+    "REGION":"Asia",
+    "SUB_REGION":"Eastern Asia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":3.0,
+    "ADMIN_LABELS":[
+      "Province\/Municipality\/AutonomousRegion\/SpecialAdministrativeRegion",
+      "PrefectureCity\/Municipality\/AutonomousPrefecture\/Prefecture\/District\/League",
+      "CountyCity\/County\/District\/Municipality\/AutonomousCounty\/SpecialDistrict\/AutonomousPrefecture\/NewDistrict\/Parish\/Banner\/AutonomousBanner\/AdministrativeCommittee\/NA"
+    ]
+  },
+  {
+    "NAME_0":"Côte d'Ivoire",
+    "GID_0":"CIV",
+    "ALPHA_2":"CI",
+    "COUNTRY_CODE":384,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Western Africa",
+    "MAX_LEVEL":4.0,
+    "ADMIN_LABELS":[
+      "Autonomousdistrict\/District",
+      "Autonomousdistrict\/Region",
+      "Department",
+      "Sub-prefecture"
+    ]
+  },
+  {
+    "NAME_0":"Cameroon",
+    "GID_0":"CMR",
+    "ALPHA_2":"CM",
+    "COUNTRY_CODE":120,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Middle Africa",
+    "MAX_LEVEL":3.0,
+    "ADMIN_LABELS":[
+      "Region",
+      "Department",
+      "Arrondissement"
+    ]
+  },
+  {
+    "NAME_0":"Democratic Republic of the Congo",
+    "GID_0":"COD",
+    "ALPHA_2":"CD",
+    "COUNTRY_CODE":180,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Middle Africa",
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Province",
+      "Territory\/Town"
+    ]
+  },
+  {
+    "NAME_0":"Republic of the Congo",
+    "GID_0":"COG",
+    "ALPHA_2":"CG",
+    "COUNTRY_CODE":178,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Middle Africa",
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Region",
+      "District"
+    ]
+  },
+  {
+    "NAME_0":"Cook Islands",
+    "GID_0":"COK",
+    "ALPHA_2":"CK",
+    "COUNTRY_CODE":184,
+    "REGION":"Oceania",
+    "SUB_REGION":"Polynesia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "IslandCouncil"
+    ]
+  },
+  {
+    "NAME_0":"Colombia",
+    "GID_0":"COL",
+    "ALPHA_2":"CO",
+    "COUNTRY_CODE":170,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"South America",
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Commissiary\/Department\/Intendancy\/CapitalDistrict",
+      "CorregimientoDepartamental\/Municipality\/Islands"
+    ]
+  },
+  {
+    "NAME_0":"Comoros",
+    "GID_0":"COM",
+    "ALPHA_2":"KM",
+    "COUNTRY_CODE":174,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Eastern Africa",
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "AutonomousIsland"
+    ]
+  },
+  {
+    "NAME_0":"Cabo Verde",
+    "GID_0":"CPV",
+    "ALPHA_2":"CV",
+    "COUNTRY_CODE":132,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Western Africa",
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "County"
+    ]
+  },
+  {
+    "NAME_0":"Costa Rica",
+    "GID_0":"CRI",
+    "ALPHA_2":"CR",
+    "COUNTRY_CODE":188,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"Central America",
+    "MAX_LEVEL":3.0,
+    "ADMIN_LABELS":[
+      "Province",
+      "Canton",
+      "District"
+    ]
+  },
+  {
+    "NAME_0":"Cuba",
+    "GID_0":"CUB",
+    "ALPHA_2":"CU",
+    "COUNTRY_CODE":192,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"Caribbean",
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Province",
+      "Municipality"
+    ]
+  },
+  {
+    "NAME_0":"Curaçao",
+    "GID_0":"CUW",
+    "ALPHA_2":"CW",
+    "COUNTRY_CODE":531,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"Caribbean",
+    "MAX_LEVEL":0.0,
+    "ADMIN_LABELS":[
+
+    ]
+  },
+  {
+    "NAME_0":"Christmas Island",
+    "GID_0":"CXR",
+    "ALPHA_2":"CX",
+    "COUNTRY_CODE":162,
+    "REGION":"Oceania",
+    "SUB_REGION":"Australia and New Zealand",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":0.0,
+    "ADMIN_LABELS":[
+
+    ]
+  },
+  {
+    "NAME_0":"Cayman Islands",
+    "GID_0":"CYM",
+    "ALPHA_2":"KY",
+    "COUNTRY_CODE":136,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"Caribbean",
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "District"
+    ]
+  },
+  {
+    "NAME_0":"Cyprus",
+    "GID_0":"CYP",
+    "ALPHA_2":"CY",
+    "COUNTRY_CODE":196,
+    "REGION":"Asia",
+    "SUB_REGION":"Western Asia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "District"
+    ]
+  },
+  {
+    "NAME_0":"Czechia",
+    "GID_0":"CZE",
+    "ALPHA_2":"CZ",
+    "COUNTRY_CODE":203,
+    "REGION":"Europe",
+    "SUB_REGION":"Eastern Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Region",
+      "District\/Statutorycity"
+    ]
+  },
+  {
+    "NAME_0":"Germany",
+    "GID_0":"DEU",
+    "ALPHA_2":"DE",
+    "COUNTRY_CODE":276,
+    "REGION":"Europe",
+    "SUB_REGION":"Western Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":4.0,
+    "ADMIN_LABELS":[
+      "State\/FreeState",
+      "District\/Waterbody",
+      "Municipality\/Waterbody\/WaterBody",
+      "Town\/Waterbody\/WaterBody"
+    ]
+  },
+  {
+    "NAME_0":"Djibouti",
+    "GID_0":"DJI",
+    "ALPHA_2":"DJ",
+    "COUNTRY_CODE":262,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Eastern Africa",
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Region",
+      "NA"
+    ]
+  },
+  {
+    "NAME_0":"Dominica",
+    "GID_0":"DMA",
+    "ALPHA_2":"DM",
+    "COUNTRY_CODE":212,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"Caribbean",
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "Parish"
+    ]
+  },
+  {
+    "NAME_0":"Denmark",
+    "GID_0":"DNK",
+    "ALPHA_2":"DK",
+    "COUNTRY_CODE":208,
+    "REGION":"Europe",
+    "SUB_REGION":"Northern Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Region",
+      "Municipality"
+    ]
+  },
+  {
+    "NAME_0":"Dominican Republic",
+    "GID_0":"DOM",
+    "ALPHA_2":"DO",
+    "COUNTRY_CODE":214,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"Caribbean",
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Province\/NationalDistrict",
+      "Municipality\/Municipaldistrict"
+    ]
+  },
+  {
+    "NAME_0":"Algeria",
+    "GID_0":"DZA",
+    "ALPHA_2":"DZ",
+    "COUNTRY_CODE":12,
+    "REGION":"Africa",
+    "SUB_REGION":"Northern Africa",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Province",
+      "Chef-Lieu-Wilaya\/Commune\/Commune-Cotiere"
+    ]
+  },
+  {
+    "NAME_0":"Ecuador",
+    "GID_0":"ECU",
+    "ALPHA_2":"EC",
+    "COUNTRY_CODE":218,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"South America",
+    "MAX_LEVEL":3.0,
+    "ADMIN_LABELS":[
+      "Province",
+      "Canton\/DistritoMetropolitano",
+      "CantonalHead\/RuralParish"
+    ]
+  },
+  {
+    "NAME_0":"Egypt",
+    "GID_0":"EGY",
+    "ALPHA_2":"EG",
+    "COUNTRY_CODE":818,
+    "REGION":"Africa",
+    "SUB_REGION":"Northern Africa",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Governorate",
+      "Subdivision"
+    ]
+  },
+  {
+    "NAME_0":"Eritrea",
+    "GID_0":"ERI",
+    "ALPHA_2":"ER",
+    "COUNTRY_CODE":232,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Eastern Africa",
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Region",
+      "District"
+    ]
+  },
+  {
+    "NAME_0":"Western Sahara",
+    "GID_0":"ESH",
+    "ALPHA_2":"EH",
+    "COUNTRY_CODE":732,
+    "REGION":"Africa",
+    "SUB_REGION":"Northern Africa",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "Province"
+    ]
+  },
+  {
+    "NAME_0":"Spain",
+    "GID_0":"ESP",
+    "ALPHA_2":"ES",
+    "COUNTRY_CODE":724,
+    "REGION":"Europe",
+    "SUB_REGION":"Southern Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":4.0,
+    "ADMIN_LABELS":[
+      "AutonomousCommunity\/AutonomousCity",
+      "Province\/AutonomousCity",
+      "Comarca",
+      "Municipality\/Sovereignterritories\/Sovereignterritory"
+    ]
+  },
+  {
+    "NAME_0":"Estonia",
+    "GID_0":"EST",
+    "ALPHA_2":"EE",
+    "COUNTRY_CODE":233,
+    "REGION":"Europe",
+    "SUB_REGION":"Northern Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":3.0,
+    "ADMIN_LABELS":[
+      "County\/Waterbody",
+      "Parish\/Town\/Waterbody",
+      "Town\/Village\/City\/Smalltown\/AdministrativeDistrict\/WaterBody"
+    ]
+  },
+  {
+    "NAME_0":"Ethiopia",
+    "GID_0":"ETH",
+    "ALPHA_2":"ET",
+    "COUNTRY_CODE":231,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Eastern Africa",
+    "MAX_LEVEL":3.0,
+    "ADMIN_LABELS":[
+      "City\/State",
+      "Zone\/SpecialWoreda",
+      "District\/Other"
+    ]
+  },
+  {
+    "NAME_0":"Finland",
+    "GID_0":"FIN",
+    "ALPHA_2":"FI",
+    "COUNTRY_CODE":246,
+    "REGION":"Europe",
+    "SUB_REGION":"Northern Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":4.0,
+    "ADMIN_LABELS":[
+      "Province",
+      "Region",
+      "Sub-Region",
+      "Municipality"
+    ]
+  },
+  {
+    "NAME_0":"Fiji",
+    "GID_0":"FJI",
+    "ALPHA_2":"FJ",
+    "COUNTRY_CODE":242,
+    "REGION":"Oceania",
+    "SUB_REGION":"Melanesia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Division",
+      "Province"
+    ]
+  },
+  {
+    "NAME_0":"Falkland Islands",
+    "GID_0":"FLK",
+    "ALPHA_2":"FK",
+    "COUNTRY_CODE":238,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"South America",
+    "MAX_LEVEL":0.0,
+    "ADMIN_LABELS":[
+
+    ]
+  },
+  {
+    "NAME_0":"France",
+    "GID_0":"FRA",
+    "ALPHA_2":"FR",
+    "COUNTRY_CODE":250,
+    "REGION":"Europe",
+    "SUB_REGION":"Western Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":5.0,
+    "ADMIN_LABELS":[
+      "Region",
+      "Department",
+      "Districts\/Waterbody",
+      "Canton\/Waterbody",
+      "Commune"
+    ]
+  },
+  {
+    "NAME_0":"Faroe Islands",
+    "GID_0":"FRO",
+    "ALPHA_2":"FO",
+    "COUNTRY_CODE":234,
+    "REGION":"Europe",
+    "SUB_REGION":"Northern Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Region",
+      "Commune"
+    ]
+  },
+  {
+    "NAME_0":"Micronesia",
+    "GID_0":"FSM",
+    "ALPHA_2":"FM",
+    "COUNTRY_CODE":583,
+    "REGION":"Oceania",
+    "SUB_REGION":"Micronesia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "State",
+      "Municipality\/Atol\/Reef"
+    ]
+  },
+  {
+    "NAME_0":"Gabon",
+    "GID_0":"GAB",
+    "ALPHA_2":"GA",
+    "COUNTRY_CODE":266,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Middle Africa",
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Province",
+      "Department"
+    ]
+  },
+  {
+    "NAME_0":"United Kingdom",
+    "GID_0":"GBR",
+    "ALPHA_2":"GB",
+    "COUNTRY_CODE":826,
+    "REGION":"Europe",
+    "SUB_REGION":"Northern Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":4.0,
+    "ADMIN_LABELS":[
+      "ConstituentCountry\/NA",
+      "UnitaryAuthority\/NA\/MetropolitanBorough(City)\/MetropolitanBorough\/AdministrativeCounty\/UnitaryAuthority(City)\/UnitaryAuthority(County)\/District\/UnitaryDistrict(City)\/UnitaryDistrict\/Islandarea",
+      "Unitaryauthority\/NA\/Metropolitanborough(city)\/Administrativecountydistrict\/Metropolitanborough\/Unitaryauthority(city)\/Londonborough\/Unitaryauthority(county)\/District\/Unitarydistrict(city)\/Unitarydistrict\/Islandarea\/Unitaryauthority(Wales)",
+      "NA"
+    ]
+  },
+  {
+    "NAME_0":"Georgia",
+    "GID_0":"GEO",
+    "ALPHA_2":"GE",
+    "COUNTRY_CODE":268,
+    "REGION":"Asia",
+    "SUB_REGION":"Western Asia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "AutonomousRepublic\/Region\/IndependentCity",
+      "District\/City"
+    ]
+  },
+  {
+    "NAME_0":"Guernsey",
+    "GID_0":"GGY",
+    "ALPHA_2":"GG",
+    "COUNTRY_CODE":831,
+    "REGION":"Europe",
+    "SUB_REGION":"Northern Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "Parish"
+    ]
+  },
+  {
+    "NAME_0":"Ghana",
+    "GID_0":"GHA",
+    "ALPHA_2":"GH",
+    "COUNTRY_CODE":288,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Western Africa",
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Region",
+      "Municipality\/District\/Metropolis"
+    ]
+  },
+  {
+    "NAME_0":"Gibraltar",
+    "GID_0":"GIB",
+    "ALPHA_2":"GI",
+    "COUNTRY_CODE":292,
+    "REGION":"Europe",
+    "SUB_REGION":"Southern Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":0.0,
+    "ADMIN_LABELS":[
+
+    ]
+  },
+  {
+    "NAME_0":"Guinea",
+    "GID_0":"GIN",
+    "ALPHA_2":"GN",
+    "COUNTRY_CODE":324,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Western Africa",
+    "MAX_LEVEL":3.0,
+    "ADMIN_LABELS":[
+      "Region",
+      "Prefecture",
+      "Sub-prefecture"
+    ]
+  },
+  {
+    "NAME_0":"Guadeloupe",
+    "GID_0":"GLP",
+    "ALPHA_2":"GP",
+    "COUNTRY_CODE":312,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"Caribbean",
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "District",
+      "Commune"
+    ]
+  },
+  {
+    "NAME_0":"Gambia",
+    "GID_0":"GMB",
+    "ALPHA_2":"GM",
+    "COUNTRY_CODE":270,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Western Africa",
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "IndependentCity\/Division",
+      "District"
+    ]
+  },
+  {
+    "NAME_0":"Guinea-Bissau",
+    "GID_0":"GNB",
+    "ALPHA_2":"GW",
+    "COUNTRY_CODE":624,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Western Africa",
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Region\/AutonomousSector",
+      "Sector"
+    ]
+  },
+  {
+    "NAME_0":"Equatorial Guinea",
+    "GID_0":"GNQ",
+    "ALPHA_2":"GQ",
+    "COUNTRY_CODE":226,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Middle Africa",
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Province",
+      "Districts|Municipals"
+    ]
+  },
+  {
+    "NAME_0":"Greece",
+    "GID_0":"GRC",
+    "ALPHA_2":"GR",
+    "COUNTRY_CODE":300,
+    "REGION":"Europe",
+    "SUB_REGION":"Southern Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":3.0,
+    "ADMIN_LABELS":[
+      "Decentralizedadministration",
+      "Region",
+      "Municipality"
+    ]
+  },
+  {
+    "NAME_0":"Grenada",
+    "GID_0":"GRD",
+    "ALPHA_2":"GD",
+    "COUNTRY_CODE":308,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"Caribbean",
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "Dependency\/Parish"
+    ]
+  },
+  {
+    "NAME_0":"Greenland",
+    "GID_0":"GRL",
+    "ALPHA_2":"GL",
+    "COUNTRY_CODE":304,
+    "REGION":"Americas",
+    "SUB_REGION":"Northern America",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "Commune\/NationalPark"
+    ]
+  },
+  {
+    "NAME_0":"Guatemala",
+    "GID_0":"GTM",
+    "ALPHA_2":"GT",
+    "COUNTRY_CODE":320,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"Central America",
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Department",
+      "Municipality\/Waterbody"
+    ]
+  },
+  {
+    "NAME_0":"French Guiana",
+    "GID_0":"GUF",
+    "ALPHA_2":"GF",
+    "COUNTRY_CODE":254,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"South America",
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Arrondissement",
+      "Commune"
+    ]
+  },
+  {
+    "NAME_0":"Guam",
+    "GID_0":"GUM",
+    "ALPHA_2":"GU",
+    "COUNTRY_CODE":316,
+    "REGION":"Oceania",
+    "SUB_REGION":"Micronesia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "Municipality"
+    ]
+  },
+  {
+    "NAME_0":"Guyana",
+    "GID_0":"GUY",
+    "ALPHA_2":"GY",
+    "COUNTRY_CODE":328,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"South America",
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Region",
+      "NotClassified\/NeighbourhoodDemocratic\/Municipality\/Conservancy"
+    ]
+  },
+  {
+    "NAME_0":"Heard Island and McDonald Island",
+    "GID_0":"HMD",
+    "ALPHA_2":"HM",
+    "COUNTRY_CODE":334,
+    "REGION":"Oceania",
+    "SUB_REGION":"Australia and New Zealand",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":0.0,
+    "ADMIN_LABELS":[
+
+    ]
+  },
+  {
+    "NAME_0":"Honduras",
+    "GID_0":"HND",
+    "ALPHA_2":"HN",
+    "COUNTRY_CODE":340,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"Central America",
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Department",
+      "Municipality"
+    ]
+  },
+  {
+    "NAME_0":"Croatia",
+    "GID_0":"HRV",
+    "ALPHA_2":"HR",
+    "COUNTRY_CODE":191,
+    "REGION":"Europe",
+    "SUB_REGION":"Southern Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "County\/City",
+      "Commune\/City"
+    ]
+  },
+  {
+    "NAME_0":"Haiti",
+    "GID_0":"HTI",
+    "ALPHA_2":"HT",
+    "COUNTRY_CODE":332,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"Caribbean",
+    "MAX_LEVEL":4.0,
+    "ADMIN_LABELS":[
+      "Department",
+      "District",
+      "Commune",
+      "Sub-commune"
+    ]
+  },
+  {
+    "NAME_0":"Hungary",
+    "GID_0":"HUN",
+    "ALPHA_2":"HU",
+    "COUNTRY_CODE":348,
+    "REGION":"Europe",
+    "SUB_REGION":"Eastern Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "County\/CapitalCity",
+      "Subregion"
+    ]
+  },
+  {
+    "NAME_0":"Indonesia",
+    "GID_0":"IDN",
+    "ALPHA_2":"ID",
+    "COUNTRY_CODE":360,
+    "REGION":"Asia",
+    "SUB_REGION":"South-eastern Asia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":4.0,
+    "ADMIN_LABELS":[
+      "Province",
+      "Regency\/City\/WaterBody\/NA",
+      "Sub-district\/WaterBody\/NA\/District",
+      "Village\/UrbanCommunity\/WaterBody"
+    ]
+  },
+  {
+    "NAME_0":"Isle of Man",
+    "GID_0":"IMN",
+    "ALPHA_2":"IM",
+    "COUNTRY_CODE":833,
+    "REGION":"Europe",
+    "SUB_REGION":"Northern Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "ParishDistrict\/TownDistrict\/District\/VillageDistrict"
+    ]
+  },
+  {
+    "NAME_0":"India",
+    "GID_0":"IND",
+    "ALPHA_2":"IN",
+    "COUNTRY_CODE":356,
+    "REGION":"Asia",
+    "SUB_REGION":"Southern Asia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":3.0,
+    "ADMIN_LABELS":[
+      "UnionTerritory\/State",
+      "District",
+      "Taluk"
+    ]
+  },
+  {
+    "NAME_0":"British Indian Ocean Territory",
+    "GID_0":"IOT",
+    "ALPHA_2":"IO",
+    "COUNTRY_CODE":86,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Eastern Africa",
+    "MAX_LEVEL":0.0,
+    "ADMIN_LABELS":[
+
+    ]
+  },
+  {
+    "NAME_0":"Ireland",
+    "GID_0":"IRL",
+    "ALPHA_2":"IE",
+    "COUNTRY_CODE":372,
+    "REGION":"Europe",
+    "SUB_REGION":"Northern Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "County\/Region",
+      "MunicipalDistrict\/City\/County\/CityCouncil\/MetropolitanDistrict\/BoroughDistrict"
+    ]
+  },
+  {
+    "NAME_0":"Iran",
+    "GID_0":"IRN",
+    "ALPHA_2":"IR",
+    "COUNTRY_CODE":364,
+    "REGION":"Asia",
+    "SUB_REGION":"Southern Asia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Province",
+      "County\/Island\/Unknown"
+    ]
+  },
+  {
+    "NAME_0":"Iraq",
+    "GID_0":"IRQ",
+    "ALPHA_2":"IQ",
+    "COUNTRY_CODE":368,
+    "REGION":"Asia",
+    "SUB_REGION":"Western Asia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Province",
+      "District"
+    ]
+  },
+  {
+    "NAME_0":"Iceland",
+    "GID_0":"ISL",
+    "ALPHA_2":"IS",
+    "COUNTRY_CODE":352,
+    "REGION":"Europe",
+    "SUB_REGION":"Northern Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Region\/IndependentTown",
+      "Municipality"
+    ]
+  },
+  {
+    "NAME_0":"Israel",
+    "GID_0":"ISR",
+    "ALPHA_2":"IL",
+    "COUNTRY_CODE":376,
+    "REGION":"Asia",
+    "SUB_REGION":"Western Asia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "District"
+    ]
+  },
+  {
+    "NAME_0":"Italy",
+    "GID_0":"ITA",
+    "ALPHA_2":"IT",
+    "COUNTRY_CODE":380,
+    "REGION":"Europe",
+    "SUB_REGION":"Southern Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":3.0,
+    "ADMIN_LABELS":[
+      "Region\/AutonomousRegion",
+      "Province",
+      "Commune"
+    ]
+  },
+  {
+    "NAME_0":"Jamaica",
+    "GID_0":"JAM",
+    "ALPHA_2":"JM",
+    "COUNTRY_CODE":388,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"Caribbean",
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "Parish"
+    ]
+  },
+  {
+    "NAME_0":"Jersey",
+    "GID_0":"JEY",
+    "ALPHA_2":"JE",
+    "COUNTRY_CODE":832,
+    "REGION":"Europe",
+    "SUB_REGION":"Northern Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "Parish"
+    ]
+  },
+  {
+    "NAME_0":"Jordan",
+    "GID_0":"JOR",
+    "ALPHA_2":"JO",
+    "COUNTRY_CODE":400,
+    "REGION":"Asia",
+    "SUB_REGION":"Western Asia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Province",
+      "Sub-Province"
+    ]
+  },
+  {
+    "NAME_0":"Japan",
+    "GID_0":"JPN",
+    "ALPHA_2":"JP",
+    "COUNTRY_CODE":392,
+    "REGION":"Asia",
+    "SUB_REGION":"Eastern Asia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Prefecture\/Circuit\/UrbanPrefecture\/Metropolis",
+      "Town\/City\/Village\/Capital\/Waterbody\/County\/SpecialWard\/Subprefecture"
+    ]
+  },
+  {
+    "NAME_0":"Kazakhstan",
+    "GID_0":"KAZ",
+    "ALPHA_2":"KZ",
+    "COUNTRY_CODE":398,
+    "REGION":"Asia",
+    "SUB_REGION":"Central Asia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Region",
+      "District\/Assembly"
+    ]
+  },
+  {
+    "NAME_0":"Kenya",
+    "GID_0":"KEN",
+    "ALPHA_2":"KE",
+    "COUNTRY_CODE":404,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Eastern Africa",
+    "MAX_LEVEL":3.0,
+    "ADMIN_LABELS":[
+      "County",
+      "Constituency",
+      "Ward"
+    ]
+  },
+  {
+    "NAME_0":"Kyrgyzstan",
+    "GID_0":"KGZ",
+    "ALPHA_2":"KG",
+    "COUNTRY_CODE":417,
+    "REGION":"Asia",
+    "SUB_REGION":"Central Asia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Province\/City",
+      "District\/City\/Waterbody"
+    ]
+  },
+  {
+    "NAME_0":"Cambodia",
+    "GID_0":"KHM",
+    "ALPHA_2":"KH",
+    "COUNTRY_CODE":116,
+    "REGION":"Asia",
+    "SUB_REGION":"South-eastern Asia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":3.0,
+    "ADMIN_LABELS":[
+      "Province\/Municipality",
+      "District\/Waterbody",
+      "Commune\/Waterbody"
+    ]
+  },
+  {
+    "NAME_0":"Kiribati",
+    "GID_0":"KIR",
+    "ALPHA_2":"KI",
+    "COUNTRY_CODE":296,
+    "REGION":"Oceania",
+    "SUB_REGION":"Micronesia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":0.0,
+    "ADMIN_LABELS":[
+
+    ]
+  },
+  {
+    "NAME_0":"Saint Kitts and Nevis",
+    "GID_0":"KNA",
+    "ALPHA_2":"KN",
+    "COUNTRY_CODE":659,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"Caribbean",
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "Parish"
+    ]
+  },
+  {
+    "NAME_0":"South Korea",
+    "GID_0":"KOR",
+    "ALPHA_2":"KR",
+    "COUNTRY_CODE":410,
+    "REGION":"Asia",
+    "SUB_REGION":"Eastern Asia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":3.0,
+    "ADMIN_LABELS":[
+      "MetropolitanCity\/Province\/MetropolitanAutonomousCity\/CapitalMetropolitanCity",
+      "District\/County\/City\/NA",
+      "Neighborhood\/Township\/Town"
+    ]
+  },
+  {
+    "NAME_0":"Kuwait",
+    "GID_0":"KWT",
+    "ALPHA_2":"KW",
+    "COUNTRY_CODE":414,
+    "REGION":"Asia",
+    "SUB_REGION":"Western Asia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "Province"
+    ]
+  },
+  {
+    "NAME_0":"Laos",
+    "GID_0":"LAO",
+    "ALPHA_2":"LA",
+    "COUNTRY_CODE":418,
+    "REGION":"Asia",
+    "SUB_REGION":"South-eastern Asia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Province\/Municipality|Prefecture\/SpecialRegion|Zone",
+      "District"
+    ]
+  },
+  {
+    "NAME_0":"Lebanon",
+    "GID_0":"LBN",
+    "ALPHA_2":"LB",
+    "COUNTRY_CODE":422,
+    "REGION":"Asia",
+    "SUB_REGION":"Western Asia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":3.0,
+    "ADMIN_LABELS":[
+      "Governorate",
+      "District",
+      "Municipality"
+    ]
+  },
+  {
+    "NAME_0":"Liberia",
+    "GID_0":"LBR",
+    "ALPHA_2":"LR",
+    "COUNTRY_CODE":430,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Western Africa",
+    "MAX_LEVEL":3.0,
+    "ADMIN_LABELS":[
+      "County",
+      "District",
+      "Clan"
+    ]
+  },
+  {
+    "NAME_0":"Libya",
+    "GID_0":"LBY",
+    "ALPHA_2":"LY",
+    "COUNTRY_CODE":434,
+    "REGION":"Africa",
+    "SUB_REGION":"Northern Africa",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "District"
+    ]
+  },
+  {
+    "NAME_0":"Saint Lucia",
+    "GID_0":"LCA",
+    "ALPHA_2":"LC",
+    "COUNTRY_CODE":662,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"Caribbean",
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "Quarter"
+    ]
+  },
+  {
+    "NAME_0":"Liechtenstein",
+    "GID_0":"LIE",
+    "ALPHA_2":"LI",
+    "COUNTRY_CODE":438,
+    "REGION":"Europe",
+    "SUB_REGION":"Western Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "Commune"
+    ]
+  },
+  {
+    "NAME_0":"Sri Lanka",
+    "GID_0":"LKA",
+    "ALPHA_2":"LK",
+    "COUNTRY_CODE":144,
+    "REGION":"Asia",
+    "SUB_REGION":"Southern Asia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "District",
+      "Division"
+    ]
+  },
+  {
+    "NAME_0":"Lesotho",
+    "GID_0":"LSO",
+    "ALPHA_2":"LS",
+    "COUNTRY_CODE":426,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Southern Africa",
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "District"
+    ]
+  },
+  {
+    "NAME_0":"Lithuania",
+    "GID_0":"LTU",
+    "ALPHA_2":"LT",
+    "COUNTRY_CODE":440,
+    "REGION":"Europe",
+    "SUB_REGION":"Northern Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "County",
+      "DistrictMunicipality\/Municipality\/CityMunicipality"
+    ]
+  },
+  {
+    "NAME_0":"Luxembourg",
+    "GID_0":"LUX",
+    "ALPHA_2":"LU",
+    "COUNTRY_CODE":442,
+    "REGION":"Europe",
+    "SUB_REGION":"Western Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":4.0,
+    "ADMIN_LABELS":[
+      "District",
+      "Canton",
+      "Commune",
+      "Commune(sameaslevel3)\/Quarter"
+    ]
+  },
+  {
+    "NAME_0":"Latvia",
+    "GID_0":"LVA",
+    "ALPHA_2":"LV",
+    "COUNTRY_CODE":428,
+    "REGION":"Europe",
+    "SUB_REGION":"Northern Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Province",
+      "District"
+    ]
+  },
+  {
+    "NAME_0":"Saint-Martin",
+    "GID_0":"MAF",
+    "ALPHA_2":"MF",
+    "COUNTRY_CODE":663,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"Caribbean",
+    "MAX_LEVEL":0.0,
+    "ADMIN_LABELS":[
+
+    ]
+  },
+  {
+    "NAME_0":"Morocco",
+    "GID_0":"MAR",
+    "ALPHA_2":"MA",
+    "COUNTRY_CODE":504,
+    "REGION":"Africa",
+    "SUB_REGION":"Northern Africa",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":4.0,
+    "ADMIN_LABELS":[
+      "Region",
+      "Province\/Prefecture",
+      "District\/Unknown",
+      "RuralCommune\/UrbanCommune"
+    ]
+  },
+  {
+    "NAME_0":"Monaco",
+    "GID_0":"MCO",
+    "ALPHA_2":"MC",
+    "COUNTRY_CODE":492,
+    "REGION":"Europe",
+    "SUB_REGION":"Western Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":0.0,
+    "ADMIN_LABELS":[
+
+    ]
+  },
+  {
+    "NAME_0":"Moldova",
+    "GID_0":"MDA",
+    "ALPHA_2":"MD",
+    "COUNTRY_CODE":498,
+    "REGION":"Europe",
+    "SUB_REGION":"Eastern Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "District\/City\/AutonomousTerritory\/TerritorialUnit"
+    ]
+  },
+  {
+    "NAME_0":"Madagascar",
+    "GID_0":"MDG",
+    "ALPHA_2":"MG",
+    "COUNTRY_CODE":450,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Eastern Africa",
+    "MAX_LEVEL":4.0,
+    "ADMIN_LABELS":[
+      "NA",
+      "NA",
+      "NA",
+      "NA"
+    ]
+  },
+  {
+    "NAME_0":"Maldives",
+    "GID_0":"MDV",
+    "ALPHA_2":"MV",
+    "COUNTRY_CODE":462,
+    "REGION":"Asia",
+    "SUB_REGION":"Southern Asia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":0.0,
+    "ADMIN_LABELS":[
+
+    ]
+  },
+  {
+    "NAME_0":"México",
+    "GID_0":"MEX",
+    "ALPHA_2":"MX",
+    "COUNTRY_CODE":484,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"Central America",
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "State\/FederalDistrict",
+      "Municipality"
+    ]
+  },
+  {
+    "NAME_0":"Marshall Islands",
+    "GID_0":"MHL",
+    "ALPHA_2":"MH",
+    "COUNTRY_CODE":584,
+    "REGION":"Oceania",
+    "SUB_REGION":"Micronesia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "Atol\/Island"
+    ]
+  },
+  {
+    "NAME_0":"North Macedonia",
+    "GID_0":"MKD",
+    "ALPHA_2":"MK",
+    "COUNTRY_CODE":807,
+    "REGION":"Europe",
+    "SUB_REGION":"Southern Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "Municipality\/Waterbody"
+    ]
+  },
+  {
+    "NAME_0":"Mali",
+    "GID_0":"MLI",
+    "ALPHA_2":"ML",
+    "COUNTRY_CODE":466,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Western Africa",
+    "MAX_LEVEL":4.0,
+    "ADMIN_LABELS":[
+      "District\/Region",
+      "Circle",
+      "Arrondissement",
+      "Commune\/UrbanCommune"
+    ]
+  },
+  {
+    "NAME_0":"Malta",
+    "GID_0":"MLT",
+    "ALPHA_2":"MT",
+    "COUNTRY_CODE":470,
+    "REGION":"Europe",
+    "SUB_REGION":"Southern Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Region",
+      "Localcouncil"
+    ]
+  },
+  {
+    "NAME_0":"Myanmar",
+    "GID_0":"MMR",
+    "ALPHA_2":"MM",
+    "COUNTRY_CODE":104,
+    "REGION":"Asia",
+    "SUB_REGION":"South-eastern Asia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":3.0,
+    "ADMIN_LABELS":[
+      "Division\/State\/Unionterritory",
+      "District",
+      "Village|Township"
+    ]
+  },
+  {
+    "NAME_0":"Montenegro",
+    "GID_0":"MNE",
+    "ALPHA_2":"ME",
+    "COUNTRY_CODE":499,
+    "REGION":"Europe",
+    "SUB_REGION":"Southern Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "Municipality"
+    ]
+  },
+  {
+    "NAME_0":"Mongolia",
+    "GID_0":"MNG",
+    "ALPHA_2":"MN",
+    "COUNTRY_CODE":496,
+    "REGION":"Asia",
+    "SUB_REGION":"Eastern Asia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Province\/Municipality",
+      "Sum"
+    ]
+  },
+  {
+    "NAME_0":"Northern Mariana Islands",
+    "GID_0":"MNP",
+    "ALPHA_2":"MP",
+    "COUNTRY_CODE":580,
+    "REGION":"Oceania",
+    "SUB_REGION":"Micronesia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "Municipality"
+    ]
+  },
+  {
+    "NAME_0":"Mozambique",
+    "GID_0":"MOZ",
+    "ALPHA_2":"MZ",
+    "COUNTRY_CODE":508,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Eastern Africa",
+    "MAX_LEVEL":3.0,
+    "ADMIN_LABELS":[
+      "Province",
+      "District",
+      "Locality\/Waterbody"
+    ]
+  },
+  {
+    "NAME_0":"Mauritania",
+    "GID_0":"MRT",
+    "ALPHA_2":"MR",
+    "COUNTRY_CODE":478,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Western Africa",
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Region\/District",
+      "Department"
+    ]
+  },
+  {
+    "NAME_0":"Montserrat",
+    "GID_0":"MSR",
+    "ALPHA_2":"MS",
+    "COUNTRY_CODE":500,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"Caribbean",
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "Parish"
+    ]
+  },
+  {
+    "NAME_0":"Martinique",
+    "GID_0":"MTQ",
+    "ALPHA_2":"MQ",
+    "COUNTRY_CODE":474,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"Caribbean",
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Arrondissement",
+      "Commune"
+    ]
+  },
+  {
+    "NAME_0":"Mauritius",
+    "GID_0":"MUS",
+    "ALPHA_2":"MU",
+    "COUNTRY_CODE":480,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Eastern Africa",
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "Region\/District\/Autonomousisland"
+    ]
+  },
+  {
+    "NAME_0":"Malawi",
+    "GID_0":"MWI",
+    "ALPHA_2":"MW",
+    "COUNTRY_CODE":454,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Eastern Africa",
+    "MAX_LEVEL":3.0,
+    "ADMIN_LABELS":[
+      "District",
+      "Town\/TraditionalAuthority\/City\/Headquarter\/NationalPark\/Reserve\/Urban\/Waterbody\/Sub-chief",
+      "Unknown"
+    ]
+  },
+  {
+    "NAME_0":"Malaysia",
+    "GID_0":"MYS",
+    "ALPHA_2":"MY",
+    "COUNTRY_CODE":458,
+    "REGION":"Asia",
+    "SUB_REGION":"South-eastern Asia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "State\/FederalTerritory",
+      "District\/FederalTerritory"
+    ]
+  },
+  {
+    "NAME_0":"Mayotte",
+    "GID_0":"MYT",
+    "ALPHA_2":"YT",
+    "COUNTRY_CODE":175,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Eastern Africa",
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "Commune"
+    ]
+  },
+  {
+    "NAME_0":"Namibia",
+    "GID_0":"NAM",
+    "ALPHA_2":null,
+    "COUNTRY_CODE":516,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Southern Africa",
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Region",
+      "Constituency"
+    ]
+  },
+  {
+    "NAME_0":"New Caledonia",
+    "GID_0":"NCL",
+    "ALPHA_2":"NC",
+    "COUNTRY_CODE":540,
+    "REGION":"Oceania",
+    "SUB_REGION":"Melanesia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Province",
+      "Commune\/Islands"
+    ]
+  },
+  {
+    "NAME_0":"Niger",
+    "GID_0":"NER",
+    "ALPHA_2":"NE",
+    "COUNTRY_CODE":562,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Western Africa",
+    "MAX_LEVEL":3.0,
+    "ADMIN_LABELS":[
+      "Department\/CapitalDistrict",
+      "Arrondissement",
+      "Commune"
+    ]
+  },
+  {
+    "NAME_0":"Norfolk Island",
+    "GID_0":"NFK",
+    "ALPHA_2":"NF",
+    "COUNTRY_CODE":574,
+    "REGION":"Oceania",
+    "SUB_REGION":"Australia and New Zealand",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":0.0,
+    "ADMIN_LABELS":[
+
+    ]
+  },
+  {
+    "NAME_0":"Nigeria",
+    "GID_0":"NGA",
+    "ALPHA_2":"NG",
+    "COUNTRY_CODE":566,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Western Africa",
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "State",
+      "LocalAuthority\/Waterbody"
+    ]
+  },
+  {
+    "NAME_0":"Nicaragua",
+    "GID_0":"NIC",
+    "ALPHA_2":"NI",
+    "COUNTRY_CODE":558,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"Central America",
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "AutonomousRegion\/Department\/Waterbody",
+      "Municipality\/Waterbody"
+    ]
+  },
+  {
+    "NAME_0":"Niue",
+    "GID_0":"NIU",
+    "ALPHA_2":"NU",
+    "COUNTRY_CODE":570,
+    "REGION":"Oceania",
+    "SUB_REGION":"Polynesia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":0.0,
+    "ADMIN_LABELS":[
+
+    ]
+  },
+  {
+    "NAME_0":"Netherlands",
+    "GID_0":"NLD",
+    "ALPHA_2":"NL",
+    "COUNTRY_CODE":528,
+    "REGION":"Europe",
+    "SUB_REGION":"Western Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Province\/Waterbody\/NA",
+      "Municipality\/Waterbody"
+    ]
+  },
+  {
+    "NAME_0":"Norway",
+    "GID_0":"NOR",
+    "ALPHA_2":"NO",
+    "COUNTRY_CODE":578,
+    "REGION":"Europe",
+    "SUB_REGION":"Northern Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "County",
+      "Municipality"
+    ]
+  },
+  {
+    "NAME_0":"Nepal",
+    "GID_0":"NPL",
+    "ALPHA_2":"NP",
+    "COUNTRY_CODE":524,
+    "REGION":"Asia",
+    "SUB_REGION":"Southern Asia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":4.0,
+    "ADMIN_LABELS":[
+      "DevelopmentRegion",
+      "AdministrativeZone",
+      "District\/NA",
+      "Villagedevelopmentcommittee"
+    ]
+  },
+  {
+    "NAME_0":"Nauru",
+    "GID_0":"NRU",
+    "ALPHA_2":"NR",
+    "COUNTRY_CODE":520,
+    "REGION":"Oceania",
+    "SUB_REGION":"Micronesia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "District"
+    ]
+  },
+  {
+    "NAME_0":"New Zealand",
+    "GID_0":"NZL",
+    "ALPHA_2":"NZ",
+    "COUNTRY_CODE":554,
+    "REGION":"Oceania",
+    "SUB_REGION":"Australia and New Zealand",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Region\/Territory\/Groupofislands",
+      "District\/AreaOutsideTerritorialAuthori\/City\/Territory"
+    ]
+  },
+  {
+    "NAME_0":"Oman",
+    "GID_0":"OMN",
+    "ALPHA_2":"OM",
+    "COUNTRY_CODE":512,
+    "REGION":"Asia",
+    "SUB_REGION":"Western Asia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Region\/Province",
+      "Province\/District"
+    ]
+  },
+  {
+    "NAME_0":"Pakistan",
+    "GID_0":"PAK",
+    "ALPHA_2":"PK",
+    "COUNTRY_CODE":586,
+    "REGION":"Asia",
+    "SUB_REGION":"Southern Asia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":3.0,
+    "ADMIN_LABELS":[
+      "CentrallyAdministeredArea\/Province\/Territory\/CapitalTerritory",
+      "Division",
+      "District"
+    ]
+  },
+  {
+    "NAME_0":"Panama",
+    "GID_0":"PAN",
+    "ALPHA_2":"PA",
+    "COUNTRY_CODE":591,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"Central America",
+    "MAX_LEVEL":3.0,
+    "ADMIN_LABELS":[
+      "Province\/IndigenousTerritory",
+      "District\/Waterbody\/IndigenousTerritory",
+      "Municipality\/Waterbody\/IndigenousTerritory"
+    ]
+  },
+  {
+    "NAME_0":"Pitcairn Islands",
+    "GID_0":"PCN",
+    "ALPHA_2":"PN",
+    "COUNTRY_CODE":612,
+    "REGION":"Oceania",
+    "SUB_REGION":"Polynesia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":0.0,
+    "ADMIN_LABELS":[
+
+    ]
+  },
+  {
+    "NAME_0":"Peru",
+    "GID_0":"PER",
+    "ALPHA_2":"PE",
+    "COUNTRY_CODE":604,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"South America",
+    "MAX_LEVEL":3.0,
+    "ADMIN_LABELS":[
+      "Region\/Province",
+      "Province\/Waterbody",
+      "District\/Waterbody"
+    ]
+  },
+  {
+    "NAME_0":"Philippines",
+    "GID_0":"PHL",
+    "ALPHA_2":"PH",
+    "COUNTRY_CODE":608,
+    "REGION":"Asia",
+    "SUB_REGION":"South-eastern Asia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":3.0,
+    "ADMIN_LABELS":[
+      "Province",
+      "Municipality\/City\/Waterbody",
+      "Village\/Waterbody"
+    ]
+  },
+  {
+    "NAME_0":"Palau",
+    "GID_0":"PLW",
+    "ALPHA_2":"PW",
+    "COUNTRY_CODE":585,
+    "REGION":"Oceania",
+    "SUB_REGION":"Micronesia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "State"
+    ]
+  },
+  {
+    "NAME_0":"Papua New Guinea",
+    "GID_0":"PNG",
+    "ALPHA_2":"PG",
+    "COUNTRY_CODE":598,
+    "REGION":"Oceania",
+    "SUB_REGION":"Melanesia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "AutonomousRegion\/Province\/District",
+      "District"
+    ]
+  },
+  {
+    "NAME_0":"Poland",
+    "GID_0":"POL",
+    "ALPHA_2":"PL",
+    "COUNTRY_CODE":616,
+    "REGION":"Europe",
+    "SUB_REGION":"Eastern Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":3.0,
+    "ADMIN_LABELS":[
+      "Voivodeship",
+      "County\/Citywithpowiatrights\/WaterBody",
+      "Municipality(urban)\/Municipality(rural)\/Municipality(urban-rural)\/CityCounty\/WaterBody"
+    ]
+  },
+  {
+    "NAME_0":"Puerto Rico",
+    "GID_0":"PRI",
+    "ALPHA_2":"PR",
+    "COUNTRY_CODE":630,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"Caribbean",
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "Municipality"
+    ]
+  },
+  {
+    "NAME_0":"North Korea",
+    "GID_0":"PRK",
+    "ALPHA_2":"KP",
+    "COUNTRY_CODE":408,
+    "REGION":"Asia",
+    "SUB_REGION":"Eastern Asia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Province\/SpecialAdministrativeRegion\/SpecialCity\/DirectlyGovernedCity",
+      "County\/City\/Ward"
+    ]
+  },
+  {
+    "NAME_0":"Portugal",
+    "GID_0":"PRT",
+    "ALPHA_2":"PT",
+    "COUNTRY_CODE":620,
+    "REGION":"Europe",
+    "SUB_REGION":"Southern Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":3.0,
+    "ADMIN_LABELS":[
+      "District\/'AutonomousRegion'",
+      "Municipality",
+      "Parish"
+    ]
+  },
+  {
+    "NAME_0":"Paraguay",
+    "GID_0":"PRY",
+    "ALPHA_2":"PY",
+    "COUNTRY_CODE":600,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"South America",
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Department\/CapitalDistrict",
+      "District\/Waterbody"
+    ]
+  },
+  {
+    "NAME_0":"Palestine",
+    "GID_0":"PSE",
+    "ALPHA_2":"PS",
+    "COUNTRY_CODE":275,
+    "REGION":"Asia",
+    "SUB_REGION":"Western Asia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "District",
+      "Governorate"
+    ]
+  },
+  {
+    "NAME_0":"French Polynesia",
+    "GID_0":"PYF",
+    "ALPHA_2":"PF",
+    "COUNTRY_CODE":258,
+    "REGION":"Oceania",
+    "SUB_REGION":"Polynesia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "Administrativesubdivisions"
+    ]
+  },
+  {
+    "NAME_0":"Qatar",
+    "GID_0":"QAT",
+    "ALPHA_2":"QA",
+    "COUNTRY_CODE":634,
+    "REGION":"Asia",
+    "SUB_REGION":"Western Asia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "Municipality"
+    ]
+  },
+  {
+    "NAME_0":"Réunion",
+    "GID_0":"REU",
+    "ALPHA_2":"RE",
+    "COUNTRY_CODE":638,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Eastern Africa",
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Arrondissement",
+      "Commune"
+    ]
+  },
+  {
+    "NAME_0":"Romania",
+    "GID_0":"ROU",
+    "ALPHA_2":"RO",
+    "COUNTRY_CODE":642,
+    "REGION":"Europe",
+    "SUB_REGION":"Eastern Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "County\/Municipality",
+      "Commune\/Municipality"
+    ]
+  },
+  {
+    "NAME_0":"Russia",
+    "GID_0":"RUS",
+    "ALPHA_2":"RU",
+    "COUNTRY_CODE":643,
+    "REGION":"Europe",
+    "SUB_REGION":"Eastern Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":3.0,
+    "ADMIN_LABELS":[
+      "Republic\/Territory\/Region\/AutonomousProvince\/City\/AutonomousRegion",
+      "District\/City\/Waterbody\/Island\/NA\/Town\/AutonomousOkurg\/Islands",
+      "NA"
+    ]
+  },
+  {
+    "NAME_0":"Rwanda",
+    "GID_0":"RWA",
+    "ALPHA_2":"RW",
+    "COUNTRY_CODE":646,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Eastern Africa",
+    "MAX_LEVEL":5.0,
+    "ADMIN_LABELS":[
+      "Province",
+      "District",
+      "Sector\/Waterbody",
+      "Cell\/Waterbody",
+      ""
+    ]
+  },
+  {
+    "NAME_0":"Saudi Arabia",
+    "GID_0":"SAU",
+    "ALPHA_2":"SA",
+    "COUNTRY_CODE":682,
+    "REGION":"Asia",
+    "SUB_REGION":"Western Asia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Province",
+      "Governorate"
+    ]
+  },
+  {
+    "NAME_0":"Sudan",
+    "GID_0":"SDN",
+    "ALPHA_2":"SD",
+    "COUNTRY_CODE":729,
+    "REGION":"Africa",
+    "SUB_REGION":"Northern Africa",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":3.0,
+    "ADMIN_LABELS":[
+      "State",
+      "District",
+      "Unknown"
+    ]
+  },
+  {
+    "NAME_0":"Senegal",
+    "GID_0":"SEN",
+    "ALPHA_2":"SN",
+    "COUNTRY_CODE":686,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Western Africa",
+    "MAX_LEVEL":4.0,
+    "ADMIN_LABELS":[
+      "Region",
+      "Department",
+      "Arrondissement",
+      "Commune\/NationalPark"
+    ]
+  },
+  {
+    "NAME_0":"Singapore",
+    "GID_0":"SGP",
+    "ALPHA_2":"SG",
+    "COUNTRY_CODE":702,
+    "REGION":"Asia",
+    "SUB_REGION":"South-eastern Asia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "Region"
+    ]
+  },
+  {
+    "NAME_0":"South Georgia and the South Sand",
+    "GID_0":"SGS",
+    "ALPHA_2":"GS",
+    "COUNTRY_CODE":239,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"South America",
+    "MAX_LEVEL":0.0,
+    "ADMIN_LABELS":[
+
+    ]
+  },
+  {
+    "NAME_0":"Saint Helena, Ascension and Tris",
+    "GID_0":"SHN",
+    "ALPHA_2":"SH",
+    "COUNTRY_CODE":654,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Western Africa",
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "AdministrativeArea\/Dependency",
+      "AdministrativeArea\/District\/Dependency"
+    ]
+  },
+  {
+    "NAME_0":"Svalbard and Jan Mayen",
+    "GID_0":"SJM",
+    "ALPHA_2":"SJ",
+    "COUNTRY_CODE":744,
+    "REGION":"Europe",
+    "SUB_REGION":"Northern Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "Territory"
+    ]
+  },
+  {
+    "NAME_0":"Solomon Islands",
+    "GID_0":"SLB",
+    "ALPHA_2":"SB",
+    "COUNTRY_CODE":90,
+    "REGION":"Oceania",
+    "SUB_REGION":"Melanesia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Province\/CapitalTerritory",
+      "Ward"
+    ]
+  },
+  {
+    "NAME_0":"Sierra Leone",
+    "GID_0":"SLE",
+    "ALPHA_2":"SL",
+    "COUNTRY_CODE":694,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Western Africa",
+    "MAX_LEVEL":3.0,
+    "ADMIN_LABELS":[
+      "Province",
+      "District\/Area",
+      "Chiefdom"
+    ]
+  },
+  {
+    "NAME_0":"El Salvador",
+    "GID_0":"SLV",
+    "ALPHA_2":"SV",
+    "COUNTRY_CODE":222,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"Central America",
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Department",
+      "Municipality\/Waterbody"
+    ]
+  },
+  {
+    "NAME_0":"San Marino",
+    "GID_0":"SMR",
+    "ALPHA_2":"SM",
+    "COUNTRY_CODE":674,
+    "REGION":"Europe",
+    "SUB_REGION":"Southern Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "Municipality"
+    ]
+  },
+  {
+    "NAME_0":"Somalia",
+    "GID_0":"SOM",
+    "ALPHA_2":"SO",
+    "COUNTRY_CODE":706,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Eastern Africa",
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Region",
+      "District"
+    ]
+  },
+  {
+    "NAME_0":"Saint Pierre and Miquelon",
+    "GID_0":"SPM",
+    "ALPHA_2":"PM",
+    "COUNTRY_CODE":666,
+    "REGION":"Americas",
+    "SUB_REGION":"Northern America",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "Commune"
+    ]
+  },
+  {
+    "NAME_0":"Serbia",
+    "GID_0":"SRB",
+    "ALPHA_2":"RS",
+    "COUNTRY_CODE":688,
+    "REGION":"Europe",
+    "SUB_REGION":"Southern Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "District\/City",
+      "Town|Municipal"
+    ]
+  },
+  {
+    "NAME_0":"South Sudan",
+    "GID_0":"SSD",
+    "ALPHA_2":"SS",
+    "COUNTRY_CODE":728,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Eastern Africa",
+    "MAX_LEVEL":3.0,
+    "ADMIN_LABELS":[
+      "State",
+      "District",
+      "Unknown"
+    ]
+  },
+  {
+    "NAME_0":"São Tomé and Príncipe",
+    "GID_0":"STP",
+    "ALPHA_2":"ST",
+    "COUNTRY_CODE":678,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Middle Africa",
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Municipality",
+      "NA"
+    ]
+  },
+  {
+    "NAME_0":"Suriname",
+    "GID_0":"SUR",
+    "ALPHA_2":"SR",
+    "COUNTRY_CODE":740,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"South America",
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "District",
+      "Ressort"
+    ]
+  },
+  {
+    "NAME_0":"Slovakia",
+    "GID_0":"SVK",
+    "ALPHA_2":"SK",
+    "COUNTRY_CODE":703,
+    "REGION":"Europe",
+    "SUB_REGION":"Eastern Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Region",
+      "District"
+    ]
+  },
+  {
+    "NAME_0":"Slovenia",
+    "GID_0":"SVN",
+    "ALPHA_2":"SI",
+    "COUNTRY_CODE":705,
+    "REGION":"Europe",
+    "SUB_REGION":"Southern Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "StatisticalRegion",
+      "Commune|Municipality"
+    ]
+  },
+  {
+    "NAME_0":"Sweden",
+    "GID_0":"SWE",
+    "ALPHA_2":"SE",
+    "COUNTRY_CODE":752,
+    "REGION":"Europe",
+    "SUB_REGION":"Northern Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "County",
+      "Municipality"
+    ]
+  },
+  {
+    "NAME_0":"Swaziland",
+    "GID_0":"SWZ",
+    "ALPHA_2":"SZ",
+    "COUNTRY_CODE":748,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Southern Africa",
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "District",
+      "Constituency"
+    ]
+  },
+  {
+    "NAME_0":"Sint Maarten",
+    "GID_0":"SXM",
+    "ALPHA_2":"SX",
+    "COUNTRY_CODE":534,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"Caribbean",
+    "MAX_LEVEL":0.0,
+    "ADMIN_LABELS":[
+
+    ]
+  },
+  {
+    "NAME_0":"Seychelles",
+    "GID_0":"SYC",
+    "ALPHA_2":"SC",
+    "COUNTRY_CODE":690,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Eastern Africa",
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "District\/OuterIslands"
+    ]
+  },
+  {
+    "NAME_0":"Syria",
+    "GID_0":"SYR",
+    "ALPHA_2":"SY",
+    "COUNTRY_CODE":760,
+    "REGION":"Asia",
+    "SUB_REGION":"Western Asia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Governorate",
+      "District"
+    ]
+  },
+  {
+    "NAME_0":"Turks and Caicos Islands",
+    "GID_0":"TCA",
+    "ALPHA_2":"TC",
+    "COUNTRY_CODE":796,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"Caribbean",
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "District"
+    ]
+  },
+  {
+    "NAME_0":"Chad",
+    "GID_0":"TCD",
+    "ALPHA_2":"TD",
+    "COUNTRY_CODE":148,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Middle Africa",
+    "MAX_LEVEL":3.0,
+    "ADMIN_LABELS":[
+      "Region",
+      "Department",
+      "Sub-prefecture"
+    ]
+  },
+  {
+    "NAME_0":"Togo",
+    "GID_0":"TGO",
+    "ALPHA_2":"TG",
+    "COUNTRY_CODE":768,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Western Africa",
+    "MAX_LEVEL":3.0,
+    "ADMIN_LABELS":[
+      "Region",
+      "Prefecture\/Sub-Prefecture\/Commune",
+      "Commune"
+    ]
+  },
+  {
+    "NAME_0":"Thailand",
+    "GID_0":"THA",
+    "ALPHA_2":"TH",
+    "COUNTRY_CODE":764,
+    "REGION":"Asia",
+    "SUB_REGION":"South-eastern Asia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":3.0,
+    "ADMIN_LABELS":[
+      "Province",
+      "District\/Minordistrict\/Waterbody",
+      "Subdistrict\/Lake"
+    ]
+  },
+  {
+    "NAME_0":"Tajikistan",
+    "GID_0":"TJK",
+    "ALPHA_2":"TJ",
+    "COUNTRY_CODE":762,
+    "REGION":"Asia",
+    "SUB_REGION":"Central Asia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":3.0,
+    "ADMIN_LABELS":[
+      "DistrictsofRepublicanSubordin\/City\/AutonomousRegion\/Region",
+      "District",
+      "NA"
+    ]
+  },
+  {
+    "NAME_0":"Tokelau",
+    "GID_0":"TKL",
+    "ALPHA_2":"TK",
+    "COUNTRY_CODE":772,
+    "REGION":"Oceania",
+    "SUB_REGION":"Polynesia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "Atoll"
+    ]
+  },
+  {
+    "NAME_0":"Turkmenistan",
+    "GID_0":"TKM",
+    "ALPHA_2":"TM",
+    "COUNTRY_CODE":795,
+    "REGION":"Asia",
+    "SUB_REGION":"Central Asia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Province\/CaptialCityDistrict",
+      "District\/City\/Borough"
+    ]
+  },
+  {
+    "NAME_0":"Timor-Leste",
+    "GID_0":"TLS",
+    "ALPHA_2":"TL",
+    "COUNTRY_CODE":626,
+    "REGION":"Asia",
+    "SUB_REGION":"South-eastern Asia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":3.0,
+    "ADMIN_LABELS":[
+      "District",
+      "Subdistrict",
+      "Community"
+    ]
+  },
+  {
+    "NAME_0":"Tonga",
+    "GID_0":"TON",
+    "ALPHA_2":"TO",
+    "COUNTRY_CODE":776,
+    "REGION":"Oceania",
+    "SUB_REGION":"Polynesia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "IslandGroup",
+      "NA\/District"
+    ]
+  },
+  {
+    "NAME_0":"Trinidad and Tobago",
+    "GID_0":"TTO",
+    "ALPHA_2":"TT",
+    "COUNTRY_CODE":780,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"Caribbean",
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "Borough\/Region\/City"
+    ]
+  },
+  {
+    "NAME_0":"Tunisia",
+    "GID_0":"TUN",
+    "ALPHA_2":"TN",
+    "COUNTRY_CODE":788,
+    "REGION":"Africa",
+    "SUB_REGION":"Northern Africa",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Governorate",
+      "Delegation\/WaterBody\/Waterbody"
+    ]
+  },
+  {
+    "NAME_0":"Turkey",
+    "GID_0":"TUR",
+    "ALPHA_2":"TR",
+    "COUNTRY_CODE":792,
+    "REGION":"Asia",
+    "SUB_REGION":"Western Asia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Province",
+      "District"
+    ]
+  },
+  {
+    "NAME_0":"Tuvalu",
+    "GID_0":"TUV",
+    "ALPHA_2":"TV",
+    "COUNTRY_CODE":798,
+    "REGION":"Oceania",
+    "SUB_REGION":"Polynesia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "TownCouncil\/IslandCouncil"
+    ]
+  },
+  {
+    "NAME_0":"Taiwan",
+    "GID_0":"TWN",
+    "ALPHA_2":"TW",
+    "COUNTRY_CODE":158,
+    "REGION":null,
+    "SUB_REGION":null,
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Province\/SpecialMunicipality",
+      "County\/SpecialMunicipality\/ProvincialCity"
+    ]
+  },
+  {
+    "NAME_0":"Tanzania",
+    "GID_0":"TZA",
+    "ALPHA_2":"TZ",
+    "COUNTRY_CODE":834,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Eastern Africa",
+    "MAX_LEVEL":3.0,
+    "ADMIN_LABELS":[
+      "Region",
+      "District\/Waterbody",
+      "Ward\/Waterbody\/Islands"
+    ]
+  },
+  {
+    "NAME_0":"Uganda",
+    "GID_0":"UGA",
+    "ALPHA_2":"UG",
+    "COUNTRY_CODE":800,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Eastern Africa",
+    "MAX_LEVEL":4.0,
+    "ADMIN_LABELS":[
+      "District\/Waterbody",
+      "County\/Municipality\/Citycouncil\/Waterbody",
+      "Sub-county\/Waterbody",
+      "Parish\/Waterbody\/WaterBody"
+    ]
+  },
+  {
+    "NAME_0":"Ukraine",
+    "GID_0":"UKR",
+    "ALPHA_2":"UA",
+    "COUNTRY_CODE":804,
+    "REGION":"Europe",
+    "SUB_REGION":"Eastern Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "?\/Region\/AutonomousRepublic\/IndependentCity",
+      "NA\/CityofRegionalSignificance\/District\/City\/Raion"
+    ]
+  },
+  {
+    "NAME_0":"United States Minor Outlying Isl",
+    "GID_0":"UMI",
+    "ALPHA_2":"UM",
+    "COUNTRY_CODE":581,
+    "REGION":"Oceania",
+    "SUB_REGION":"Micronesia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "Island\/Atoll\/Reef"
+    ]
+  },
+  {
+    "NAME_0":"Uruguay",
+    "GID_0":"URY",
+    "ALPHA_2":"UY",
+    "COUNTRY_CODE":858,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"South America",
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Department",
+      "Municipiality\/NA\/Municipality"
+    ]
+  },
+  {
+    "NAME_0":"United States",
+    "GID_0":"USA",
+    "ALPHA_2":"US",
+    "COUNTRY_CODE":840,
+    "REGION":"Americas",
+    "SUB_REGION":"Northern America",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "State\/FederalDistrict",
+      "County\/Borough\/CensusArea\/Municipality\/CityandBorough\/CityandCounty\/District\/Waterbody\/Parish\/IndependentCity"
+    ]
+  },
+  {
+    "NAME_0":"Uzbekistan",
+    "GID_0":"UZB",
+    "ALPHA_2":"UZ",
+    "COUNTRY_CODE":860,
+    "REGION":"Asia",
+    "SUB_REGION":"Central Asia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Region\/AutononousRegion\/City",
+      "District\/City\/Waterbody"
+    ]
+  },
+  {
+    "NAME_0":"Vatican City",
+    "GID_0":"VAT",
+    "ALPHA_2":"VA",
+    "COUNTRY_CODE":336,
+    "REGION":"Europe",
+    "SUB_REGION":"Southern Europe",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":0.0,
+    "ADMIN_LABELS":[
+
+    ]
+  },
+  {
+    "NAME_0":"Saint Vincent and the Grenadines",
+    "GID_0":"VCT",
+    "ALPHA_2":"VC",
+    "COUNTRY_CODE":670,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"Caribbean",
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "Parish"
+    ]
+  },
+  {
+    "NAME_0":"Venezuela",
+    "GID_0":"VEN",
+    "ALPHA_2":"VE",
+    "COUNTRY_CODE":862,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"South America",
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "State",
+      "Municipality\/WaterBody\/Islands"
+    ]
+  },
+  {
+    "NAME_0":"British Virgin Islands",
+    "GID_0":"VGB",
+    "ALPHA_2":"VG",
+    "COUNTRY_CODE":92,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"Caribbean",
+    "MAX_LEVEL":1.0,
+    "ADMIN_LABELS":[
+      "District"
+    ]
+  },
+  {
+    "NAME_0":"Virgin Islands, U.S.",
+    "GID_0":"VIR",
+    "ALPHA_2":"VI",
+    "COUNTRY_CODE":850,
+    "REGION":"Americas",
+    "SUB_REGION":"Latin America and the Caribbean",
+    "INTERMEDIATE_REGION":"Caribbean",
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "District",
+      "NA"
+    ]
+  },
+  {
+    "NAME_0":"Vietnam",
+    "GID_0":"VNM",
+    "ALPHA_2":"VN",
+    "COUNTRY_CODE":704,
+    "REGION":"Asia",
+    "SUB_REGION":"South-eastern Asia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":3.0,
+    "ADMIN_LABELS":[
+      "Province\/City",
+      "District\/City\/Town\/UrbanDistrict",
+      "Townlet\/Ward\/TrainingCenter\/Island"
+    ]
+  },
+  {
+    "NAME_0":"Vanuatu",
+    "GID_0":"VUT",
+    "ALPHA_2":"VU",
+    "COUNTRY_CODE":548,
+    "REGION":"Oceania",
+    "SUB_REGION":"Melanesia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Province",
+      "Areacouncil\/Municipality"
+    ]
+  },
+  {
+    "NAME_0":"Wallis and Futuna",
+    "GID_0":"WLF",
+    "ALPHA_2":"WF",
+    "COUNTRY_CODE":876,
+    "REGION":"Oceania",
+    "SUB_REGION":"Polynesia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Kingdom",
+      "District"
+    ]
+  },
+  {
+    "NAME_0":"Samoa",
+    "GID_0":"WSM",
+    "ALPHA_2":"WS",
+    "COUNTRY_CODE":882,
+    "REGION":"Oceania",
+    "SUB_REGION":"Polynesia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "District",
+      "Unknown"
+    ]
+  },
+  {
+    "NAME_0":"Yemen",
+    "GID_0":"YEM",
+    "ALPHA_2":"YE",
+    "COUNTRY_CODE":887,
+    "REGION":"Asia",
+    "SUB_REGION":"Western Asia",
+    "INTERMEDIATE_REGION":null,
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Governorate\/City",
+      "District"
+    ]
+  },
+  {
+    "NAME_0":"South Africa",
+    "GID_0":"ZAF",
+    "ALPHA_2":"ZA",
+    "COUNTRY_CODE":710,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Southern Africa",
+    "MAX_LEVEL":4.0,
+    "ADMIN_LABELS":[
+      "Province",
+      "DistrictMunicipality",
+      "LocalMunicipality\/MetropolitanMunicipality",
+      "Ward"
+    ]
+  },
+  {
+    "NAME_0":"Zambia",
+    "GID_0":"ZMB",
+    "ALPHA_2":"ZM",
+    "COUNTRY_CODE":894,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Eastern Africa",
+    "MAX_LEVEL":2.0,
+    "ADMIN_LABELS":[
+      "Province",
+      "District"
+    ]
+  },
+  {
+    "NAME_0":"Zimbabwe",
+    "GID_0":"ZWE",
+    "ALPHA_2":"ZW",
+    "COUNTRY_CODE":716,
+    "REGION":"Africa",
+    "SUB_REGION":"Sub-Saharan Africa",
+    "INTERMEDIATE_REGION":"Eastern Africa",
+    "MAX_LEVEL":3.0,
+    "ADMIN_LABELS":[
+      "City\/Province",
+      "District",
+      "Ward"
+    ]
+  }
+]
