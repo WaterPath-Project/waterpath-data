@@ -1,0 +1,39 @@
+{
+  "profile": "data-package",
+  "resources": [
+	{
+		"name": "hdi",
+		"path": "data/hdi.csv",
+		"profile": "tabular-data-resource",
+		"schema": {}
+	}
+  ],
+  "keywords": [
+	"data sources",
+    "population",
+    "UNDP"
+  ],
+  "homepage": "https://waterpath-project.github.io/waterpath-web/",
+  "name": "world-urbanisation",
+  "licenses": [
+    {
+      "path": " https://creativecommons.org/licenses/by/4.0/ ",
+      "name": "CC BY 4.0",
+      "title": "CC BY 4.0"
+    }
+  ],
+  "title": "Human Development Index by Country",
+  "description": "The Human Development Index (HDI) is a statistical composite index of life expectancy, education (mean years of schooling completed and expected years of schooling upon entering the education system), and per capita income indicators, which is used to rank countries into four tiers of human development.",
+  "contributors": [
+    {
+      "title": "Panagis Katsivelis",
+      "role": "author"
+    }
+  ],
+  "sources": [
+	  {
+		"title": "UNDP: Human Development Index 2022",
+		"path": "https://hdr.undp.org/sites/default/files/2023-24_HDR/HDR23-24_Statistical_Annex_HDI_Table.xlsx"
+	  }
+  ]
+}

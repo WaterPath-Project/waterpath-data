@@ -1,0 +1,634 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# " class="no-js">
+<head>
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="canonical" href="https://washdata.org/page-not-found" />
+<link rel="shortlink" href="https://washdata.org/node/125" />
+<link href="/themes/custom/jmp_theme/images/apple-touch-icon.png" rel="apple-touch-icon" />
+
+  <title>Page not found | JMP</title>
+  <script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
+  <link rel="stylesheet" media="all" href="/sites/default/files/css/css_IYjx_lvi1O16glPIMDmvNATPp53TdrkruAGek3yxQpI.css?delta=0&amp;language=en&amp;theme=jmp_theme&amp;include=eJyFjcEKgCAQBX9I9JNkzUdarS67GvT30Sk6dRmYuYzCpDerJyKjzaBf90lBu_TahrPLBjgkMriNJY4CRli6wgkprUpSLGSdQod_i59NZjqqFWSnPzt-eANF5DtM" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_IDD2oLRDrGvKgfHDTcVYFtespuskn2aEb4C-_ZRoEAA.css?delta=1&amp;language=en&amp;theme=jmp_theme&amp;include=eJyFjcEKgCAQBX9I9JNkzUdarS67GvT30Sk6dRmYuYzCpDerJyKjzaBf90lBu_TahrPLBjgkMriNJY4CRli6wgkprUpSLGSdQod_i59NZjqqFWSnPzt-eANF5DtM" />
+
+  <script src="/sites/default/files/js/js_gme2Tuxnk4wxYQIyKOUMC0gThUOGBpVyApWylWK3vJ8.js?scope=header&amp;delta=0&amp;language=en&amp;theme=jmp_theme&amp;include=eJxdx0EOgCAMBMAPEXlSg2S1VaGkrbzfm4nObY42KBgNuaohORdDsDitl9Yzv0-OYpUpdN8v5M-Wo8zi1WREMvjQ7jJBDf3Ovy9-D9gmzsQ6YdIDPR7a_DWW"></script>
+
+</head>
+  <body class="node-type--page">
+    <a href="#main-content" class="visually-hidden focusable">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div class="layout-container">
+
+      <section class="js-hide site-search">
+            <div class="views-exposed-form" data-drupal-selector="views-exposed-form-search-list" id="block-sitewide-search-block">
+  
+    
+      <form action="/search" method="get" id="views-exposed-form-search-list" accept-charset="UTF-8">
+  <div class="js-form-item form-item">
+      <label for="edit-keywords" class="form-item__label">Search</label>
+        <input data-drupal-selector="edit-keywords" type="text" id="edit-keywords" name="keywords" value="" size="30" maxlength="128" class="form-text form-item__textfield" />
+        </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input data-drupal-selector="edit-submit-search" type="submit" id="edit-submit-search" value="Search" class="button js-form-submit form-submit form-item__submit" /></div>
+
+
+</form>
+
+  </div>
+
+      </section>
+
+  
+      <header class="site-header">
+  <a class="site-logo" href="/">
+  JMP / WASH Logo
+</a>
+      <div id="block-horizontalmenu">
+  
+    
+      <nav class="responsive-menu-block-wrapper">
+  
+              <ul id="horizontal-menu" class="horizontal-menu main-menu">
+                    <li class="menu-item menu-item--expanded">
+        <a href="/data" data-drupal-link-system-path="data">Data</a>
+                                <ul class="menu sub-nav">
+                    <li class="menu-item menu-item--expanded">
+        <a href="/data/household" data-drupal-link-system-path="data/household">Households</a>
+                                <ul class="menu sub-nav">
+                    <li class="menu-item">
+        <a href="/data/info/household" data-drupal-link-system-path="data/info/household">Information</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/data/school" data-drupal-link-system-path="data/school">Schools</a>
+                                <ul class="menu sub-nav">
+                    <li class="menu-item">
+        <a href="/data/info/school" data-drupal-link-system-path="data/info/school">Information</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/data/healthcare" data-drupal-link-system-path="data/healthcare">Health Care Facilities</a>
+                                <ul class="menu sub-nav">
+                    <li class="menu-item">
+        <a href="/data/info/healthcare" data-drupal-link-system-path="data/info/healthcare">Information</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/reports" data-drupal-link-system-path="reports">Reports</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/monitoring" data-drupal-link-system-path="monitoring">Monitoring</a>
+                                <ul class="menu sub-nav">
+                    <li class="menu-item menu-item--expanded">
+        <a href="/monitoring/drinking-water" data-drupal-link-system-path="node/19">Drinking water</a>
+                                <ul class="menu sub-nav">
+                    <li class="menu-item">
+        <a href="/monitoring/drinking-water/water-quality-monitoring" data-drupal-link-system-path="node/17">Water quality monitoring</a>
+              </li>
+                <li class="menu-item">
+        <a href="/monitoring/drinking-water/portable-testing-kits" data-drupal-link-system-path="node/304">Portable testing kits</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/monitoring/sanitation" data-drupal-link-system-path="node/23">Sanitation</a>
+                                <ul class="menu sub-nav">
+                    <li class="menu-item">
+        <a href="/monitoring/sanitation/open-defecation" data-drupal-link-system-path="node/101">Open defecation</a>
+              </li>
+                <li class="menu-item">
+        <a href="/monitoring/sanitation/safely-managed-on-site-sanitation" data-drupal-link-system-path="node/272">Monitoring Safely Managed On-Site Sanitation</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/monitoring/hygiene" data-drupal-link-system-path="node/24">Hygiene</a>
+              </li>
+                <li class="menu-item">
+        <a href="/monitoring/menstrual-health" title="Menstrual Health" data-drupal-link-system-path="node/229">Menstrual Health</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/monitoring/inequalities" data-drupal-link-system-path="node/27">Inequalities</a>
+                                <ul class="menu sub-nav">
+                    <li class="menu-item">
+        <a href="/monitoring/inequalities/sub-national-regions" data-drupal-link-system-path="node/45">Sub-national regions</a>
+              </li>
+                <li class="menu-item">
+        <a href="/monitoring/inequalities/wealth-quintiles" data-drupal-link-system-path="node/44">Wealth quintiles</a>
+              </li>
+                <li class="menu-item">
+        <a href="/monitoring/inequalities/affordability" data-drupal-link-system-path="node/46">Affordability</a>
+              </li>
+                <li class="menu-item">
+        <a href="/monitoring/inequalities/gender" title="Gender" data-drupal-link-system-path="node/237">Gender</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/monitoring/health-care-facilities" data-drupal-link-system-path="node/29">WASH in Health care facilities</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/monitoring/schools" data-drupal-link-system-path="node/28">WASH in Schools</a>
+                                <ul class="menu sub-nav">
+                    <li class="menu-item">
+        <a href="/monitoring/wash-schools/methods-wash-schools" data-drupal-link-system-path="node/279">Methods for WASH in Schools</a>
+              </li>
+                <li class="menu-item">
+        <a href="/monitoring/wash-schools/menstrual-health-schools" title="Menstrual Health in Schools" data-drupal-link-system-path="node/342">Menstrual Health in Schools</a>
+              </li>
+                <li class="menu-item">
+        <a href="/monitoring/wash-schools/pandemic-preparedness-schools" data-drupal-link-system-path="node/278">Pandemic preparedness in schools</a>
+              </li>
+                <li class="menu-item">
+        <a href="/monitoring/wash-schools/disability-inclusive-wash-schools" data-drupal-link-system-path="node/277">Disability-inclusive WASH in schools</a>
+              </li>
+                <li class="menu-item">
+        <a href="/monitoring/schools/resources" data-drupal-link-system-path="node/281">Resources for Data Collection and Analysis</a>
+              </li>
+                <li class="menu-item">
+        <a href="/monitoring/wash-schools/wins-ile" title="WASH in Schools International Learning Exchange" data-drupal-link-system-path="node/295">International Learning Exchange (WinS ILE)</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/monitoring/methods" data-drupal-link-system-path="node/49">Methods</a>
+                                <ul class="menu sub-nav">
+                    <li class="menu-item">
+        <a href="/monitoring/methods/core-questions" data-drupal-link-system-path="node/36">Core questions</a>
+              </li>
+                <li class="menu-item">
+        <a href="/monitoring/methods/data-sources" data-drupal-link-system-path="node/38">Data sources</a>
+              </li>
+                <li class="menu-item">
+        <a href="/monitoring/methods/estimation-methods" data-drupal-link-system-path="node/47">Estimation methods</a>
+              </li>
+                <li class="menu-item">
+        <a href="/monitoring/methods/facility-types" data-drupal-link-system-path="node/35">Facility types</a>
+              </li>
+                <li class="menu-item">
+        <a href="/monitoring/methods/screencasts" data-drupal-link-system-path="node/168">Screencasts</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/monitoring/climate-resilient-wash" data-drupal-link-system-path="node/337">Climate resilient WASH</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/how-we-work" data-drupal-link-system-path="node/12">How we work</a>
+                                <ul class="menu sub-nav">
+                    <li class="menu-item menu-item--expanded">
+        <a href="/how-we-work/about-jmp" data-drupal-link-system-path="node/21">About the JMP</a>
+                                <ul class="menu sub-nav">
+                    <li class="menu-item">
+        <a href="/how-we-work/about-jmp/jmp-donors" data-drupal-link-system-path="node/40">JMP donors</a>
+              </li>
+                <li class="menu-item">
+        <a href="/how-we-work/about-jmp/jmp-strategy" data-drupal-link-system-path="node/53">JMP strategy</a>
+              </li>
+                <li class="menu-item">
+        <a href="/how-we-work/about-jmp/jmp-team" data-drupal-link-system-path="node/39">JMP team</a>
+              </li>
+                <li class="menu-item">
+        <a href="/how-we-work/about-jmp/strategic-advisory-group" data-drupal-link-system-path="node/249">JMP/GLAAS Strategic Advisory Group</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/how-we-work/country-and-regional-engagement" data-drupal-link-system-path="node/51">Country and regional engagement</a>
+                                <ul class="menu sub-nav">
+                    <li class="menu-item">
+        <a href="/how-we-work/country-and-regional-engagement/regional-analysis-2024-health-care-facilities" title="Regional snapshots from 2024 data update on health care facilities" data-drupal-link-system-path="node/346">Regional analysis 2024 health care facilities</a>
+              </li>
+                <li class="menu-item">
+        <a href="/how-we-work/country-and-regional-engagement/regional-analysis-2024-schools-update" title="Snapshots from the 2024 progress report on schools" data-drupal-link-system-path="node/343">Regional analysis 2024 schools update</a>
+              </li>
+                <li class="menu-item">
+        <a href="/how-we-work/country-and-regional-engagement/regional-analysis-2023-household-update" title="Regional analysis and snapshots" data-drupal-link-system-path="node/319">Regional analysis 2023 household update</a>
+              </li>
+                <li class="menu-item">
+        <a href="/how-we-work/country-and-regional-engagement/regional-analysis-2022-schools-update" data-drupal-link-system-path="node/302">Regional analysis 2022 schools update</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/how-we-work/jmp-country-consultation" title="Country consultation" data-drupal-link-system-path="node/233">Country consultation</a>
+              </li>
+                <li class="menu-item">
+        <a href="/how-we-work/sdg-monitoring" data-drupal-link-system-path="node/32">SDG monitoring</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/" data-drupal-link-system-path="&lt;front&gt;">Home</a>
+              </li>
+        </ul>
+  
+
+
+</nav>
+  </div>
+<a id="toggle-icon" class="toggle responsive-menu-toggle-icon" title="Menu" href="#off-canvas">
+  <span class="icon"></span><span class="label">Menu</span>
+</a><div id="block-searchtoggle">
+  
+    
+      <span id="search-toggle-icon" class="search-toggle-block" title="Search"><span class="search-link">Search</span>
+
+</div>
+
+
+  </header>
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+      
+<div id="block-pagetitle">
+  
+    
+      
+  <h1 class="page-title"><span property="schema:name">Page not found</span>
+</h1>
+
+  </div>
+
+
+    <main role="main" class="l-main-body">
+    <a id="main-content" tabindex="-1"></a>    <div class="main-content">
+              
+<div data-drupal-messages-fallback class="hidden"></div><div id="block-mainpagecontent" class="article-content">
+  
+    
+        <article about="/page-not-found" typeof="schema:WebPage" class="basic-page basic-page--without-image">
+
+  
+      <span property="schema:name" content="Page not found" class="hidden"></span>
+
+
+  <div>
+    
+      <div class="paragraph paragraph-text-only">
+  <div class="paragraph-text-only__text-long">
+    <p>The requested page could not be found.</p>
+<p>&nbsp;</p>
+  </div>
+</div>
+
+  
+  </div>
+
+</article>
+
+  </div>
+
+
+          </div>
+          
+    
+  </main>
+
+            <footer class="site-footer">
+  <div class="site-footer__wrapper">
+    <a href="/" class="site-footer__logo site-footer__logo--jmp">JMP</a>
+    <div class="site-footer__first">
+              <div class="footer-first">
+      <div id="block-footer-menu-1">
+  
+    
+      <div class="footer-menu-block">
+  <h3 class="footer-menu-block__title"><a href="/data">Data</a></h3>
+  <div class="footer-menu-block__summary"><p>The JMP global database includes over 5,000 national datasets enabling the production of estimates for 234 countries, areas, and territories. National, regional and global estimates can be explored online or&nbsp;downloaded for further analysis.&nbsp;</p>
+</div>
+</div>
+
+
+  </div>
+<div id="block-footer-menu-2">
+  
+    
+      <div class="footer-menu-block">
+  <h3 class="footer-menu-block__title"><a href="/reports">Reports</a></h3>
+  <div class="footer-menu-block__summary"><p>The JMP has published global updates since 1990, and regularly&nbsp;produces regional and country data snapshots, briefing notes,&nbsp;thematic reports&nbsp;and technical documents.&nbsp;</p>
+</div>
+</div>
+
+
+  </div>
+<div id="block-footer-menu-3">
+  
+    
+      <div class="footer-menu-block">
+  <h3 class="footer-menu-block__title"><a href="">Monitoring</a></h3>
+  <div class="footer-menu-block__summary"><p>The JMP monitors WASH&nbsp;at the household level and also in schools and health care facilities. JMP reports focus on inequalities in service levels between rural and urban,&nbsp;sub-national regions, rich and poor&nbsp;and other population sub-groups where data permit.</p>
+</div>
+</div>
+
+
+  </div>
+<div id="block-footer-menu-4">
+  
+    
+      <div class="footer-menu-block">
+  <h3 class="footer-menu-block__title"><a href="/how-we-work">How we work</a></h3>
+  <div class="footer-menu-block__summary"><p>The JMP is jointly managed by WHO and UNICEF, and collaborates with partners at the country, regional and global levels. This section describes how the JMP works and how it is governed&nbsp;and financed.</p>
+</div>
+</div>
+
+
+  </div>
+
+  </div>
+
+          </div>
+    <div class="site-footer__second">
+              <div class="footer-second">
+      <div class="mailchimp-signup-subscribe-form" data-drupal-selector="mailchimp-signup-subscribe-block-signup-form" id="block-mailchimp">
+  
+      <h2>Sign up for our mailing list</h2>
+    
+    <div class="footer-mailchimp">
+  <div class="mailchimp-form">
+          <form action="/data/country/TWN/household/download" method="post" id="mailchimp-signup-subscribe-block-signup-form" accept-charset="UTF-8">
+  <div id="mailchimp-newsletter-bdc0790576-mergefields" class="mailchimp-newsletter-mergefields"><div class="js-form-item form-item">
+      <label for="edit-mergevars-email" class="js-form-required form-required form-item__label">Email Address</label>
+        <input data-drupal-selector="edit-mergevars-email" type="email" id="edit-mergevars-email" name="mergevars[EMAIL]" value="" size="25" maxlength="254" class="form-email required form-item__email" required="required" aria-required="true" />
+        </div>
+<div class="js-form-item form-item">
+      <label for="edit-mergevars-fname" class="form-item__label">First Name</label>
+        <input data-drupal-selector="edit-mergevars-fname" type="text" id="edit-mergevars-fname" name="mergevars[FNAME]" value="" size="25" maxlength="128" class="form-text form-item__textfield" />
+        </div>
+<div class="js-form-item form-item">
+      <label for="edit-mergevars-lname" class="form-item__label">Last Name</label>
+        <input data-drupal-selector="edit-mergevars-lname" type="text" id="edit-mergevars-lname" name="mergevars[LNAME]" value="" size="25" maxlength="128" class="form-text form-item__textfield" />
+        </div>
+</div><input data-drupal-selector="form-c8ondhzr1cpcs-1wnq93bz4aqtv3lizqsagh5cidgn0" type="hidden" name="form_build_id" value="form-C8OndHzr1cpCS-1WNQ93bz4aqTv3Lizqsagh5CIdGn0" class="form-item__hidden" /><input data-drupal-selector="edit-mailchimp-signup-subscribe-block-signup-form" type="hidden" name="form_id" value="mailchimp_signup_subscribe_block_signup_form" class="form-item__hidden" /><div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions--4"><input data-drupal-selector="edit-submit" type="submit" id="edit-submit" name="op" value="Submit" class="button js-form-submit form-submit form-item__submit" /></div>
+
+</form>
+
+  </div></div></div>
+<div id="block-footer-content">
+  
+    
+    <div class="footer-content">
+  
+            <div><p><a href="mailto:info@washdata.org">Contact us</a> |&nbsp;<a href="https://www.unicef.org/about/legal.html">UNICEF Legal</a> | Site by <a href="https://agile.coop">Agile Collective</a> and <a href="https://outlandish.com/"> Outlandish</a>&nbsp;- a&nbsp;<strong>CoTech</strong> collaboration.</p>
+</div>
+      
+</div>
+</div>
+
+
+  </div>
+
+          </div>
+    <div class="site-footer__logos">
+      <a href="http://www.who.int" class="site-footer__logo site-footer__logo--who"><svg width="455" height="141" viewBox="0 0 455 141" xmlns="http://www.w3.org/2000/svg"><title>WHO_World_Health_Organization</title><g fill="#69F" fill-rule="evenodd"><path d="M191.246 33.02h-.108l-5.97 32.591h-8.194l-7.651-39.771h6.511l5.319 30.654h.108l5.698-30.654h8.466l5.643 30.654h.11l5.535-30.654h6.294l-7.816 39.771h-8.301l-5.644-32.591M224.57 61.053c4.342 0 5.32-5.242 5.32-10.143 0-4.9-.978-10.085-5.32-10.085-4.342 0-5.373 5.185-5.373 10.085 0 4.901 1.031 10.143 5.373 10.143zm0-25.241c5.697 0 12.265 3.133 12.265 15.098 0 12.308-6.568 15.157-12.265 15.157-5.697 0-12.319-2.849-12.319-15.157 0-11.965 6.622-15.098 12.319-15.098zM241.01 41.111c0-1.824-.052-3.534-.216-4.845h6.079c.053 1.767.218 3.591.218 5.357h.108c.814-2.279 2.93-5.811 7.107-5.811.437 0 .761.113 1.142.17v6.61a6.646 6.646 0 0 0-1.901-.285c-2.768 0-5.807 1.766-5.807 7.236v16.068h-6.73v-24.5M259.69 65.611h6.729V22.877h-6.729zM282.45 60.882c3.962 0 5.319-4.502 5.319-10.029 0-5.698-1.52-9.857-5.212-9.857-3.744 0-5.047 3.818-5.047 9.688 0 6.779 1.032 10.198 4.94 10.198zm12.047-38.005v37.72c0 2.109.055 3.931.216 5.014h-6.293c-.108-.855-.218-2.564-.218-4.558h-.161c-1.087 2.507-3.094 5.014-7.437 5.014-6.945 0-9.821-6.952-9.821-15.1 0-9.571 3.635-15.155 9.66-15.155 4.015 0 6.239 2.392 7.217 4.672h.109V22.877h6.728zM316.667 25.84h6.948v16.183h11.231V25.84h6.946v39.771h-6.946V48.062h-11.231v17.549h-6.948V25.84M362.469 48.404c0-5.185-1.629-7.807-4.667-7.807-3.528 0-4.992 3.931-4.992 7.807h9.659zm5.101 15.783c-1.411.627-4.342 1.88-8.357 1.88-9.007 0-12.915-6.78-12.915-14.701 0-8.774 4.396-15.554 11.504-15.554 6.024 0 11.177 3.703 11.177 15.669v1.367H352.81c0 5.014 1.898 8.034 7.108 8.034 4.125 0 6.076-1.311 7.326-2.28l.326 5.585zM388.245 51.253h-.597c-5.753 0-9.171 1.253-9.171 5.525 0 2.679 1.683 4.503 4.287 4.503 4.017 0 5.481-3.133 5.481-8.377v-1.651zm-13.239-13.276c1.899-.912 4.556-2.165 8.845-2.165 8.681 0 10.689 4.443 10.689 11.794v12.819c0 2.11.218 4.047.381 5.186h-6.079c-.326-1.139-.379-2.564-.379-3.987h-.108c-1.684 2.391-3.801 4.443-7.814 4.443-4.343 0-8.357-3.134-8.357-8.604 0-7.977 6.186-9.971 14.705-9.971h1.356V46.41c0-2.906-1.356-5.585-5.208-5.585-3.365 0-6.35 1.71-7.653 2.849l-.378-5.697zM401.16 65.611h6.729V22.877h-6.729zM416.3 30.228l6.73-2.165v8.203h5.589v5.186h-5.589v15.214c0 3.134 1.085 4.046 3.04 4.046 1.191 0 2.061-.343 2.549-.627v5.013c-1.03.513-2.495.969-4.504.969-4.992 0-7.815-2.394-7.815-8.546V41.452h-4.447v-5.186h4.447v-6.038M432.092 22.877h6.73v17.15h.162c1.193-1.823 2.767-4.215 6.944-4.215 6.352 0 8.25 4.957 8.25 10.882v18.917h-6.729V48.004c0-4.5-1.085-6.381-3.852-6.381-3.528 0-4.775 3.134-4.775 6.895v17.093h-6.73V22.877M184.138 111.398c4.396 0 7.923-3.931 7.923-14.871 0-10.94-3.527-14.872-7.923-14.872-4.395 0-7.923 3.932-7.923 14.872s3.528 14.871 7.923 14.871zm0-35.326c7.869 0 15.086 6.153 15.086 20.455 0 14.303-7.217 20.455-15.086 20.455-7.869 0-15.086-6.152-15.086-20.455 0-14.302 7.217-20.455 15.086-20.455zM203.757 91.911c0-1.822-.055-3.53-.216-4.843h6.078c.053 1.767.216 3.591.216 5.357h.109c.814-2.28 2.929-5.812 7.109-5.812.434 0 .758.114 1.138.172v6.61a6.535 6.535 0 0 0-1.898-.285c-2.767 0-5.806 1.765-5.806 7.235v16.069h-6.73V91.911M232.833 111.227c4.231 0 5.915-3.189 5.915-9.856 0-6.154-2.227-9.46-5.428-9.403-3.528.058-4.883 3.477-4.883 9.459 0 6.894 2.115 9.8 4.396 9.8zm-10.466 9.745c1.574.91 4.721 2.507 8.25 2.507 6.349 0 7.381-4.616 7.381-9.231v-2.792h-.11c-1.085 2.28-2.985 4.958-7.38 4.958-3.909 0-9.768-2.735-9.768-14.588 0-8.091 2.768-15.213 10.094-15.213 4.069 0 5.969 2.45 7.382 5.014h.215c0-1.538.162-3.02.218-4.559h6.077c-.108 1.539-.217 3.077-.217 4.616v21.652c0 9.173-2.659 15.728-12.916 15.728-4.449 0-7.976-1.198-9.605-1.824l.379-6.268zM265.029 102.055h-.596c-5.753 0-9.173 1.252-9.173 5.527 0 2.676 1.683 4.5 4.287 4.5 4.015 0 5.482-3.133 5.482-8.376v-1.651zm-13.241-13.277c1.9-.911 4.559-2.165 8.845-2.165 8.682 0 10.691 4.443 10.691 11.795v12.819c0 2.109.216 4.046.379 5.187h-6.078c-.324-1.141-.38-2.565-.38-3.99h-.109c-1.68 2.394-3.799 4.445-7.812 4.445-4.342 0-8.359-3.133-8.359-8.604 0-7.976 6.188-9.971 14.705-9.971h1.359v-1.083c0-2.906-1.359-5.584-5.209-5.584-3.366 0-6.35 1.711-7.653 2.85l-.379-5.699zM278.108 91.911c0-1.822-.056-3.53-.219-4.843h6.296c.055 1.483.216 3.021.216 4.503h.163-.054c.978-1.768 2.876-4.958 7.436-4.958 6.347 0 8.248 4.958 8.248 10.884v18.917h-6.729V98.806c0-4.501-1.087-6.381-3.852-6.381-3.53 0-4.776 3.133-4.776 6.895v17.094h-6.729V91.911M306.368 116.414h6.729V87.068h-6.729v29.346zm-.11-34.873h6.948v-6.952h-6.948v6.952zM319.359 110.316l11.939-17.891h-11.559v-5.357h18.289v6.042l-11.721 17.947h12.099v5.357h-19.047v-6.098M358.018 102.055h-.596c-5.755 0-9.173 1.252-9.173 5.527 0 2.676 1.683 4.5 4.288 4.5 4.015 0 5.481-3.133 5.481-8.376v-1.651zm-13.242-13.277c1.898-.911 4.559-2.165 8.848-2.165 8.682 0 10.689 4.443 10.689 11.795v12.819c0 2.109.216 4.046.38 5.187h-6.075c-.33-1.141-.382-2.565-.382-3.99h-.11c-1.682 2.394-3.798 4.445-7.812 4.445-4.342 0-8.358-3.133-8.358-8.604 0-7.976 6.184-9.971 14.706-9.971h1.356v-1.083c0-2.906-1.356-5.584-5.21-5.584-3.363 0-6.349 1.711-7.649 2.85l-.383-5.699zM372.05 81.029l6.73-2.165v8.204h5.591v5.187h-5.591v15.212c0 3.134 1.087 4.044 3.04 4.044 1.195 0 2.061-.34 2.551-.626v5.016c-1.032.513-2.496.968-4.504.968-4.992 0-7.817-2.393-7.817-8.548V92.255h-4.449v-5.187h4.449v-6.039M389.85 116.414h6.73V87.068h-6.73v29.346zm-.857-34.873h6.945v-6.952h-6.945v6.952zM414.053 111.855c4.34 0 5.319-5.243 5.319-10.143 0-4.901-.979-10.085-5.319-10.085-4.341 0-5.371 5.184-5.371 10.085 0 4.9 1.03 10.143 5.371 10.143zm0-25.242c5.698 0 12.264 3.134 12.264 15.099 0 12.308-6.566 15.157-12.264 15.157-5.699 0-12.318-2.849-12.318-15.157 0-11.965 6.619-15.099 12.318-15.099zM432.178 91.911c0-1.822-.055-3.53-.219-4.843h6.295c.054 1.483.219 3.021.219 4.503h.161-.052c.976-1.768 2.875-4.958 7.432-4.958 6.35 0 8.25 4.958 8.25 10.884v18.917h-6.728V98.806c0-4.501-1.086-6.381-3.855-6.381-3.525 0-4.773 3.133-4.773 6.895v17.094h-6.73V91.911M98.839 49.749v-.594l-.346.446.1.544.246-.396zm-.246 2.869l.246.147.297-.443.445-.792-.247.049-.396.197-.198-1.137-.247.198.198.693-.247.543-.347-.098-.445.296.049.742.892-.395zm1.334-2.72l.594.444.692-.148-.543-.149-.149-.593v-.446l-.297-.544-.396.149-.197-.149-.594.544.94.496-.05.396zm4.847-4.403l.496.494.246-.05.397.249-.099-.298-.99-.692-.643-.593.297.89h.296zm-8.111 8.359l.247-.495-1.089.05-.494.346.544.198.792-.099zm11.525.099l.445.792-.148.297.395 1.335.347.099v-1.434l-.396-.496-.149-1.483-.689-1.798-.141.32.188 1.033.148 1.335zm-2.869-7.074l.791 1.237.495.247-.841-1.434-.445-.05zm2.226 3.463l.297.148-.742-1.484-.395-.098.395.643.445.791zM98.98 39.513c-.04.103-.074.21-.115.313l.37.278.396-.149-.651-.442zM33.145 91.162l-.054-.479-.531-.638-.319.107.585.744-.053.212.478.532.319.691.266-.107-.266-.584-.425-.478zm67.234-65.035l.555.403 1.312.454.455.808h.352l-.1-.859-.405-.303.102-.454-.807-.352-.303.303-.404-.203.202-.454-.959.657zm-16.132 77.34l.045.025c-.007-.025-.015-.048-.023-.071l-.022.046zm40.417-17.186a52.52 52.52 0 0 1-11.174 16.618l-6.919-6.919a42.68 42.68 0 0 0 9.076-13.508c2.15-5.083 3.27-10.472 3.353-16.024h9.783c-.083 6.874-1.46 13.544-4.119 19.833zm-19.503 8.288l.059-.351.494-.446-.445-2.226.099-.594-.495-.939-.297-.297.297-.048-.396-.545-.94-.049v.741l-.345.296.247.595-.397 1.137-.296.199.115.228-3.839-3.838c5.853-5.909 9.136-13.687 9.302-21.984h9.931c-.167 10.949-4.481 21.221-12.21 29.007l-.884-.886zm-6.983 7.113l.018-.045.346-.593-.346-.891 1.286-1.088-.099-.743-.94-.493.94-1.83 1.088-1.781-1.286-1.584-.446.149-.593-.149-.544-1.187-.247.099.297-1.138.19-.863c.216-.197.435-.391.647-.594l4.283 4.282.024.044.027.008 2.689 2.687a42.375 42.375 0 0 1-7.334 5.71zm-1.12-17.11l-1.643 1.298-.236.185-.149-.247h-.792l-1.137.247-1.088-.444h-.544l-.842-.645-.543.051-.495-.445-.792-.051-.395-.543-.347-.134c.025-.015.048-.031.073-.049l.472.083v-.247l1.138.2.395.246 1.236.198.1.297h.988l1.337.394.381.633.805-.038.594-.642.495-.991.742-1.929-.149-.345.347-.348.297-1.186-.199-.495.248-.396-.346-.445-.1-1.187-.84.197-.495.694-.742-.05.098.89-.593.743-.494-.247-.446.393-1.137.101-.047-.041c.249-.276.491-.561.726-.85h.508l.551-.099.538-.593.099-.47.544-.025 1.038-1.533.841-1.782 2.226-1.037-.05-.594-.296-.297.148-.198.693.345 1.483.298 1.188-.494 1.929-.397-.496-1.384-.841-.841-1.038-.049-1.335-3.216-.198.149-.494-.396.395-.248-.022-.118h7.229c-.165 8.097-3.37 15.689-9.083 21.457l-.216-.216.065-.249.247-1.236-.247-1.929-.446-1.138-.297.296-.544.792v.347zm-6.282-27.899l.84-.296-.939-.643.544-.643-.099-.346.891-.396-.841-.99-.989.892-.149.641-.642-.297-.693.101-.198-.445-.006-.003 1.602-1.602.136.17 1.384.049.471-.565c.665.785 1.273 1.62 1.819 2.497l-.014-.003-.694 1.483-1.087-.593-.297.05.297.593.345.248-.345.84-.149-.395-1.187-.347zm-.017-4.69l.553-.553c.202.213.398.431.591.653l-.633.535-.543-.05-.198-.198.445-.297-.215-.09zm8.015-8.014c.743.769 1.438 1.57 2.093 2.398l-.395.216-.446.099.693.197.324-.278c.311.4.61.806.899 1.219h-.333v.197l.347.099 1.038 1.633.29.145c.122.208.236.42.353.63v.659l-.692.742-.198-.544-.594-.099.248.643-.445.445 1.087.395.446.644.89.247.05.396.791.199.149 1.235.476-.067c.279.799.52 1.611.734 2.435l-.023.007-.496.841-.692.346-.495 1.435-1.286.742-.445-.793.396-1.878.593-.446-1.978-1.533-1.039.545-.939 1.928-.99-.544-.296-.791.543-.247.247.346.446-.149-.148-.594-.644-.197.05.395h-.445l-.495-.741-1.137-1.138-1.336-.94-1.237-.099-.125.171a21.754 21.754 0 0 0-2.77-3.615l6.936-6.936zm4.962 5.087l-.022.119c-.041-.067-.083-.133-.123-.2l.145.081zm-1.979 13.653l1.385-.891 1.682-.149.445-.94.544-.297.742-1.285.182-.661c.058.242.11.486.162.729l-.294.773.1.198-.396.791.048.396-.79 1.09.147.69.297.05.792-1.237v-.741l.396-.099.04-.062c.228 1.523.349 3.072.354 4.64h-7.476l-.19-.128.05-.593.643-.248.494-.691 1.187-.149v-.494l-.544-.692zM99.323 43.42l.852.937.445-1.385-.693-.099v-.057l2.162-2.163 1.419 1.473 1.363-.102.454.758.153 1.16 2.724 1.616.757-.101 1.817 2.069.404 1.059 1.261 1.313 1.465-.051.648-1.372a41.93 41.93 0 0 1 3.715 17.229h-9.932a32.403 32.403 0 0 0-.501-5.564l.451-.696h.247l.544-2.324-.396-.1.1-.395-.99.048-.198-.247-.197.446.592.494-.444.148-.167.44a31.55 31.55 0 0 0-.84-2.811l.562-.844-.149-.989-.494-.099-.198-1.088.297-.246-.545-.743-.939.098-.313-.209a34.504 34.504 0 0 0-.646-1.176h.959l-.198-.494.642-.198v-.495l-.444-.049-.643.495-.199-.198.544-.841-.444-.297-.544.792-.659-.33a31.912 31.912 0 0 0-1.684-2.334l.017-.205-.085.114a32.76 32.76 0 0 0-2.075-2.364l.023-.023zm14.445-14.445a52.475 52.475 0 0 1 10.896 16.327c2.732 6.462 4.122 13.327 4.134 20.402h-9.785a42.559 42.559 0 0 0-3.366-16.593c-.215-.51-.446-1.01-.68-1.509l.251-.53.555.353.202-.606-3.281-5.349-.707-.202-4.845-5.553-.003-.109 6.629-6.631zM27.659 86.281c-2.66-6.289-4.037-12.959-4.12-19.833h9.784a42.747 42.747 0 0 0 2.096 12.64l-.733.488-1.913-1.064-.426.426-.531-.266-.319.266.213.69-1.117-.052-.637-.373.053-.584-.159-.479h-.319l.053.532-.053.319-.265-.107-.798.373.531.424-.691-.159-.319.372.373.159h-.479v.797l.213.427.266.211h-.426l.213.691.425.159.152.265.273.481.16.424-.956-.585.371 1.011-.638-1.383v.905l.585 1.38.478 1.17 1.488 2.924-.159-.586-1.169-2.817v-1.062l.585-.957 1.913 2.286.265-.212-.318-1.436.372.265.584 1.011.957.265.425.638.372.053-.318-.796.318-.426.319 1.115.691 1.116.638-.105 1.7 2.87.957.266.266-1.169.372.477 1.435 2.073 1.792.479a43.73 43.73 0 0 0 3.247 3.682l-6.919 6.919a52.456 52.456 0 0 1-11.153-16.598zm0-40.979a52.415 52.415 0 0 1 10.875-16.305l6.918 6.917a42.722 42.722 0 0 0-8.778 13.197 42.576 42.576 0 0 0-3.365 16.593h-9.785c.013-7.075 1.401-13.94 4.135-20.402zm16.34 21.146c.03 1.512.167 3.009.401 4.478l-.519-.279v.69l-.373-.159-.318-.531-.745.318-.106.639-1.701 2.604-.478.106-.211 4.358-1.224.585-.372-.161-.584.266-1.382-.105-.148-.063a42.211 42.211 0 0 1-2.172-12.746h9.932zm9.53-22.458l6.935 6.936a21.761 21.761 0 0 0-3.923 5.759l-.384-.069.319-.425-.796.691-.638.425-.16-.265-1.116.425.054.424.583-.372 1.01-.052.893-.244c-.049.111-.099.219-.145.33l-1.173.817-.265-.266-1.383 1.01-1.222-.213-.797.957-1.222 2.711.212.744-1.01 1.328-.159 1.01-.014.053h-4.399c.022-8.168 3.144-15.849 8.8-21.714zm3.477 13.486c.06-.137.118-.274.18-.409l.193-.025-.212.425-.161.009zm1.331 12.799l1.009.424.691.85.318-.212 1.17.746.426.531-.798-.32-.159.32.691.371.744.586v-.374l-.16-.583.319-.531.373-.214-.745-.904.851.426.531.692.372.955.744.159-1.594.267.584 1.275.532.054.106-.533-.159-.637.69-.052.532-.905.212-1.329.373-.159.331-.524a10.985 10.985 0 0 0 1.943 2.772l-6.996 6.996a20.824 20.824 0 0 1-5.777-11.672l.401.037 1.328 1.328 1.117.16zm-7.441-5.368l.266-1.755 1.435-.744 1.7.426.357.647c-.079.73-.123 1.473-.126 2.223h-2.614l-.008-.213-1.01-.584zm2.911 22.977a32.206 32.206 0 0 1-1.753-1.933l.011.001.319-1.116-.053-1.276-1.01-1.753v-1.806l-.372-1.169.266-.479-1.064-1.914.107-.69-.585-1.117-.584-.159.956-.159-.265-.372-.638-1.383-1.116-.319.266-.903-.425-1.434.531-1.223 1.329-.106.372-.637-.136-1.489h.841l.517.159.638.32-.018-.479h2.601c.02.671.074 1.332.153 1.985l-.025.034-.586-.052-.85.957.745.159.805-.483a21.565 21.565 0 0 0 5.959 11.901l-6.936 6.935zm-.698.697l-.403-.78c.191.203.378.41.575.61l-.172.17zm-2.586-2.629l-.106-.265.531.086c.105.131.206.265.312.395l-.737-.216zm-3.134-14.029l-1.117.265-.478-.478-.319-.213-.289-.387a31.592 31.592 0 0 1-.443-4.662h4.189l-.056.213-.584 1.011-.373.051-.69 2.233.638 1.009-.478.958zm-1.132 23.51a42.44 42.44 0 0 1-2.121-2.319l.649.279.637-.372 1.753 1.116.291.088-1.209 1.208zm79.091-50.421a53.216 53.216 0 0 0-11.439-16.968 53.223 53.223 0 0 0-16.969-11.44 52.894 52.894 0 0 0-15.724-3.953 22.83 22.83 0 0 0-.105.737 52.143 52.143 0 0 1 15.538 3.901 52.456 52.456 0 0 1 16.598 11.153l-6.141 6.143-.015-.435-.504.051-.605-.303-.909-.252 1.261-.201-.252-.354h-.707l.203-.554-.607-1.514-1.615-1.97-1.564-1.009-.858-.505-.656.152v-.404l-1.514-.657-.597.557c1.111 1.891 1.683 3.837 1.783 5.572.077 1.332.015 2.6-.179 3.809l.507-.297 1.616 2.927-1.111.101.789.819-1.874 1.875-.958-1.197.09-.895a14 14 0 0 1-.904 1.788l.122.244 1.187.149.117.257-.572.571a33.85 33.85 0 0 0-1.015-.956 12.9 12.9 0 0 1-.419.627c.306.281.611.562.908.856l-6.937 6.936a21.725 21.725 0 0 0-1.797-1.577c-.254.117-.511.232-.772.342.718.544 1.403 1.13 2.045 1.761l-.895.894-.012-.017.148-.494-.692.198-.742-.099v-.593l-.791.494-.841.791.396.249.841-.546.84.297v.149l.565-.142-1.941 1.941-2.284.477-.644.841-.444.296-.05.445.346-.05.346.297-.071.494-.167.169-.554-.118-1.311.205c-.252-.194-.511-.38-.779-.551l-.086-.1-.37-.171c-.46-.264-.942-.486-1.44-.683l-.038 2.817-.042 2.544.307-.154.266.258-.584.583-.018 1.07 1.108-1.107-.227.78.324.113.234 1.192.628.624-1.483-.792-.117.564c1.937.787 4.583 1.952 6.729 3.563 3.25 2.439 4.92 5.82 4.469 9.046-.326 2.33-1.676 4.317-3.873 5.77l.063.249-.445.544-.792.099-.297.496-1.533.642-1.385-.05-.396.594.248.397-.006.005c-.185.067-.372.131-.561.194l-.968.097-.246-.396-1.088.149-.014-.005c-.205.069-.401.138-.599.208l-.003.768c0 .228-.047 1.977-.118 4.477 3.516 1.762 7.875 4.653 7.689 12.319 0 0-.079 1.397-.48 2.407l.005.007 1.52.442a42.137 42.137 0 0 1-9.249 1.706l-.024.747a42.598 42.598 0 0 0 9.764-1.828l.66.22.692.592.849-.328 1.327-.315.545-.494 1.484-.642 1.484-1.04 1.682-1.682.079-.202a42.987 42.987 0 0 0 8.307-6.32l6.919 6.918c-4.74 4.636-10.218 8.3-16.308 10.876-6.488 2.745-13.381 4.136-20.488 4.136-7.106 0-13.999-1.391-20.489-4.136a52.483 52.483 0 0 1-16.328-10.895l6.92-6.919a42.683 42.683 0 0 0 13.216 8.798 42.485 42.485 0 0 0 13.868 3.267l-.023-.749c-9.994-.662-19.309-4.801-26.535-11.842l1.474-1.475 1.251 1.094 2.603-.212 1.064-1.064 1.434.053 1.329.159.69-.531-.053-.638-.743-.85-.903-1.754-.904-.372-.564-1.089.345-.345c5.279 5.104 12 8.198 19.235 8.891l-.019-.75c-7.027-.694-13.556-3.708-18.69-8.667l6.935-6.935a21.754 21.754 0 0 0 6.299 4.174 7.09 7.09 0 0 1 .199-.739 20.986 20.986 0 0 1-5.972-3.961l7.003-7.003a10.974 10.974 0 0 0 3.809 2.242l-.014-.788a10.333 10.333 0 0 1-3.269-1.979l.46-.461.246-.015.422-.423.937.121.544-.302.604-.064-.021-1.243-2.136-.697-.078.07-.876.151-.635.876-.271 1.117.011.069c-.869-.97-1.555-2.1-2.005-3.346l.064-.323a17.096 17.096 0 0 1-1.778-.928l-.475.239-.531-.319-.798.319-.425-.374.479-.477.633-.127c-2.19-1.625-3.513-3.71-4.198-6.48-.411-1.665-.534-3.279-.396-4.816l-.982.368-.622.069a21.083 21.083 0 0 1 2.316-3.603c.317-.868.724-1.702 1.234-2.489-.023.022-.047.042-.069.065l-6.936-6.935c4.844-4.797 10.972-7.829 17.604-8.778l-.011-.747c-6.829.955-13.138 4.065-18.119 8.998l-1.68-1.68c-.001.006-.006.012-.008.016-.133.273-.237.508-.319.709l1.488 1.489c-5.796 6.006-8.995 13.873-9.017 22.24h-9.931c.022-11.019 4.255-21.38 11.925-29.263l2.731 2.731c.188.023.403.035.625.017.131-.01.26-.031.388-.057l-3.225-3.225a42.519 42.519 0 0 1 7.021-5.621c.144-.423.334-.838.57-1.235a42.865 42.865 0 0 0-8.117 6.33l-6.918-6.918a52.431 52.431 0 0 1 16.618-11.174 52.146 52.146 0 0 1 15.442-3.894l-.106-.737a52.838 52.838 0 0 0-15.626 3.946 53.208 53.208 0 0 0-16.968 11.44 53.203 53.203 0 0 0-11.44 16.968c-2.785 6.582-4.195 13.573-4.195 20.78 0 7.206 1.41 14.196 4.195 20.779a53.21 53.21 0 0 0 11.44 16.967 53.195 53.195 0 0 0 16.968 11.441c6.581 2.782 13.573 4.195 20.779 4.195 7.207 0 14.197-1.413 20.779-4.195a53.21 53.21 0 0 0 16.969-11.441 53.223 53.223 0 0 0 11.439-16.967c2.784-6.583 4.195-13.573 4.195-20.779 0-7.207-1.411-14.198-4.195-20.78zM105.27 70.127l-1.386.496.346.544.99.098.05-1.138zm-37.864-.835c-.147-.059-.294-.12-.437-.181l-.075.952.512-.771zm.671.26a19.515 19.515 0 0 1-.649-.251l.05.602.599-.351zM50.903 41.366c.045-.335.109-.621.182-.872l-.433-.433a3.644 3.644 0 0 1-.965.088l1.216 1.217zm20.401 15.569l-.042-.139c.019-.01.036-.022.055-.031l-.013.17zm-.053-1.329l.061.333c-.659.326-1.267.731-1.842 1.178-.008.777.296 1.602.884 2.356.251.322.544.599.917.862l1.054-.456-.08-4.523-.356.037.106-.531.234-.363-.008-.457-.226.182-.478.745-.266.637zm8.25 42.153v.029l.049-.005a.319.319 0 0 0-.049-.024zM52.49 72.719l-.212.161-.16.211-.371-.797-.16.16.16.69.212.427-.16.264.426.532.265.585.213-.054.053-.903-.212-.479-.054-.797zm-.425-4.782l.425 1.115-.265.372.106.584-.16.853-.319.212.532 1.381.16-.053-.16-1.223.425-2.073-.319-1.062-.425-.106zm28.868 6.891l.03.002c-.02.009-.038.022-.059.032l.029-.034zm-.594 1.632l.099.395-.045.181c1.608-.79 1.838-1.248 1.822-1.456-.054-.635-.998-1.291-2.348-1.93l-.023 1.298.269.288c-.09.038-.184.068-.276.103l-.015.799c.158-.055.318-.104.472-.17l.045.492zm5.936-23.496h.742l.148-.297-.643-.148-.247-.396-.792.05.397.544v.642l.395-.395zm-1.138.89l-.347.247-.147-.197-.939 1.582.84-.147.05-.594.642-.644.495-.445-.297-.395-.297.593zm-3.463-.643l-.989.05-.297.494h-.203l-.021 1.6 1.016-.463.494-1.681zm7.021-17.066a31.927 31.927 0 0 0-8.151-2.226l-.018.746a31.213 31.213 0 0 1 7.77 2.117c.147-.211.283-.423.399-.637zM58.904 140.609l3.909.391s4.992-10.976 17.556-11.503c8.066-.338 15.119 3.696 23.711 4.32 10.318.749 17.366-1.43 23.27-7.052-6.244 3.438-13.608 1.954-22.125 0-5.539-1.272-11.216-1.804-15.426-1.762-19.544.194-30.895 15.606-30.895 15.606M117.878 104.371c-1.828 1.827-4.278 4.236-6.659 9.347-2.311 4.965-2.336 6.963-4.583 10.578 5.107-1.913 8.888 1.774 21.771-2.996 5.96-2.204 10.201-7.818 12.164-12.693-4.584 4.144-8.293 6.247-13.751 7.052-5.376.792-8.814 1.145-13.309 3.79 2.821-2.998 3.878-4.672 5.376-8.639 1.608-4.253 1.348-7.911 3.174-11.193-1.312 1.661-2.354 2.927-4.183 4.754"/><path d="M124.372 98.018c-1.34 6.982-.944 12.818-4.515 17.288 4.755-3.952 9.389-3.927 15.778-6.788 7.619-3.745 11.641-10.298 13.751-19.832-1.69 4.209-6.023 8.187-10.842 11.195-4.113 2.57-8.501 3.831-11.547 7.581 1.763-2.116 2.227-3.145 2.621-5.506 1.237-6.465-.818-10.13.156-16.879-.992 2.791-4.539 8.442-5.402 12.941"/><path d="M131.607 77.507c-.489 10.945 3.991 13.19.767 23.255 2.82-4.054 6.159-5.271 10.489-9.078 5.39-4.764 9.837-11.961 9.431-21.682-1.015 2.718-4.231 7.931-7.756 11.634-3.526 3.702-6.495 8.137-8.022 11.193 3.524-12.094-2.776-16.694-3.538-23.95-.196 2.737-1.197 6.805-1.371 8.628"/><path d="M133.706 65.074c-.956-3.553-.546-5.664-1.373-9.646 1.451 3.555 9.914 9.853 9.031 21.975.476-2.222 2.207-8.953 4.672-13.66 1.94-3.702 3.907-7.396 3.438-12.87 2.228 7.212 2.115 11.371 1.146 14.985-.97 3.614-3.388 6.389-5.466 9.255-1.364 1.886-4.259 5.567-5.641 8.991.109-7.419-4.555-14.381-5.807-19.03"/><path d="M131.012 48.884c-1.592-3.039-2.206-5.548-4.265-9.403 1.272 1.655 2.375 2.538 5.539 5.222 4.357 3.695 7.669 7.846 9.394 14.752.126-4.301.655-6.875 1.536-11.668.793-4.318.585-9.26-1.412-14.721 3.852 4.659 7.164 13.838 5.289 20.009-1.485 5.858-4.016 8.822-4.76 12.958-2.578-8.272-9.14-12.985-11.321-17.149"/><path d="M133.1 41.222c-1.929-1.55-6.758-4.559-9.122-7.337-2.357-2.771-3.556-5.417-5.219-7.86 3.486 3.204 5.388 4.154 8.942 6.336 3.223 1.84 7.58 4.319 9.343 8.215-1.057-2.926-1.585-6.803-1.939-10.066-.526-4.859-2.511-7.819-3.965-9.606 4.753 3.821 7.631 7.048 8.902 13.926 1.272 6.879-.176 12.076.309 15.781-2.523-5.005-5.325-7.837-7.251-9.389"/><path d="M133.96 34.037c-2.115-6.345-4.326-10.13-8.638-13.75-5.648-4.744-11.642-6.968-14.016-8.111 4.622 3.296 4.382 6.151 10.531 11.947 4.811 4.533 8.196 4.89 12.123 9.914M93.416 140.609l-3.909.391s-4.991-10.976-17.555-11.503c-8.067-.338-15.12 3.696-23.711 4.32-10.319.749-17.367-1.43-23.271-7.052 6.245 3.438 13.608 1.954 22.125 0 5.539-1.272 11.216-1.804 15.426-1.762 19.544.194 30.895 15.606 30.895 15.606M34.441 104.371c1.83 1.827 4.28 4.236 6.661 9.347 2.31 4.965 2.335 6.963 4.583 10.578-5.108-1.913-8.889 1.774-21.771-2.996-5.961-2.204-10.202-7.818-12.165-12.693 4.584 4.144 8.293 6.247 13.751 7.052 5.376.792 8.814 1.145 13.309 3.79-2.821-2.998-3.878-4.672-5.376-8.639-1.607-4.253-1.348-7.911-3.173-11.193 1.311 1.661 2.354 2.927 4.181 4.754"/><path d="M27.948 98.018c1.34 6.982.944 12.818 4.515 17.288-4.755-3.952-9.389-3.927-15.778-6.788C9.067 104.773 5.044 98.22 2.936 88.686c1.688 4.209 6.022 8.187 10.84 11.195 4.113 2.57 8.501 3.831 11.547 7.581-1.763-2.116-2.226-3.145-2.62-5.506-1.238-6.465.817-10.13-.157-16.879.993 2.791 4.539 8.442 5.402 12.941"/><path d="M20.714 77.507c.489 10.945-3.992 13.19-.768 23.255-2.82-4.054-6.159-5.271-10.489-9.078C4.068 86.92-.379 79.723.026 70.002c1.016 2.718 4.231 7.931 7.757 11.634 3.526 3.702 6.493 8.137 8.021 11.193-3.523-12.094 2.777-16.694 3.538-23.95.196 2.737 1.197 6.805 1.372 8.628"/><path d="M18.614 65.074c.956-3.553.548-5.664 1.373-9.646-1.451 3.555-9.913 9.853-9.031 21.975-.476-2.222-2.206-8.953-4.672-13.66-1.939-3.702-3.907-7.396-3.438-12.87C.618 58.085.731 62.244 1.7 65.858c.97 3.614 3.388 6.389 5.466 9.255 1.364 1.886 4.26 5.567 5.641 8.991-.109-7.419 4.555-14.381 5.807-19.03"/><path d="M20.566 50.012c2.034-2.999 2.949-6.676 5.007-10.531-1.271 1.655-2.374 2.538-5.538 5.222-4.358 3.695-7.669 7.846-9.395 14.752-.126-4.301-.655-6.875-1.536-11.668-.793-4.318-.585-9.26 1.412-14.721-3.851 4.659-7.164 13.838-5.288 20.009 1.483 5.858 4.015 8.822 4.759 12.958 2.578-8.272 7.92-12.098 10.579-16.021"/><path d="M19.221 41.222c1.927-1.55 6.758-4.559 9.122-7.337 2.356-2.771 3.555-5.417 5.218-7.86-3.486 3.204-5.388 4.154-8.942 6.336-3.224 1.84-7.58 4.319-9.343 8.215 1.057-2.926 1.585-6.803 1.939-10.066.526-4.859 2.511-7.819 3.965-9.606-4.753 3.821-7.631 7.048-8.902 13.926-1.271 6.879.176 12.076-.309 15.781 2.524-5.005 5.325-7.837 7.252-9.389"/><path d="M18.359 34.037c2.116-6.345 4.327-10.13 8.639-13.75 5.648-4.744 11.642-6.968 14.016-8.111-4.622 3.296-4.381 6.151-10.532 11.947-4.811 4.533-8.195 4.89-12.123 9.914M74.447 89.09c-.067.773.454 21.566.633 23.718.433 5.217 2.012 5.29 2.359.267.103-1.489.825-25.954.825-26.82-2.203.691-3.704 1.549-3.817 2.835zm3.848-11.148c.027-.208.349-25.069.368-25.922-.95.137-4.052.966-4.879 1.289.01.555.389 26.085.389 26.085s.943-.338 1.865-.645c1.02-.307 1.781-.624 2.257-.807zM73.33 42.988c1.65-.503 3.927-.713 5.495-1.272 0-2.097.599-26.708.687-28.001C79.758 10.083 83.249.254 76.1.254c-6.966 0-3.881 10.366-3.327 13.733.213 1.293.557 26.862.557 29.001zM98.393 32.85c-.299-5.161-5.432-12.244-17.504-13.058-.045 1.713-.095 3.662-.145 5.685.783.096 1.436.215 1.879.32 5.774 1.37 8.268 4.596 8.299 7.87.031 3.197-2.636 6.998-8.592 8.752-.578.169-1.241.34-1.951.514v.045l-1.128.318c-.956.202-2.288.521-3.098.694-.872.187-1.868.372-2.547.579l-1.794.433v-.013c-1.31.37-2.499.765-3.424 1.197-6.373 2.974-8.83 8.337-7.372 14.239.869 3.523 2.869 6.035 8.156 7.87 1.11.385 2.224.746 3.32 1.093l-.119-6.734c-1.413-.591-2.456-1.206-3.249-2.223-2.081-2.671-1.737-6.442 3.064-8.234v-.017l.243-.074c.069-.024.13-.052.2-.075 2.295-.753 4.723-1.309 7.123-1.869l.479-.123v.01c3.367-.789 6.658-1.613 9.415-3.041 4.995-2.587 9.179-6.711 8.745-14.158zm-12.08 36.024c-1.976-1.483-4.43-2.573-6.308-3.337l-.109 6.406c2.247.98 3.752 2.07 3.872 3.508.118 1.418-1.485 2.536-4.001 3.585v.011l-.409.154c-.61.244-1.263.485-1.958.725-.54.193-1.227.432-2.052.71-.844.286-1.558.59-2.032.806-4.332 2.088-4.564 4.794-4.278 7.319.236 2.09 1.862 3.476 3.906 4.533-.049-2.379-.071-4.079-.049-4.337.098-1.126.7-1.938 1.568-2.577.71-.604 1.883-1.062 3.407-1.659 1.992-.78 3.798-1.257 6.841-2.424 7.073-2.714 7.062-9.324 1.602-13.423zm-24.84-39.951l-2.162 2.337-1.149-.188.233-1.031 1.983-1.883 1.631-.123-.536.888zm4.992 1.314c1.347-1.876 3.137-3.071 5.044-3.818-.038-2.121-.078-4.169-.115-5.969-3.466.815-5.118 2.028-5.841 2.267-1.95.648-4.574.483-7.409 3.569-.508.552-1.735 2.102-2.608 3.366-.854 1.233-.893 3.215-1.521 4.279-.913 1.543-.693 2.425-.693 2.425l.108.176c-.123.368-.384.937-.942 1.558-.95 1.055-2.197 1.637-3.684 1.4 1.292.646 3.081-.259 3.081-.259s-.409 1.078-.754 2.671c1.236-2.792 2.428-4.144 3.015-4.694.595.166 1.884.161 4.382-1.271 2.709-1.555 6.786-4.097 7.937-5.7zm13.188 62.399l-.1 3.409c2.715 1.293 5.129 3.185 6.281 7.147.154-6.318-3.035-8.885-6.181-10.556z"/></g></svg></a>
+      <a href="http://unicef.org" class="site-footer__logo site-footer__logo--unicef"><svg width="299" height="73" viewBox="0 0 299 73" xmlns="http://www.w3.org/2000/svg"><title>Unicef_Logo</title><g fill-rule="nonzero" fill="#00AEEF"><path d="M274.815 50.447c-3.77-2.067-3.846-4.938-3.645-5.993.196-1.072.938-.603 1.407-.603 2.476 0 5.082-.737 8.296-4.015 3.623-3.697 4.757-11.916-.802-17.266-6.005-5.777-12.39-4.767-16.497.422-.846 1.062-2.901 1.846-4.685 1.782-2.633-.102-.975 1.977-.975 2.41 0 .438-.4.739-.636.672-.893-.258-.533 1.072-.533 1.474 0 .397-.365.603-.564.603-1.119 0-.816 1-.776 1.27.03.268-.065.73-.437.936-.35.196-.767 1.072-.767 1.737 0 1.206 1.107 2.045 2.943 3.42 1.84 1.37 2.072 2.672 2.11 3.615.032.933.116 2.442.536 3.444.5 1.204.434 3.412-2.11 3.512-3.104.126-8.633 2.613-9.1 2.779-1.756.625-4.067.849-5.883.39a27.451 27.451 0 0 1-2.784-2.244c-.36-1.25.268-2.595.905-3.501 1.035 1.04 2.574.97 3.442 1.007.869.033 5.122-.64 5.725-.841.603-.203.871-.134 1.243 0 1.616.59 3.844.767 4.748-2.343.9-3.111-1.239-2.24-1.51-2.106-.265.134-.632.099-.498-.167.392-.791-.201-.704-.536-.737-.861-.086-2.01.834-2.377 1.172-.373.337-.73.302-.866.233-1.16-.573-4.591.256-5.656-1.608.097-.501-.876-8.063-1.375-9.373a1.266 1.266 0 0 1 .134-1.233c.874-1.31 3.274.102 4.584.07 1.563-.043 1.816-.695 2.24-1.224.415-.514.72-.226.939-.367.285-.186.017-.554.116-.752.102-.204.219-.104.484-.338.273-.233-.035-.734.104-.935.383-.583 1.435-.117.802-1.64-.347-.837.134-1.742.605-2.345.76-.976 3.68-5.093-1.471-9.37-4.928-4.078-9.909-3.75-13.122-.266-3.209 3.481-1.606 8.566-1.268 9.904.332 1.34-.63 2.556-1.745 3.08-.878.414-2.88 1.754-4.395 3.071.236-10.923 6.864-20.522 17.026-24.614.434.546.918 1.057 1.434 1.536-1.121.826-3.595 3.037-3.595 3.037s.34.05.652.127c.216.052.678.196.678.196s2.173-1.856 3.196-2.59c.799.602 1.662 1.109 2.586 1.513-.492.836-1.735 3.169-1.735 3.169s.295.166.548.337c.251.174.415.323.415.323s1.352-2.548 1.863-3.402c1.137.385 2.326.6 3.53.662v4.66c-.673-.017-2.386-.086-3.08-.158l-.437-.042.243.365c.189.268.328.53.452.779l.052.104.114.005c.506.045 2.067.1 2.655.112V22.8h1.176v-1.948c1.728-.082 3.172-.201 4.906-.35l.07-.005 1.528-1.357-.83.076c-1.837.239-3.445.348-4.917.43 0 0-.498.027-.757.044v-5.39a27.34 27.34 0 0 0 6.36-.895c.571 1.407 1.643 4.806 1.643 4.806l1.11-.347s-1.067-3.377-1.636-4.782a27.253 27.253 0 0 0 5.095-2.164 28.574 28.574 0 0 1 3.352 5.211c-.836.39-2.367.931-2.367.931 1.226.13 2.159.422 2.159.422l.705-.308c.106.24.322.74.322.74l1.521.677-.17-.427-.631-1.489a40.33 40.33 0 0 0 4.73-2.734 27.046 27.046 0 0 1 4.422 14.864c0 8.82-4.216 16.668-10.738 21.641zm-19.43-48.66A30.408 30.408 0 0 0 250.6 4.42c-.46-.402-.871-.834-1.251-1.28a26.865 26.865 0 0 1 6.035-1.353zm-1.633 4.606a11.628 11.628 0 0 1-2.176-1.218 27.901 27.901 0 0 1 4.896-2.581 41.453 41.453 0 0 0-2.72 3.799zm4.01-3.561v4.474a11.862 11.862 0 0 1-2.896-.511 41.226 41.226 0 0 1 2.896-3.963zm1.176 5.645a13.02 13.02 0 0 0 3.574-.662 41.314 41.314 0 0 1 2.318 4.511 26.108 26.108 0 0 1-5.892.817V8.477zm0-5.697a41.723 41.723 0 0 1 2.929 4.015c-.956.29-1.936.467-2.929.514v-4.53zm6.234 2.395c-.687.483-1.414.895-2.181 1.218a41.036 41.036 0 0 0-2.735-3.81c1.72.706 3.37 1.572 4.916 2.592zm2.216-2.025c-.385.456-.809.88-1.248 1.278a29.675 29.675 0 0 0-4.76-2.63c2.067.225 4.075.672 6.008 1.352zm3.355 6.866a26.238 26.238 0 0 1-4.777 1.995 42.845 42.845 0 0 0-2.362-4.62c.905-.405 1.779-.911 2.58-1.514a28.419 28.419 0 0 1 4.559 4.139zm-2.201-6.435a26.85 26.85 0 0 1 6.353 3.646 26.206 26.206 0 0 1-3.127 2.206 29.504 29.504 0 0 0-4.663-4.32 13.1 13.1 0 0 0 1.437-1.532zm11.936 9.405a40.333 40.333 0 0 1-4.576 2.64 28.96 28.96 0 0 0-3.385-5.295 26.51 26.51 0 0 0 3.306-2.365 27.47 27.47 0 0 1 4.655 5.02zM258.353.457c-15.636 0-28.344 12.716-28.344 28.349 0 15.631 12.708 28.351 28.344 28.351 15.63 0 28.354-12.72 28.354-28.351 0-15.633-12.723-28.349-28.354-28.349zM227.44 7.991l-.446.39c-1.66 1.476-5.46 5.36-4.874 9.626.003.01.057.297.057.297 0 .008.184.844.184.844l.533-.486c2.33-2.13 4.068-5.735 4.787-9.897l.199-1.17-.44.396M219.718 15.356l-.186.514c-.263.712-.742 2.208-1 4.201-.357 2.812-.283 6.787 2.166 9.765-.002-.005.276.352.276.352l.275.358.363-1.81c.406-3.19-.122-9.883-1.3-12.878l-.4-1.015-.194.513M216.904 26.87l-.03.524c-.213 2.871-.062 9.939 5.666 13.69.002 0 .672.442.672.442l-.027-.809c-.1-2.68-3.226-10.69-5.579-13.559l-.667-.809-.035.521M217.887 39.526l.104.482c.834 4.062 4.693 10.64 10.638 12.554l.81.265-.291-.806c-1.112-3.038-6.842-10.12-10.53-12.453l-.828-.526.097.484M229.845 14.113l-.476.283c-4.425 2.705-6.502 5.978-6.343 10.02l.037.923.65-.538c2.395-1.98 5.393-7.053 6.276-9.926.003 0 .32-1.047.32-1.047l-.464.285M227.235 22.96l-.335.315c-1.132 1.084-4.805 4.993-4.484 9.824.044.737.218 1.531.506 2.365l.258.77.474-.66c1.757-2.47 4.077-8.981 3.955-12.011l-.034-.919-.34.316M227.423 31.345l-.245.367c-1.852 2.75-2.795 5.57-2.735 8.167.055 1.923.66 3.764 1.821 5.471l.39.574.323-.608c.799-1.502 1.436-6.375 1.34-10.234-.028-1.36-.17-2.487-.395-3.253l-.243-.854-.256.37M229.572 40.31l-.114.383c-.558 1.786-.819 3.53-.772 5.183.105 3.747 1.762 6.678 4.936 8.71l.536.338.12-.72.041-.578c-.087-3.042-2.357-10.718-4.136-13.058l-.482-.647-.129.39M223.331 52.194l.231.385c2.382 3.998 6.435 9.157 13.998 7.834l.64-.107-.362-.536c-1.412-2.104-10.603-7.288-13.852-7.816l-.89-.147.235.387zM234.53 62.344l-1.188.325 1.141.469c4.814 1.97 10.847 2.55 14.346 1.372 1.312-.447 2.116-1.164 3.09-2.12 6.156.639 11.93 5.763 15.295 9.944l.174.209.263-.087c.372-.127.96-.578 1.201-.836l.246-.261-.219-.28c-3.506-4.586-8.995-7.425-9.243-7.542-4.938-2.417-13.663-4.29-25.106-1.193"/><path d="M234.783 49.544l.07.412c.72 4.526 2.56 10.48 10.224 9.822l.489-.042-.12-.477c-.523-2.062-7.54-8.052-9.988-9.742l-.734-.38.06.407M288.945 7.594l.193 1.171c.715 4.162 2.46 7.767 4.785 9.897l.528.486s.196-.836.196-.844l.055-.297c.586-4.266-3.219-8.15-4.874-9.626l-.441-.39-.442-.397M296.913 14.843l-.4 1.015c-1.176 2.995-1.712 9.687-1.302 12.879l.36 1.809.282-.358.273-.352c2.437-2.978 2.524-6.953 2.162-9.765a19.848 19.848 0 0 0-.993-4.201l-.196-.514-.186-.513M299.035 39.042l-.83.526c-3.684 2.333-9.419 9.415-10.53 12.453l-.3.806.818-.265c5.948-1.914 9.812-8.492 10.638-12.554l.104-.482.1-.484M286.736 13.689l.303 1.054c.824 2.899 3.722 8.02 6.077 10.05l.64.546.053-.92c.238-4.035-1.77-7.353-6.142-10.142l-.464-.293-.467-.295M289.25 22.644l-.042.919c-.114 3.03 2.206 9.541 3.965 12.01l.472.66.26-.77c.286-.833.457-1.627.502-2.364.317-4.831-3.358-8.74-4.49-9.824l-.327-.315-.34-.316M289.146 30.975l-.246.854c-.223.766-.365 1.893-.394 3.253-.092 3.859.543 8.732 1.342 10.234l.32.608.39-.574c1.164-1.707 1.767-3.548 1.819-5.471.067-2.596-.884-5.418-2.732-8.167l-.248-.367-.251-.37M287.123 39.92l-.493.648c-1.767 2.34-4.038 10.016-4.13 13.058l.048.578.116.72.534-.338c3.174-2.032 4.831-4.963 4.943-8.71.04-1.652-.221-3.397-.78-5.183l-.118-.383-.12-.39M293.72 51.807l-.884.147c-3.246.528-12.442 5.712-13.852 7.816l-.36.536.636.107c7.568 1.323 11.613-3.836 14.003-7.834l.23-.385.226-.387zM257.189 63.537c-.246.117-5.737 2.956-9.246 7.542l-.219.28.249.26c.235.259.826.71 1.198.837l.256.087.186-.209c3.36-4.181 9.13-9.305 15.289-9.943.977.955 1.769 1.672 3.087 2.12 3.503 1.178 9.533.597 14.35-1.373l1.14-.47-1.19-.324c-11.44-3.097-20.162-1.224-25.1 1.193M282.098 49.137l-.73.38c-2.45 1.69-9.471 7.68-9.992 9.742l-.12.477.492.042c7.658.657 9.502-5.296 10.221-9.822l.067-.412.062-.407M97.365 64.416h-8.043V21.888h8.043v42.528zM88.55 3.246h9.576v8.725H88.55V3.246zM28.557 21.922h8.045v42.533h-7.878v-6.27h-.167c-3.226 5.337-8.648 7.536-14.574 7.536C5.085 65.721 0 58.947 0 50.391V21.921h8.055v25.165c0 7.37 1.695 12.793 9.402 12.793 3.298 0 7.792-1.695 9.487-6.1 1.521-3.983 1.613-8.986 1.613-9.996V21.922M52.675 28.193h.169c2.707-5.338 8.64-7.536 12.876-7.536 2.96 0 16.098.762 16.098 14.4v29.398H73.77v-26.77c0-7.033-2.962-10.844-9.742-10.844 0 0-4.407-.253-7.794 3.131-1.184 1.187-3.39 3.05-3.39 11.353v23.13h-8.045V21.922h7.876v6.271M131.071 35.563c-.43-5.305-2.946-8.998-8.678-8.998-7.648 0-10.6 6.636-10.6 16.582 0 9.928 2.952 16.576 10.6 16.576 5.303 0 8.584-3.44 9-9.506h8.006c-.68 9.506-7.737 15.313-17.088 15.313-13.546 0-18.936-9.589-18.936-22.05 0-12.388 6.226-22.734 19.619-22.734 8.92 0 15.648 5.643 16.058 14.817h-7.98M172.798 39.104c.17-7.067-3.033-12.539-10.78-12.539-6.653 0-10.596 5.62-10.596 12.54h21.376zm-21.376 5.551c-.59 7.408 2.44 15.068 10.596 15.068 6.226 0 9.353-2.43 10.261-8.59h8.437c-1.27 9.608-8.688 14.397-18.772 14.397-13.557 0-18.954-9.589-18.954-22.05 0-12.388 6.243-22.734 19.624-22.734 12.623.268 18.598 8.251 18.598 19.959v3.95h-29.79zM190.263 64.267V27.575h-7.266V22h7.266v-9.075c.268-9.263 7.246-11.7 13.226-11.7 1.933 0 3.79.499 5.727.834v6.65c-1.355-.074-2.695-.258-4.047-.258-4.539 0-7.154 1.191-6.906 5.812v7.737h9.772v5.576h-9.772v36.692h-8"/></g></svg></a>
+    </div>
+  </div>
+</footer>
+      
+</div>
+  </div>
+
+    <div class="off-canvas-wrapper"><div id="off-canvas">
+              <ul>
+              <li class="menu-item--_d07f6ee-aab0-4ee0-b9f3-a1de151cf652 menu-name--main">
+        <a href="/data" data-drupal-link-system-path="data">Data</a>
+                                <ul>
+              <li class="menu-item--_ef03fda-187c-41e9-9e6f-3c80eba2d682 menu-name--main">
+        <a href="/data/household" data-drupal-link-system-path="data/household">Households</a>
+                                <ul>
+              <li class="menu-item--_699d4cc-dde5-458e-8d33-2c7ced66a4ad menu-name--main">
+        <a href="/data/info/household" data-drupal-link-system-path="data/info/household">Information</a>
+              </li>
+        </ul>
+  
+              </li>
+          <li class="menu-item--_db38295-d7bc-4c43-950c-74f4f3fcd958 menu-name--main">
+        <a href="/data/school" data-drupal-link-system-path="data/school">Schools</a>
+                                <ul>
+              <li class="menu-item--edcf66fd-7d0f-4704-b388-c45f1c5c1f8b menu-name--main">
+        <a href="/data/info/school" data-drupal-link-system-path="data/info/school">Information</a>
+              </li>
+        </ul>
+  
+              </li>
+          <li class="menu-item--fd9522c1-943d-4371-a34f-7426ea708fa1 menu-name--main">
+        <a href="/data/healthcare" data-drupal-link-system-path="data/healthcare">Health Care Facilities</a>
+                                <ul>
+              <li class="menu-item--b099505c-7716-45a8-b96d-02cb7eda7863 menu-name--main">
+        <a href="/data/info/healthcare" data-drupal-link-system-path="data/info/healthcare">Information</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+          <li class="menu-item--viewsreportslist menu-name--main">
+        <a href="/reports" data-drupal-link-system-path="reports">Reports</a>
+              </li>
+          <li class="menu-item--viewsmonitoringlist menu-name--main">
+        <a href="/monitoring" data-drupal-link-system-path="monitoring">Monitoring</a>
+                                <ul>
+              <li class="menu-item--ed229cc2-1a12-4c51-8a87-9c41c2500d62 menu-name--main">
+        <a href="/monitoring/drinking-water" data-drupal-link-system-path="node/19">Drinking water</a>
+                                <ul>
+              <li class="menu-item--c7f47c44-abfd-4744-b937-20e32bab7f7d menu-name--main">
+        <a href="/monitoring/drinking-water/water-quality-monitoring" data-drupal-link-system-path="node/17">Water quality monitoring</a>
+              </li>
+          <li class="menu-item--fc50fcaf-ab0e-4b30-8e1f-7800ee22bb1b menu-name--main">
+        <a href="/monitoring/drinking-water/portable-testing-kits" data-drupal-link-system-path="node/304">Portable testing kits</a>
+              </li>
+        </ul>
+  
+              </li>
+          <li class="menu-item--_18f2309-2eab-40d2-8b49-74a02c312e7c menu-name--main">
+        <a href="/monitoring/sanitation" data-drupal-link-system-path="node/23">Sanitation</a>
+                                <ul>
+              <li class="menu-item--db56f8d1-fd38-4dea-acba-5f5a78db9989 menu-name--main">
+        <a href="/monitoring/sanitation/open-defecation" data-drupal-link-system-path="node/101">Open defecation</a>
+              </li>
+          <li class="menu-item--_aec7295-798f-4d21-beb1-81c0fba5da0c menu-name--main">
+        <a href="/monitoring/sanitation/safely-managed-on-site-sanitation" data-drupal-link-system-path="node/272">Monitoring Safely Managed On-Site Sanitation</a>
+              </li>
+        </ul>
+  
+              </li>
+          <li class="menu-item--_ab48536-7c4e-475f-830a-47cef50fdc1d menu-name--main">
+        <a href="/monitoring/hygiene" data-drupal-link-system-path="node/24">Hygiene</a>
+              </li>
+          <li class="menu-item--c02cce09-24ff-4d01-9bd8-51da9f831376 menu-name--main">
+        <a href="/monitoring/menstrual-health" title="Menstrual Health" data-drupal-link-system-path="node/229">Menstrual Health</a>
+              </li>
+          <li class="menu-item--_0c5a030-8e48-48c8-9046-133a65c4bb39 menu-name--main">
+        <a href="/monitoring/inequalities" data-drupal-link-system-path="node/27">Inequalities</a>
+                                <ul>
+              <li class="menu-item--b5479892-c815-4173-9da7-c4387c6ab59b menu-name--main">
+        <a href="/monitoring/inequalities/sub-national-regions" data-drupal-link-system-path="node/45">Sub-national regions</a>
+              </li>
+          <li class="menu-item--_de26e13-a829-4631-b972-4b209d86fcb2 menu-name--main">
+        <a href="/monitoring/inequalities/wealth-quintiles" data-drupal-link-system-path="node/44">Wealth quintiles</a>
+              </li>
+          <li class="menu-item--_459a9ad-70b2-4680-97bb-7e846bacf34a menu-name--main">
+        <a href="/monitoring/inequalities/affordability" data-drupal-link-system-path="node/46">Affordability</a>
+              </li>
+          <li class="menu-item--b5494e3e-cc61-43ba-a2b3-8588e776ac96 menu-name--main">
+        <a href="/monitoring/inequalities/gender" title="Gender" data-drupal-link-system-path="node/237">Gender</a>
+              </li>
+        </ul>
+  
+              </li>
+          <li class="menu-item--_8163906-b1bf-4d96-9e1f-699457da79e5 menu-name--main">
+        <a href="/monitoring/health-care-facilities" data-drupal-link-system-path="node/29">WASH in Health care facilities</a>
+              </li>
+          <li class="menu-item--f2fd4896-17b8-4219-8704-ed32d13b21c6 menu-name--main">
+        <a href="/monitoring/schools" data-drupal-link-system-path="node/28">WASH in Schools</a>
+                                <ul>
+              <li class="menu-item--_bd6d557-dd59-44a4-91f8-e6c8498ce030 menu-name--main">
+        <a href="/monitoring/wash-schools/methods-wash-schools" data-drupal-link-system-path="node/279">Methods for WASH in Schools</a>
+              </li>
+          <li class="menu-item--_2fcafd4-d292-4092-9f7f-80492a792e29 menu-name--main">
+        <a href="/monitoring/wash-schools/menstrual-health-schools" title="Menstrual Health in Schools" data-drupal-link-system-path="node/342">Menstrual Health in Schools</a>
+              </li>
+          <li class="menu-item--_cf56623-fc66-4baa-8915-9daffe433831 menu-name--main">
+        <a href="/monitoring/wash-schools/pandemic-preparedness-schools" data-drupal-link-system-path="node/278">Pandemic preparedness in schools</a>
+              </li>
+          <li class="menu-item--a17f9a6f-1f39-48f9-8514-0912ded6b8f5 menu-name--main">
+        <a href="/monitoring/wash-schools/disability-inclusive-wash-schools" data-drupal-link-system-path="node/277">Disability-inclusive WASH in schools</a>
+              </li>
+          <li class="menu-item--_53649d5-4b44-42d5-8e21-7a423904c9f1 menu-name--main">
+        <a href="/monitoring/schools/resources" data-drupal-link-system-path="node/281">Resources for Data Collection and Analysis</a>
+              </li>
+          <li class="menu-item--_868ee0d-212b-47c3-804f-0b8bcf4b0ed3 menu-name--main">
+        <a href="/monitoring/wash-schools/wins-ile" title="WASH in Schools International Learning Exchange" data-drupal-link-system-path="node/295">International Learning Exchange (WinS ILE)</a>
+              </li>
+        </ul>
+  
+              </li>
+          <li class="menu-item--_70233d7-44e7-478a-bfd3-82fc05cb871a menu-name--main">
+        <a href="/monitoring/methods" data-drupal-link-system-path="node/49">Methods</a>
+                                <ul>
+              <li class="menu-item--_27539bf-c219-42eb-bbd2-d40a56f43b51 menu-name--main">
+        <a href="/monitoring/methods/core-questions" data-drupal-link-system-path="node/36">Core questions</a>
+              </li>
+          <li class="menu-item--_8634c73-1841-4094-8510-a0f25648c79f menu-name--main">
+        <a href="/monitoring/methods/data-sources" data-drupal-link-system-path="node/38">Data sources</a>
+              </li>
+          <li class="menu-item--a8cf7691-3faa-40b1-a72b-3f53b825fe1d menu-name--main">
+        <a href="/monitoring/methods/estimation-methods" data-drupal-link-system-path="node/47">Estimation methods</a>
+              </li>
+          <li class="menu-item--_9ae1aae-9464-459f-a027-ebf94b3ef6b2 menu-name--main">
+        <a href="/monitoring/methods/facility-types" data-drupal-link-system-path="node/35">Facility types</a>
+              </li>
+          <li class="menu-item--e1e1688b-6d4f-45b9-864e-bfccdf1623bf menu-name--main">
+        <a href="/monitoring/methods/screencasts" data-drupal-link-system-path="node/168">Screencasts</a>
+              </li>
+        </ul>
+  
+              </li>
+          <li class="menu-item--_9b62bd5-49ae-4881-9edd-bde4f690645e menu-name--main">
+        <a href="/monitoring/climate-resilient-wash" data-drupal-link-system-path="node/337">Climate resilient WASH</a>
+              </li>
+        </ul>
+  
+              </li>
+          <li class="menu-item--c09d92bb-92be-427f-a9e2-b96153c177df menu-name--main">
+        <a href="/how-we-work" data-drupal-link-system-path="node/12">How we work</a>
+                                <ul>
+              <li class="menu-item--_9b5783c-cfb3-4229-9d06-17243a443483 menu-name--main">
+        <a href="/how-we-work/about-jmp" data-drupal-link-system-path="node/21">About the JMP</a>
+                                <ul>
+              <li class="menu-item--_6256d3e-fd1a-4462-b407-10f9adf0d3a6 menu-name--main">
+        <a href="/how-we-work/about-jmp/jmp-donors" data-drupal-link-system-path="node/40">JMP donors</a>
+              </li>
+          <li class="menu-item--cddd298b-393b-44b2-9925-b0cc3d989a42 menu-name--main">
+        <a href="/how-we-work/about-jmp/jmp-strategy" data-drupal-link-system-path="node/53">JMP strategy</a>
+              </li>
+          <li class="menu-item--e368ad12-005d-43a0-9ddd-c76e282ba5f6 menu-name--main">
+        <a href="/how-we-work/about-jmp/jmp-team" data-drupal-link-system-path="node/39">JMP team</a>
+              </li>
+          <li class="menu-item--_9a11414-23db-49b2-b79f-9886b63fb429 menu-name--main">
+        <a href="/how-we-work/about-jmp/strategic-advisory-group" data-drupal-link-system-path="node/249">JMP/GLAAS Strategic Advisory Group</a>
+              </li>
+        </ul>
+  
+              </li>
+          <li class="menu-item--_204fc20-0b52-4516-aef7-21da381db9c2 menu-name--main">
+        <a href="/how-we-work/country-and-regional-engagement" data-drupal-link-system-path="node/51">Country and regional engagement</a>
+                                <ul>
+              <li class="menu-item--_2d8697a-ad94-4d24-ba9d-030e87ad0709 menu-name--main">
+        <a href="/how-we-work/country-and-regional-engagement/regional-analysis-2024-health-care-facilities" title="Regional snapshots from 2024 data update on health care facilities" data-drupal-link-system-path="node/346">Regional analysis 2024 health care facilities</a>
+              </li>
+          <li class="menu-item--d581685e-64f5-46c7-b6fe-ef8c515cdd10 menu-name--main">
+        <a href="/how-we-work/country-and-regional-engagement/regional-analysis-2024-schools-update" title="Snapshots from the 2024 progress report on schools" data-drupal-link-system-path="node/343">Regional analysis 2024 schools update</a>
+              </li>
+          <li class="menu-item--_d6827d5-6f07-430d-ad17-7dd5936dea3b menu-name--main">
+        <a href="/how-we-work/country-and-regional-engagement/regional-analysis-2023-household-update" title="Regional analysis and snapshots" data-drupal-link-system-path="node/319">Regional analysis 2023 household update</a>
+              </li>
+          <li class="menu-item--a8173269-3202-4ec6-9a2a-66128b219d7e menu-name--main">
+        <a href="/how-we-work/country-and-regional-engagement/regional-analysis-2022-schools-update" data-drupal-link-system-path="node/302">Regional analysis 2022 schools update</a>
+              </li>
+        </ul>
+  
+              </li>
+          <li class="menu-item--_5d11bd3-48b4-4425-be32-faa7ef299d70 menu-name--main">
+        <a href="/how-we-work/jmp-country-consultation" title="Country consultation" data-drupal-link-system-path="node/233">Country consultation</a>
+              </li>
+          <li class="menu-item--_0e7a77b-c79e-4762-98ed-48ee15b41de1 menu-name--main">
+        <a href="/how-we-work/sdg-monitoring" data-drupal-link-system-path="node/32">SDG monitoring</a>
+              </li>
+        </ul>
+  
+              </li>
+          <li class="menu-item--front-page menu-name--main">
+        <a href="/" data-drupal-link-system-path="&lt;front&gt;">Home</a>
+              </li>
+        </ul>
+  
+
+</div></div>
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"data\/country\/TWN\/household\/download","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"eJyFjEsOwyAMBS8UwZGQIa8xCR_Lhki9fVm1ajddztPMO6uEwajwqSs2IaVDSdj8rlOouM_iZpMZSzbGvilMerN8I1S06X_YRQVd0nMbf1WbAn2s28D9hq4EqzKQJg6jH0eB_yJ30k2WNMvSmBSDs4VYerr8mzd72kD1kQwvRYVb4Q","theme":"jmp_theme","theme_token":null},"ajaxTrustedUrl":{"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true,"\/search":true},"responsive_menu":{"position":"left","theme":"theme-light","pagedim":"pagedim","modifyViewport":true,"use_bootstrap":false,"breakpoint":"screen and (min-width: 650px)","drag":false,"pageWrapper":false,"superfish":{"active":true,"delay":300,"speed":100,"speedOut":100},"mediaQuery":"screen and (min-width: 650px)"},"user":{"uid":0,"permissionsHash":"33a5d56381d08b24e62660a663b0c60877b525c4c769a200ed7486a0ce5770b5"}}</script>
+<script src="/sites/default/files/js/js_9_kpnNB_Zk5w-Vcp_GFV8Mrg0y0-hydtBQIkmMviMpg.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=jmp_theme&amp;include=eJxdx0EOgCAMBMAPEXlSg2S1VaGkrbzfm4nObY42KBgNuaohORdDsDitl9Yzv0-OYpUpdN8v5M-Wo8zi1WREMvjQ7jJBDf3Ovy9-D9gmzsQ6YdIDPR7a_DWW"></script>
+<script src="//platform-api.sharethis.com/js/sharethis.js#property=5936b4a042902e00112e9f5a&amp;product=sticky-share-buttons" defer async></script>
+<script src="/sites/default/files/js/js_p2gSPus0HjYPySPZtqemKGQWYmnKGvKs9775JmBhVbs.js?scope=footer&amp;delta=2&amp;language=en&amp;theme=jmp_theme&amp;include=eJxdx0EOgCAMBMAPEXlSg2S1VaGkrbzfm4nObY42KBgNuaohORdDsDitl9Yzv0-OYpUpdN8v5M-Wo8zi1WREMvjQ7jJBDf3Ovy9-D9gmzsQ6YdIDPR7a_DWW"></script>
+
+  </body>
+</html>

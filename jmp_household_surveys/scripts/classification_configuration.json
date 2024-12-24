@@ -1,0 +1,87 @@
+[
+    {
+        "label": "Flush and pour flush - to piped sewer system",
+        "id": 1,
+        "row": 58
+    },
+    {
+        "label": "Flush and pour flush - to septic tank",
+        "id": 2,
+        "row": 59
+    },
+    {
+        "label": "Flush and pour flush - to pit",
+        "id": 3,
+        "row": 60
+    },
+    {
+        "label": "Flush and pour flush - to unknown place/ not sure/DK",
+        "id": 4,
+        "row": 61
+    },
+    {
+        "label": "Flush and pour flush - to elsewhere",
+        "id": 5,
+        "row": 62
+    },
+    {
+        "label": "Dry latrines - Ventilated Improved Pit latrine",
+        "id": 6,
+        "row": 102
+    },
+    {
+        "label": "Dry latrines - Pit latrine with slab/covered latrine",
+        "id": 7,
+        "row": 103
+    },
+    {
+        "label": "Dry latrines - Traditional latrine",
+        "id": 8,
+        "row": 104
+    },
+    {
+        "label": "Dry latrines - Pit latrine without slab/open pit",
+        "id": 9,
+        "row": 105
+    },
+    {
+        "label": "Dry latrines - Hanging toilet/hanging latrine",
+        "id": 10,
+        "row": 106
+    },
+    {
+        "label": "Dry latrines - Bucket latrine",
+        "id": 11,
+        "row": 107
+    },
+    {
+        "label": "Dry latrines - Other",
+        "id": 12,
+        "row": 108
+    },
+    {
+        "label": "Composting toilets",
+        "id": 13,
+        "row": 125
+    },
+    {
+        "label": "Other improved",
+        "id": 14,
+        "row": 128
+    },
+    {
+        "label": "No facility, bush, field",
+        "id": 15,
+        "row": 131
+    },
+    {
+        "label": "Other unimproved",
+        "id": 16,
+        "row": 132
+    },
+    {
+        "label": "DK/missing information",
+        "id": 17,
+        "row": 135
+    }
+]

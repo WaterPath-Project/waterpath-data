@@ -1,0 +1,45 @@
+{
+  "profile": "data-package",
+  "resources": [
+	{
+		"name": "jmp-household-surveys",
+		"path": "data/jmpSanFac.csv",
+		"profile": "tabular-data-resource",
+		"schema": {}
+	},
+	{
+		"name": "jmp-treatment",
+		"path": "data/jmpTreatment",
+		"profile": "tabular-data-resource",
+		"schema": {}
+	}
+  ],
+  "keywords": [
+	"data sources",
+	"admin_level_0",
+    "JMP"
+  ],
+  "homepage": "https://waterpath-project.github.io/waterpath-web/",
+  "name": "jmp_household",
+  "licenses": [
+    {
+      "path": " https://creativecommons.org/licenses/by/4.0/ ",
+      "name": "CC BY 4.0",
+      "title": "CC BY 4.0"
+    }
+  ],
+  "title": "WHO/UNICEF JMP - World household data",
+  "description": "Household survey data for all countries in the world.",
+  "contributors": [
+    {
+      "title": "Panagis Katsivelis",
+      "role": "author"
+    }
+  ],
+  "sources": [
+	  {
+		"title": "WHO/UNICEF JMP",
+		"path": "https://washdata.org/"
+	  }
+  ]
+}
