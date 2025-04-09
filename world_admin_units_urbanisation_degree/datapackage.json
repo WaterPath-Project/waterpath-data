@@ -1,0 +1,70 @@
+{
+  "profile": "data-package",
+  "resources": [
+	{
+		"name": "world-admin-units-urbanisation-degree-level-0",
+		"path": "data/world_urbanisation_level0.csv",
+		"profile": "tabular-data-resource",
+		"schema": {}
+	},
+	{
+		"name": "world-admin-units-urbanisation-degree-level-1",
+		"path": "data/world_urbanisation_level1.csv",
+		"profile": "tabular-data-resource",
+		"schema": {}
+	},
+	{
+		"name": "world-admin-units-urbanisation-degree-level-2",
+		"path": "data/world_urbanisation_level2.csv",
+		"profile": "tabular-data-resource",
+		"schema": {}
+	},
+	{
+		"name": "world-admin-units-urbanisation-degree-level-3",
+		"path": "data/world_urbanisation_level3.csv",
+		"profile": "tabular-data-resource",
+		"schema": {}
+	},
+	{
+		"name": "world-admin-units-urbanisation-degree-level-4",
+		"path": "data/world_urbanisation_level4.csv",
+		"profile": "tabular-data-resource",
+		"schema": {}
+	},
+	{
+		"name": "world-admin-units-urbanisation-degree-level-5",
+		"path": "data/world_urbanisation_level5.csv",
+		"profile": "tabular-data-resource",
+		"schema": {}
+	}
+  ],
+  "keywords": [
+	"data sources",
+    "population",
+    "Copernicus",
+	"Global Human Settlement"
+  ],
+  "homepage": "https://waterpath-project.github.io/waterpath-web/",
+  "name": "world-admin-units-urbanisation-degree",
+  "licenses": [
+    {
+      "path": " https://creativecommons.org/licenses/by/4.0/ ",
+      "name": "CC BY 4.0",
+      "title": "CC BY 4.0"
+    }
+  ],
+  "title": "World Administrative Units: Degree of Urbanisation",
+  "description": "Population and distribution by Urban and Rural Areas for 2025-2030, for adminstrative unit level 0 to 5",
+  "contributors": [
+    {
+      "title": "Panagis Katsivelis",
+      "role": "author"
+    }
+  ],
+  "sources": [
+	  {
+		"title": "GHS-DUC R2023A - GHS Degree of Urbanisation Classification, application of the Degree of Urbanisation methodology (stage II) to GADM 4.1 layer, multitemporal (1975-2030)",
+		"path": "https://10.0.11.89/DC0EB21D-472C-4F5A-8846-823C50836305"
+	  }
+  ]
+}
