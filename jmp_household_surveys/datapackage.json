@@ -2,14 +2,38 @@
   "profile": "data-package",
   "resources": [
 	{
-		"name": "jmp-household-surveys",
-		"path": "data/jmpSanFac.csv",
+		"name": "jmp-sanitation-surveys",
+		"path": "data/jmp_sanitation_surveys.csv",
 		"profile": "tabular-data-resource",
 		"schema": {}
 	},
 	{
 		"name": "jmp-treatment",
-		"path": "data/jmpTreatment",
+		"path": "data/jmp_treatment.csv",
+		"profile": "tabular-data-resource",
+		"schema": {}
+	},
+	{
+		"name": "sanitation-national",
+		"path": "data/sanitation_national.csv",
+		"profile": "tabular-data-resource",
+		"schema": {}
+	},
+	{
+		"name": "sanitation-urban",
+		"path": "data/sanitation_urban.csv",
+		"profile": "tabular-data-resource",
+		"schema": {}
+	},
+	{
+		"name": "sanitation-rural",
+		"path": "data/sanitation_rural.csv",
+		"profile": "tabular-data-resource",
+		"schema": {}
+	},
+	{
+		"name": "sanitation-combined",
+		"path": "data/sanitation_combined.csv",
 		"profile": "tabular-data-resource",
 		"schema": {}
 	}
