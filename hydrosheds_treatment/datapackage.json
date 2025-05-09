@@ -1,0 +1,39 @@
+{
+  "profile": "data-package",
+  "resources": [
+	{
+		"name": "hydrowaste-wwtp",
+		"path": "data/wwtp.csv",
+		"profile": "tabular-data-resource",
+		"schema": {}
+	}
+  ],
+  "keywords": [
+	  "data sources",
+    "HydroSHEDS",
+    "wastewater treatment"
+  ],
+  "homepage": "https://waterpath-project.github.io/waterpath-web/",
+  "name": "hydrosheds-treatment",
+  "licenses": [
+    {
+      "path": " https://creativecommons.org/licenses/by/4.0/ ",
+      "name": "CC BY 4.0",
+      "title": "CC BY 4.0"
+    }
+  ],
+  "title": "HydroWASTE wastewater treatment plants database",
+  "description": "HydroWASTE is a spatially explicit global database of 58,502 wastewater treatment plants (WWTPs) and their characteristics.",
+  "contributors": [
+    {
+      "title": "Panagis Katsivelis",
+      "role": "author"
+    }
+  ],
+  "sources": [
+	  {
+		"title": "HydroSHEDS database",
+		"path": "https://www.hydrosheds.org/"
+	  }
+  ]
+}
