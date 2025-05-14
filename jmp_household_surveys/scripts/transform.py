@@ -106,7 +106,7 @@ out = out[cols]
 # Add calculated fields
 out['isWatertight'] = out['fecalSludgeTreated']
 out['hasLeach'] = out['fecalSludgeTreated']
-out['onsiteDumpedLand'] = 0.1
+out['onsiteDumpedland'] = 0.1
 out['emptyFrequency'] = 3
 out['pitAdditive'] = 0
 out['urine'] = 0
