@@ -4,4 +4,4 @@ All WaterPath Toolkit components, including the [GloWPa model](https://git.wur.n
 
 Please note that the GloWPa model includes a wider range of (mostly static) input datasets that are described in the [model repository](https://git.wur.nl/glowpa/glowpa-r#datasets). 
 
-For each data source listed here, raw curated data are available online together with a set of scripts that can be used to re-create it (in case of data updates in the future).
+For each data source listed here, its raw curated data are available online together with a set of scripts that can be used to re-create it (in case of data updates in the future).
