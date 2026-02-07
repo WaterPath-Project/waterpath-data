@@ -6,6 +6,12 @@
 		"path": "data/world-population.csv",
 		"profile": "tabular-data-resource",
 		"schema": {}
+	},
+	{
+		"name": "world-population-future",
+		"path": "data/world-population-future.csv",
+		"profile": "tabular-data-resource",
+		"schema": {}
 	}
   ],
   "keywords": [
@@ -32,16 +38,12 @@
   ],
   "sources": [
 	  {
-		"title": "World Urbanisation Prospects: Population of Urban and Rural Areas at Mid-Year (thousands) and Percentage Urban, 2018",
-		"path": "https://population.un.org/wup/assets/Download/WUP2018-F01-Total_Urban_Rural.xls"
+		"title": "Percentage of Population by Degree of Urbanization at Mid-Year by Region, Subregion, Country and Area, 1950-2050 (per cent)",
+		"path": "https://population.un.org/wup/assets/Download/Countries%20and%20Aggregates/WUP2025-F01-Degree-of-Urbanization_Pop_by_category.xlsx"
 	  },
 	  {
 		"title": "World Urbanisation Prospects: Population by Five-year Age Groups - Both Sexes",
-		"path": "https://population.un.org/wup/assets/Download/WUP2018-F00-LOCATIONS.xlsx"
-	  },
-	  {
-		"title": "Location list with codes, description, region, subregion, development groups and income groups",
-		"path": "https://population.un.org/wup/assets/Download/WUP2018-F00-LOCATIONS.xlsx"
+		"path": "https://population.un.org/wpp/assets/Excel%20Files/1_Indicator%20(Standard)/EXCEL_FILES/2_Population/WPP2024_POP_F02_1_POPULATION_5-YEAR_AGE_GROUPS_BOTH_SEXES.xlsx"
 	  }
   ]
 }

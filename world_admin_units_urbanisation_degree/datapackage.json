@@ -2,6 +2,12 @@
   "profile": "data-package",
   "resources": [
 	{
+		"name": "world-admin-units-urbanisation-degree-level-0-future",
+		"path": "data/world_urbanisation_level0_future.csv",
+		"profile": "tabular-data-resource",
+		"schema": {}
+	},
+	{
 		"name": "world-admin-units-urbanisation-degree-level-0",
 		"path": "data/world_urbanisation_level0.csv",
 		"profile": "tabular-data-resource",
@@ -65,6 +71,10 @@
 	  {
 		"title": "GHS-DUC R2023A - GHS Degree of Urbanisation Classification, application of the Degree of Urbanisation methodology (stage II) to GADM 4.1 layer, multitemporal (1975-2030)",
 		"path": "https://10.0.11.89/DC0EB21D-472C-4F5A-8846-823C50836305"
+	  },
+	  {
+		"title": "Chen, S., Huang, Q., Muttarak, R., Fang, J., Liu, T., He, C., ... & Zhu, L. (2022). Updating global urbanization projections under the Shared Socioeconomic Pathways. Scientific data, 9(1), 137.",
+		"path": "https://ssp-extensions.apps.ece.iiasa.ac.at/learn"
 	  }
   ]
 }

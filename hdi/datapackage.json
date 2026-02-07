@@ -6,6 +6,12 @@
 		"path": "data/hdi.csv",
 		"profile": "tabular-data-resource",
 		"schema": {}
+	},
+	{
+		"name": "hdi-future",
+		"path": "data/hdi_future.csv",
+		"profile": "tabular-data-resource",
+		"schema": {}
 	}
   ],
   "keywords": [
@@ -34,6 +40,11 @@
 	  {
 		"title": "UNDP: Human Development Index 2022",
 		"path": "https://hdr.undp.org/sites/default/files/2023-24_HDR/HDR23-24_Statistical_Annex_HDI_Table.xlsx"
+	  },
+    
+	  {
+		"title": "Cuaresma, J. C., & Lutz, W. (2015). The demography of human development and climate change vulnerability: a projection exercise. Vienna Yearbook of Population Research, 241-261.",
+		"path": "https://ssp-extensions.apps.ece.iiasa.ac.at/learn"
 	  }
   ]
 }
