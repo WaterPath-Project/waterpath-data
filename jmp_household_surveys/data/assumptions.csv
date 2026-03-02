@@ -1,0 +1,2 @@
+id;scenario;year;admin_level;pathogen;assumption
+jmp_household_surveys_1;all;all;all;all;The urban/rural sanitation fractions used are the nation-wide fractions reported by JMP, without taking sub-national inequalities data into account. 

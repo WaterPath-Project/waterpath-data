@@ -1,0 +1,3 @@
+id;scenario;year;admin_level;pathogen;assumption
+world_population_1;all;all;national;all;Urbanization rates are based on the UN World Urbanization Prospects 2025 revision and projections for the years 2030, 2050, 2100 are considered consistent across SSP scenarios.
+world_population_3;all;all;all;all;Population under 5 (years of age) values are based on the UN World Urbanization Prospects 2025 revision and projections for the years 2030, 2050, 2100 are considered consistent across SSP scenarios.

@@ -12,6 +12,12 @@
 		"path": "data/hdi_future.csv",
 		"profile": "tabular-data-resource",
 		"schema": {}
+	},
+	{
+		"name": "assumptions",
+		"path": "data/assumptions.csv",
+		"profile": "tabular-data-resource",
+		"schema": {}
 	}
   ],
   "keywords": [
@@ -20,7 +26,7 @@
     "UNDP"
   ],
   "homepage": "https://waterpath-project.github.io/waterpath-web/",
-  "name": "world-urbanisation",
+  "name": "human-development-index",
   "licenses": [
     {
       "path": " https://creativecommons.org/licenses/by/4.0/ ",

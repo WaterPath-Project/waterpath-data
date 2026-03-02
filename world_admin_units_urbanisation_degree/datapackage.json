@@ -42,6 +42,12 @@
 		"path": "data/world_urbanisation_level5.csv",
 		"profile": "tabular-data-resource",
 		"schema": {}
+	},
+	{
+		"name": "assumptions",
+		"path": "data/assumptions.csv",
+		"profile": "tabular-data-resource",
+		"schema": {}
 	}
   ],
   "keywords": [

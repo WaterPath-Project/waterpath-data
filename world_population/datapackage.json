@@ -12,6 +12,12 @@
 		"path": "data/world-population-future.csv",
 		"profile": "tabular-data-resource",
 		"schema": {}
+	},
+	{
+		"name": "assumptions",
+		"path": "data/assumptions.csv",
+		"profile": "tabular-data-resource",
+		"schema": {}
 	}
   ],
   "keywords": [

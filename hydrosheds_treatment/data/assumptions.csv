@@ -1,0 +1,2 @@
+id;scenario;year;admin_level;pathogen;assumption
+hydrosheds_treatment_1;all;subnational;all;all;Available WWTP locations data refer to the WWTPs that fit within the case study geographic boundaries. This means that the WWTPs that are located outside of the case study geographic boundaries are not included in the analysis by default, but may be entered by the user manually. 

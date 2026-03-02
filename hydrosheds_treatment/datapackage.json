@@ -6,11 +6,18 @@
 		"path": "data/wwtp.csv",
 		"profile": "tabular-data-resource",
 		"schema": {}
-	}
+	},
+  {
+    "name": "assumptions",
+    "path": "data/assumptions.csv",
+    "profile": "tabular-data-resource",
+    "schema": {}
+  }
   ],
   "keywords": [
 	  "data sources",
     "HydroSHEDS",
+    "point level",
     "wastewater treatment"
   ],
   "homepage": "https://waterpath-project.github.io/waterpath-web/",

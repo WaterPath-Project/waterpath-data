@@ -1,0 +1,2 @@
+id;scenario;year;admin_level;pathogen;assumption
+world_admin_units_urbanisation_degree_1;all;all;subnational;all;The urbanization degree of areas selected is derived from the Global Human Settlement Layer (JRC) (2023 edition) and is assumed constant across all SSP scenarios.
