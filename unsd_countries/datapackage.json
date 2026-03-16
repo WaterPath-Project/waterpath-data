@@ -1,0 +1,39 @@
+{
+  "profile": "data-package",
+  "resources": [
+	{
+		"name": "unsd-countries",
+		"path": "data/unsd_countries.csv",
+		"profile": "tabular-data-resource",
+		"schema": {}
+	}
+  ],
+  "keywords": [
+	"data sources",
+    "admin_level_0",
+    "UN"
+  ],
+  "homepage": "https://waterpath-project.github.io/waterpath-web/",
+  "name": "unsd-countries",
+  "licenses": [
+    {
+      "path": " https://creativecommons.org/licenses/by/4.0/ ",
+      "name": "CC BY 4.0",
+      "title": "CC BY 4.0"
+    }
+  ],
+  "title": "UNSD Countries",
+  "description": "List of countries and areas with their respective codes and classifications according to the United Nations Statistics Division (UNSD).",
+  "contributors": [
+    {
+      "title": "Panagis Katsivelis",
+      "role": "author"
+    }
+  ],
+  "sources": [
+	  {
+		"title": "The online version of the United Nations publication \"Standard Country or Area Codes for Statistical Use\" originally published as Series M, No. 49 and now commonly referred to as the M49 standard.",
+		"path": "https://unstats.un.org/unsd/methodology/m49/"
+	  }
+  ]
+}
