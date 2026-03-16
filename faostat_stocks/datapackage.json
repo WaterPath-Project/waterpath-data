@@ -2,14 +2,14 @@
   "profile": "data-package",
   "resources": [
 	{
-		"name": "faostat-data",
-		"path": "data/FAOSTAT_data_en_2026.csv",
+		"name": "faostat-stocks",
+		"path": "data/FAOSTAT_data.csv",
 		"profile": "tabular-data-resource",
 		"schema": {}
 	},
 	{
 		"name": "faostat-country-groups",
-		"path": "data/FAOSTAT_country_groups_2024.csv",
+		"path": "data/FAOSTAT_country_groups.csv",
 		"profile": "tabular-data-resource",
 		"schema": {}
 	}
