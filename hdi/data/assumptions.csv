@@ -1,2 +1,3 @@
 id;scenario;year;admin_level;pathogen;assumption
 hdi_1;all;all;all;all;It is assumed that national HDI values can be used for sub-national level analyses.
+hdi_2;all;all;all;all;Country-specific projections were obtained by the United Nations Development Programme (UNDP) based on historical HDI trends and other socio-economic indicators.

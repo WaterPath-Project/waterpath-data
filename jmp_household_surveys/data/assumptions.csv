@@ -1,2 +1,3 @@
 id;scenario;year;admin_level;pathogen;assumption
 jmp_household_surveys_1;all;all;all;all;The urban/rural sanitation fractions used are the nation-wide fractions reported by JMP, without taking sub-national inequalities data into account. 
+jmp_household_surveys_2;all;all;all;all;The data projection method assumes that a country’s future sanitation technology mix can be predicted from its HDI trajectory based on survey data observed across countries over time.

@@ -10,4 +10,11 @@ combined.rename(columns={'region': 'alpha3'}, inplace=True)
 
 combined.drop(columns=['warning_urb','warning_rur'], inplace=True, errors='ignore')
 
-combined.to_csv("../data/sanitation_combined.csv", sep=';', index=False)
+# Fill NaN cells with 0.
+# - containerBased is never reported in survey data → 0 is correct.
+# - sewageTreated is missing for some countries → 0 (no treatment data) is a
+#   safe model default and avoids empty cells in the output.
+# None of the 12 technology fraction columns have NaN, so sum == 1 is unaffected.
+combined = combined.fillna(0)
+
+combined.to_csv("../data/sanitation_combined.csv", index=False)
