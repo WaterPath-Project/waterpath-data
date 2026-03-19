@@ -38,6 +38,24 @@
 		"schema": {}
 	},
 	{
+		"name": "sanitation-combined-future",
+		"path": "data/sanitation_combined_future.csv",
+		"profile": "tabular-data-resource",
+		"schema": {}
+	},
+	{
+		"name": "sanitation-hdi-history",
+		"path": "data/sanitation_hdi_history.csv",
+		"profile": "tabular-data-resource",
+		"schema": {}
+	},
+	{
+		"name": "sanitation-technology-ladder",
+		"path": "data/technology_ladder.csv",
+		"profile": "tabular-data-resource",
+		"schema": {}
+	},
+	{
 		"name": "assumptions",
 		"path": "data/assumptions.csv",
 		"profile": "tabular-data-resource",
@@ -58,8 +76,8 @@
       "title": "CC BY 4.0"
     }
   ],
-  "title": "WHO/UNICEF JMP - World household data",
-  "description": "Household survey data for all countries in the world.",
+  "title": "WHO/UNICEF JMP - Sanitation household data and future projections",
+  "description": "Household survey sanitation data for all countries, including future scenario projections as part of ISIMIP.",
   "contributors": [
     {
       "title": "Panagis Katsivelis",
@@ -70,6 +88,10 @@
 	  {
 		"title": "WHO/UNICEF JMP",
 		"path": "https://washdata.org/"
+	  },
+	  {
+		"title": "ISIMIP - The Inter-Sectoral Impact Model Intercomparison Project",
+		"path": "https://www.isimip.org/"
 	  }
   ]
 }

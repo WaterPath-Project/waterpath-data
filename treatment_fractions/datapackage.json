@@ -28,8 +28,8 @@
       "title": "CC BY 4.0"
     }
   ],
-  "title": "Treatment fractions by country and treatment type",
-  "description": "Treatment data obtained from the work of Puijenbroek et al. (2019) at country level. The values can be found in the supplementary data of the paper.",
+  "title": "Treatment fractions by country and treatment type, plus future projections.",
+  "description": "Treatment data obtained from the work of Puijenbroek et al. (2019) at country level. Future projections pulled from ISIMIP.",
   "contributors": [
     {
       "title": "Panagis Katsivelis",
@@ -40,6 +40,10 @@
 	  {
 		"title": "van Puijenbroek PJTM, Beusen AHW, Bouwman AF. Global nitrogen and phosphorus in urban waste water based on the Shared Socio-economic pathways. J Environ Manage. 2019 Feb 1;231:446-456. doi: 10.1016/j.jenvman.2018.10.048. Epub 2018 Oct 25. PMID: 30368155.",
 		"path": "https://pubmed.ncbi.nlm.nih.gov/30368155/"
+	  },
+	  {
+		"title": "ISIMIP - The Inter-Sectoral Impact Model Intercomparison Project",
+		"path": "https://www.isimip.org/"
 	  }
   ]
 }

@@ -1,0 +1,81 @@
+{
+  "profile": "data-package",
+  "resources": [
+	{
+		"name": "livestock-stocks",
+		"path": "data/FAOSTAT_data.csv",
+		"profile": "tabular-data-resource",
+		"schema": {}
+	},
+	{
+		"name": "faostat-country-groups",
+		"path": "data/FAOSTAT_country_groups.csv",
+		"profile": "tabular-data-resource",
+		"schema": {}
+	},
+	{
+		"name": "isimip-livestock-ssp1",
+		"path": "data/future/animals_specs_SSP1.csv",
+		"profile": "tabular-data-resource",
+		"schema": {}
+	},
+	{
+		"name": "isimip-livestock-ssp2",
+		"path": "data/future/animals_specs_SSP2.csv",
+		"profile": "tabular-data-resource",
+		"schema": {}
+	},
+	{
+		"name": "isimip-livestock-ssp3",
+		"path": "data/future/animals_specs_SSP3.csv",
+		"profile": "tabular-data-resource",
+		"schema": {}
+	},
+	{
+		"name": "isimip-livestock-ssp4",
+		"path": "data/future/animals_specs_SSP4.csv",
+		"profile": "tabular-data-resource",
+		"schema": {}
+	},
+	{
+		"name": "isimip-livestock-ssp5",
+		"path": "data/future/animals_specs_SSP5.csv",
+		"profile": "tabular-data-resource",
+		"schema": {}
+	}
+  ],
+  "keywords": [
+	"data sources",
+    "agriculture",
+    "livestock",
+    "FAOSTAT",
+    "FAO"
+  ],
+  "homepage": "https://waterpath-project.github.io/waterpath-web/",
+  "name": "faostat-2024",
+  "licenses": [
+    {
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "name": "CC BY 4.0",
+      "title": "CC BY 4.0"
+    }
+  ],
+  "title": "Livestock heads and manure management fractions",
+  "description": "This dataset contains information on livestock heads and manure management fractions, sourced from FAOSTAT and future projections from ISIMIP.",
+  "contributors": [
+    {
+      "title": "Panagis Katsivelis",
+      "role": "author"
+    }
+  ],
+  "sources": [
+	  {
+		"title": "FAOSTAT - Crops and livestock products",
+		"path": "https://www.fao.org/faostat/en/#data/QCL"
+	  },
+	  {
+		"title": "ISIMIP - The Inter-Sectoral Impact Model Intercomparison Project",
+		"path": "https://www.isimip.org/"
+	  }
+  ]
+}

@@ -139,112 +139,95 @@ share throughout the medium-HDI range.
 
 ---
 
-## 7. Transition matrices
+## 7. Transition matrix
 
-`transition_matrix.py` also produces two transition matrix files.
-
-### Method
-
-For each consecutive survey pair per (country, context) with a gap ≤ 15
-years, the annual rate of change for each technology fraction is computed.
-Technologies whose share falls are "donors"; those that gain are "recipients".
-Each donor's annual loss is distributed to recipients proportionally to their
-gains, yielding a 12 × 12 flow matrix entry for that pair. Entries are then
-averaged across all pairs in a subset.
-
-This produces annual %-point flows, not transition probabilities. The diagonal
-is zero by construction.
-
-## 8. Technology phase-out thresholds
-
-`transition_matrix.py` computes `technology_thresholds.csv`: for each
-technology × context combination, the HDI level at which the technology's
-share in the ladder first crosses a key fraction threshold.
-
-**Phase-out thresholds** (fraction declining through 10%, 5%, 2%, 1%)
-characterise when a sanitation type becomes marginal:
-
-| Technology | Urban <5% HDI | Rural <5% HDI |
-|---|---|---|
-| `openDefecation` | ≈ 0.64 | ≈ 0.68 |
-| `pitNoSlab` | ≈ 0.57 | ≈ 0.62 |
-| `flushPit` | ≈ 0.61 | ≈ 0.72 |
-| `other` | ≈ 0.30 | ≈ 0.36 |
-
-**Emergence thresholds** (fraction rising through 10%, 25%, 50%) characterise
-when a technology becomes dominant:
-
-| Technology | Urban >10% HDI | Urban >50% HDI |
-|---|---|---|
-| `flushSewer` | ≈ 0.29 | ≈ 0.67 |
-
-Thresholds are computed via linear interpolation on the ladder and are stored
-per direction (phase_out / emergence), threshold fraction, context, and
-technology.  Rows where no crossing occurs within the ladder range are omitted.
+`transition_matrix.py` previously also produced `transition_matrix_overall.csv`
+(an average annual flow matrix across all survey pairs). This file is not
+consumed by any downstream script and has been moved to `data/archive/`.
 
 ---
 
-## 9. Technology elimination (calendar year)
+## 8. Projecting future sanitation mixes
 
-`project_future.py` produces `technology_elimination.csv`: for each
-(country × scenario × technology × context × threshold), the estimated
-calendar year at which the projected HDI trajectory will cross the threshold
-HDI from `technology_thresholds.csv`.
+### Overview
 
-The HDI trajectory used is the **delta-anchored** version (see section 10 below),
-interpolated linearly between the projected years 2025, 2030, 2050, 2100.
-Countries whose HDI never reaches the threshold level within 2025–2100 are
-omitted.
+`project_future.py` projects urban and rural sanitation technology mixes for
+each country × SSP scenario × future year using an **SSP-constrained
+technology ladder** method. This combines two information sources:
 
-Selected results under SSP2 (median year across countries):
-- Urban `openDefecation` < 5% : 2053
-- SSP1 (highest development): 2045  
-- SSP5 (high fossil growth, fast urbanisation): 2043
+- **SSP national aggregates**: five SSP Excel files
+  (`original_projections/SSP1-SSP5.xlsx`) provide projected national-level
+  fractions for four sanitation groups by decade 2010–2100.
+- **Technology ladder**: the empirical urban/rural split and within-group
+  technology distribution from `technology_ladder.csv`.
 
----
+### SSP aggregate groups
 
-## 10. Projecting future sanitation mixes
+Each SSP Excel file contains four sanitation sheets (values in %; sum to 100%
+per country × year):
 
-### Overview and motivation
+| Sheet | Technologies included |
+|---|---|
+| `unop` | `pitNoSlab`, `bucketLatrine`, `hangingToilet`, `flushOpen`, `flushUnknown`, `other`, `openDefecation` |
+| `latr` | `flushPit`, `pitSlab`, `compostingToilet` |
+| `sept` | `flushSeptic` |
+| `sewr` | `flushSewer` |
 
-`project_future.py` derives future technology mixes using a **delta
-projection** rather than a direct absolute lookup. The reason is that
-`hdi_future.csv` is built partly from regional averages for countries not
-covered natively by the SSP extension dataset; the resulting 2025 HDI values
-can differ substantially from the most recent measured HDI (by up to ±0.36 for
-some countries). Using absolute ladder values from the SSP 2025 level would
-therefore project from the wrong current baseline.
+The `popurb` sheet provides urban population fraction (0–1) per country ×
+decade, which is used to compute national aggregates from the urban/rural split.
 
-### Delta-projection method
+### Projection algorithm
 
-For each country × scenario × year:
+For each country × scenario × year (not 2025):
 
-1. **Anchor**: `current_hdi` = most recent measured HDI from
-   `hdr-historical-data.xlsx` (one value per country, independent of scenario).
-2. **Delta**: `Δhdi = hdi_future[year] − hdi_future[2025]`  
-   This captures the SSP-scenario dynamics (how much HDI changes under each
-   narrative) without being affected by the absolute-level discrepancy.
-3. **Target**: `target_hdi = current_hdi + Δhdi`
-4. **Projected fraction** = `actual_current + (ladder(target_hdi) − ladder(current_hdi))`  
-   where `actual_current` is the current tech fraction from
-   `sanitation_combined.csv` and `ladder(hdi)` is the piecewise-linearly
-   interpolated ladder value.
-5. Each fraction is **clamped** to [0, 1], and the vector is
-   **renormalised** to sum to 1.
+1. **Read SSP group fractions** `f_g` for g ∈ {unop, latr, sept, sewr} from the
+   SSP Excel sheet (divide by 100). Year 2025 is linearly interpolated as the
+   midpoint of SSP 2020 and 2030.
 
-For **2025 specifically**: Δhdi = 0, and the output equals the
-`sanitation_combined.csv` values directly.
+2. **Read urban population fraction** `p_urb` from SSP `popurb` sheet (already
+   0–1). For 2025: midpoint interpolation.
 
-For **countries not in `sanitation_combined.csv`** (22 of the 247 in
-`hdi_future.csv`): an absolute ladder lookup at `hdi_future[year]` is used
-instead (no current baseline available).
+3. **Target HDI** via delta-anchor:
+   ```
+   target_hdi = current_hdi + (hdi_future[year] - hdi_future[2025])
+   ```
+   `current_hdi` = most recent measured value from `hdr-historical-data.xlsx`.
+   This preserves the SSP-relative HDI dynamics without being distorted by the
+   absolute-level discrepancy between measured and projected 2025 HDI values.
+
+4. **Evaluate technology ladder** at `target_hdi` for Urban and Rural contexts
+   via piecewise-linear interpolation.
+
+5. **Natural national aggregate** predicted by the ladder:
+   ```
+   f_g_nat = p_urb × Σ(ladder_t, Urban) + p_rur × Σ(ladder_t, Rural)
+            for t ∈ group g
+   ```
+
+6. **Group scaling factor**: `k_g = f_g_ssp / f_g_nat` (capped at 10× to
+   prevent extreme distortion in data-sparse corners of the parameter space).
+
+7. **Scale**: `raw_t_ctx = ladder_t_ctx × k_g` for t in group g.
+
+8. **Renormalise** within each context to sum = 1.
+
+For **year 2025**: output the `sanitation_combined.csv` values directly.
+
+**Fallback — countries not in SSP data** (approximately 49 countries, mostly
+small islands and territories): delta-ladder approach — shift from
+`actual_current` by the ladder change at `target_hdi`, clamp to [0,1],
+renormalise.
+
+**Fallback — no current baseline** (countries absent from
+`sanitation_combined.csv`): absolute ladder lookup at `target_hdi`.
 
 ### Inputs
 
 | Input | Content |
 |---|---|
-| `hdi/data/hdi_future.csv` | Projected HDI per country × scenario at 2025, 2030, 2050, 2100 |
-| `hdi/data/original/hdr-historical-data.xlsx` | Most recent measured HDI per country (anchor) |
+| `original_projections/SSP1-SSP5.xlsx` | National sanitation group fractions (%) and urban fraction by country × decade |
+| `hdi/data/hdi_future.csv` | SSP HDI projections per country × scenario at 2025, 2030, 2050, 2100 |
+| `hdi/data/original/hdr-historical-data.xlsx` | Most recent measured HDI per country (delta anchor) |
 | `jmp_household_surveys/data/technology_ladder.csv` | Empirical tech fractions per HDI bin × context |
 | `jmp_household_surveys/data/sanitation_combined.csv` | Current-state baseline (2025 values) |
 
@@ -259,23 +242,27 @@ accumulation.
 
 ### Treatment and fixed parameters
 
-The technology ladder captures **what** facility people use. It does not
-capture **how well** the resulting waste is treated, which depends on
-infrastructure investment independent of HDI. The columns
-`coverBury`, `sewageTreated`, `fecalSludgeTreated`, `isWatertight`, and
-`hasLeach` are therefore held constant at their current (2020s) values from
+Treatment parameters (`coverBury`, `fecalSludgeTreated`, `isWatertight`,
+`hasLeach`) are held constant at their current values from
 `sanitation_combined.csv`.
+
+`sewageTreated` — the fraction of wastewater receiving any treatment level
+(Primary + Secondary + Tertiary + Quaternary) — is set from
+`treatment_fractions/data/treatment_future.csv` per country × year × scenario
+(both urban and rural receive the same national-level value; countries absent
+from that file fall back to `treatment_fractions/data/treatment.csv`). The
+baseline `sanitation_combined.csv` likewise uses `treatment.csv` for this
+column rather than the JMP survey data.
 
 The remaining fixed parameters (`onsiteDumpedland`, `emptyFrequency`,
 `pitAdditive`, `urine`, `twinPits`) are model assumptions independent of HDI
 and are likewise preserved unchanged.
 
-### Outputs
+### Output
 
 | File | Content |
 |---|---|
 | `sanitation_combined_future.csv` | 4,940 rows (247 countries × 5 SSPs × 4 years); same columns as `sanitation_combined.csv` plus leading `scenario` and `year` |
-| `technology_elimination.csv` | Calendar year each country × scenario × technology × context crosses each phase-out threshold |
 
 ---
 
@@ -283,8 +270,11 @@ and are likewise preserved unchanged.
 
 | Assumption | Impact |
 |---|---|
+| SSP national aggregates are taken as hard constraints | If the SSP group fractions are inconsistent with country-specific context, the within-group split may be distorted |
+| Technology ladder provides the urban/rural shape | Country-specific urban–rural divergence not captured |
 | Countries follow the cross-sectional HDI–sanitation relationship over time | May overstate convergence; country-specific path dependence is ignored |
 | Treatment parameters are constant at current values | Likely underestimates treatment capacity in high-HDI futures |
-| HDI is a sufficient summary statistic for sanitation drivers | Omits urbanisation rate, policy, geography, infrastructure inherited stock |
+| HDI is a sufficient summary statistic for sanitation drivers | Omits policy, geography, and infrastructure inherited stock |
 | Low-HDI bins (0.225–0.325) have 1–2 observations | Projections for countries at very low HDI may be unreliable |
 | Linear interpolation between bins | Smooth but may not reflect abrupt structural transitions |
+| 49 countries not in SSP data use delta-ladder fallback | For small islands/territories, SSP constraint not applied |
