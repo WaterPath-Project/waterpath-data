@@ -43,7 +43,7 @@ SHEET_TO_COL = {
     "prim": "FractionPrimarytreatment",
     "secu": "FractionSecondarytreatment",
     "tert": "FractionTertiarytreatment",
-    "quat": "FractionQuarternarytreatment",
+    "quat": "FractionQuaternarytreatment",
 }
 
 FUTURE_YEARS = [2020, 2030, 2040, 2050, 2060, 2070, 2080, 2090, 2100]
