@@ -1,27 +1,30 @@
 """
 prepare.py
 ----------
-Generates treatment.csv (2025 baseline) and treatment_future.csv (SSP1-5 projections)
-from SSP Excel files combined with van_puijenbroek_2019.csv as an observed anchor point.
+Generates treatment.csv (2010 baseline) and treatment_future.csv (SSP1-5 projections)
+from SSP Excel files. No regression is used; all values are read directly from the xlsx.
 
-For primary, secondary, tertiary:
-  Regression is fit on data points (2010, 2019, 2050, 2100) using:
-    - SSP Excel sheet values at 2010, 2050, 2100 (as % of population → converted to fractions)
-    - van_puijenbroek_2019.csv values at 2019 (already fractions)
-  Values are predicted for 2025 and 2030 via linear least-squares regression.
-  SSP values at 2050 and 2100 are used directly (not via regression).
+Baseline (treatment.csv):
+  SSP 2010 column — identical across all five SSPs, read from SSP1 only.
+  Values are converted from % of total population to fractions.
 
-For quaternary:
-  Only SSP data exists (no 2019 anchor), so regression uses (2010, 2050, 2100).
+Future (treatment_future.csv):
+  Per-SSP scenario columns for years 2020–2100 (every decade).
+
+Missing countries:
+  Group A — countries absent from SSP but mappable to a dissolved predecessor state.
+    Predecessor trajectories (2010 and all future decades) are used as-is.
+      SRB, MNE → Yugoslavia (m49=891)
+      SDN, SSD → Sudan pre-2011 (m49=736)
+      CUW, BES, SXM → Netherlands Antilles (m49=530)
+  Group B/C — all other countries absent from SSP: all fractions set to 0.
 
 Outputs:
-  treatment.csv       — 2025 baseline (mean across SSP1-5), existing column format + quaternary
-  treatment_future.csv — year, ssp, alpha3, Fraction*treatment
-                         SSP1-5 at years 2025, 2030, 2050, 2100
-                         ssp='baseline' at year 2025 (mean across SSP1-5)
+  treatment.csv         — 2010 baseline, one row per country
+  treatment_future.csv  — year, ssp, alpha3, Fraction*treatment
+                          SSP1-5 at years 2020, 2030, 2040, 2050, 2060, 2070, 2080, 2090, 2100
 """
 
-import numpy as np
 import pandas as pd
 from pathlib import Path
 
@@ -31,7 +34,6 @@ ORIGINAL_DIR = DATA_DIR / "original"
 REPO_ROOT = DATA_DIR.parent.parent  # waterpath-data/
 
 SSP_FILES = {f"SSP{i}": ORIGINAL_DIR / f"SSP{i}.xlsx" for i in range(1, 6)}
-VP_FILE = ORIGINAL_DIR / "van_puijenbroek_2019.csv"
 UNSD_FILE = REPO_ROOT / "unsd_countries" / "data" / "unsd_countries.csv"
 
 TREATMENT_CSV = DATA_DIR / "treatment.csv"
@@ -44,11 +46,25 @@ SHEET_TO_COL = {
     "quat": "FractionQuarternarytreatment",
 }
 
-# Years to emit in treatment_future.csv
-PREDICT_YEARS = [2025, 2030, 2050, 2100]
-# SSP anchor years are used directly (no regression needed)
-SSP_DIRECT_YEARS = {2050, 2100}
-VP_YEAR = 2019
+FUTURE_YEARS = [2020, 2030, 2040, 2050, 2060, 2070, 2080, 2090, 2100]
+
+# Group A: countries absent from SSP mapped to a dissolved predecessor (m49)
+PREDECESSOR_MAP = {
+    "SRB": 891,  # Serbia → Yugoslavia
+    "MNE": 891,  # Montenegro → Yugoslavia
+    "SDN": 736,  # Sudan → Sudan pre-2011
+    "SSD": 736,  # South Sudan → Sudan pre-2011
+    "CUW": 530,  # Curaçao → Netherlands Antilles
+    "BES": 530,  # Bonaire, Sint Eustatius and Saba → Netherlands Antilles
+    "SXM": 530,  # Sint Maarten (Dutch part) → Netherlands Antilles
+}
+
+# Group B/C: all other countries absent from SSP — zero treatment assumed
+ZERO_COUNTRIES = [
+    "ATG", "BLM", "BMU", "CYM", "FSM", "GIB", "GUM", "IMN", "KIR", "MAC",
+    "MAF", "MCO", "MDV", "MHL", "MNP", "MYT", "NIU", "NRU", "PLW", "PSE",
+    "PYF", "SHN", "SMR", "SYC", "TUV", "VGB", "WLF",
+]
 
 
 def load_m49_to_alpha3():
@@ -57,141 +73,105 @@ def load_m49_to_alpha3():
 
 
 def load_ssp_sheet(filepath, sheet, m49_to_alpha3):
-    """Load one treatment sheet from an SSP Excel file.
+    """Load one sheet from an SSP xlsx.
 
-    Returns a DataFrame with alpha-3 as the index and integer year columns,
-    with values as fractions (converted from % of population).
+    Returns:
+      a3_df  — DataFrame indexed by alpha3, integer year columns, values as fractions
+      m49_df — DataFrame indexed by m49 (for predecessor lookups), same columns
     """
     df = pd.read_excel(filepath, sheet_name=sheet, header=3)
     df = df.rename(columns={"ISO-CODE": "m49"})
-    # Drop rows where m49 is not a number (e.g. stray header rows)
     df = df[pd.to_numeric(df["m49"], errors="coerce").notna()].copy()
     df["m49"] = df["m49"].astype(int)
     df["alpha3"] = df["m49"].map(m49_to_alpha3)
-    df = df.dropna(subset=["alpha3"])
-    df = df.drop_duplicates(subset=["alpha3"]).set_index("alpha3")
     year_cols = [c for c in df.columns if isinstance(c, int)]
-    return df[year_cols] / 100.0  # % → fraction
+    a3_df = (
+        df.dropna(subset=["alpha3"])
+        .drop_duplicates("alpha3")
+        .set_index("alpha3")[year_cols]
+        / 100.0
+    )
+    m49_df = df.drop_duplicates("m49").set_index("m49")[year_cols] / 100.0
+    return a3_df, m49_df
 
 
-def regress_and_predict(xs, ys, year):
-    """Fit a linear least-squares regression on (xs, ys) and predict at `year`.
-
-    Drops NaN pairs before fitting. Returns np.nan if fewer than 2 valid points.
-    Result is clamped to [0, 1].
-    """
-    xs = np.asarray(xs, dtype=float)
-    ys = np.asarray(ys, dtype=float)
-    mask = ~np.isnan(ys)
-    if mask.sum() < 2:
-        return np.nan
-    coeffs = np.polyfit(xs[mask], ys[mask], deg=1)
-    return float(np.clip(np.polyval(coeffs, year), 0.0, 1.0))
+def clean(val):
+    """Return 0.0 for NaN; otherwise round to 4 d.p."""
+    if pd.isna(val):
+        return 0.0
+    return round(float(val), 4)
 
 
-def build_projections(ssp_data, vp_series, has_vp):
-    """Compute predicted values at PREDICT_YEARS for each country.
-
-    Returns dict: {alpha3: {year: value}}
-    """
-    results = {}
-    for alpha3 in ssp_data.index:
-        row = ssp_data.loc[alpha3]
-        vp_val = vp_series.at[alpha3] if (has_vp and alpha3 in vp_series.index) else None
-
-        preds = {}
-        for yr in PREDICT_YEARS:
-            if yr in SSP_DIRECT_YEARS and yr in row.index and not np.isnan(row[yr]):
-                # Use SSP model value directly for anchor years 2050 / 2100
-                preds[yr] = float(np.clip(row[yr], 0.0, 1.0))
-            else:
-                if vp_val is not None and not np.isnan(vp_val):
-                    xs = [2010, VP_YEAR, 2050, 2100]
-                    ys = [
-                        row.get(2010, np.nan),
-                        vp_val,
-                        row.get(2050, np.nan),
-                        row.get(2100, np.nan),
-                    ]
-                else:
-                    xs = [2010, 2050, 2100]
-                    ys = [
-                        row.get(2010, np.nan),
-                        row.get(2050, np.nan),
-                        row.get(2100, np.nan),
-                    ]
-                preds[yr] = regress_and_predict(xs, ys, yr)
-        results[alpha3] = preds
-    return results
+def get_val(ssp_data, sheet, alpha3, year):
+    """Look up a single (sheet, alpha3, year) value, applying predecessor mapping."""
+    a3_df, m49_df = ssp_data[sheet]
+    if alpha3 in a3_df.index:
+        val = a3_df.at[alpha3, year] if year in a3_df.columns else 0.0
+    elif alpha3 in PREDECESSOR_MAP:
+        pred_m49 = PREDECESSOR_MAP[alpha3]
+        val = (
+            m49_df.at[pred_m49, year]
+            if (pred_m49 in m49_df.index and year in m49_df.columns)
+            else 0.0
+        )
+    else:
+        val = 0.0
+    return clean(val)
 
 
-def mean_across_ssps(all_projections, col_name, alpha3, year):
-    vals = [
-        all_projections[s][col_name][alpha3][year]
-        for s in SSP_FILES
-        if alpha3 in all_projections[s][col_name]
-        and not np.isnan(all_projections[s][col_name][alpha3][year])
-    ]
-    return float(np.mean(vals)) if vals else np.nan
-
-
+def build_row(ssp_data, alpha3, year):
+    """Build a dict of fraction values for one (alpha3, year) combination."""
+    row = {}
+    for sheet, col in SHEET_TO_COL.items():
+        row[col] = get_val(ssp_data, sheet, alpha3, year)
+    return row
 
 
 def main():
     m49_to_alpha3 = load_m49_to_alpha3()
-    vp = pd.read_csv(VP_FILE).set_index("alpha3")
 
-    print("Loading SSP projections...")
-    all_projections = {}
+    # Load all SSP sheets once
+    print("Loading SSP data...")
+    all_ssp = {}
     for ssp_name, ssp_file in SSP_FILES.items():
-        print(f"  {ssp_name}")
-        all_projections[ssp_name] = {}
-        for sheet, col_name in SHEET_TO_COL.items():
-            ssp_data = load_ssp_sheet(ssp_file, sheet, m49_to_alpha3)
-            has_vp = col_name in vp.columns
-            vp_col = vp[col_name] if has_vp else None
-            all_projections[ssp_name][col_name] = build_projections(ssp_data, vp_col, has_vp)
+        all_ssp[ssp_name] = {
+            sheet: load_ssp_sheet(ssp_file, sheet, m49_to_alpha3)
+            for sheet in SHEET_TO_COL
+        }
+        print(f"  Loaded {ssp_name}")
+
+    # Full country set: SSP-covered + Group A + Group B/C
+    base_alpha3 = set(all_ssp["SSP1"]["prim"][0].index)
+    all_alpha3 = sorted(base_alpha3 | set(PREDECESSOR_MAP) | set(ZERO_COUNTRIES))
 
     all_cols = list(SHEET_TO_COL.values())
-    all_alpha3 = sorted(
-        set().union(*[set(all_projections[s][all_cols[0]].keys()) for s in SSP_FILES])
-    )
 
-    # --- treatment_future.csv ---
+    # --- treatment.csv: 2010 baseline, read from SSP1 (identical across all SSPs) ---
+    print("Building treatment.csv (2010 baseline from SSP1)...")
+    baseline_rows = []
+    for alpha3 in all_alpha3:
+        row = {"alpha3": alpha3}
+        row.update(build_row(all_ssp["SSP1"], alpha3, 2010))
+        baseline_rows.append(row)
+
+    baseline_df = pd.DataFrame(baseline_rows, columns=["alpha3"] + all_cols)
+    baseline_df.to_csv(TREATMENT_CSV, index=False)
+    print(f"  Saved {len(baseline_df)} countries to {TREATMENT_CSV}")
+
+    # --- treatment_future.csv: per-SSP, decades 2020–2100 ---
+    print("Building treatment_future.csv...")
     future_rows = []
     for ssp_name in SSP_FILES:
-        for yr in PREDICT_YEARS:
+        for year in FUTURE_YEARS:
             for alpha3 in all_alpha3:
-                row = {"year": yr, "ssp": ssp_name, "alpha3": alpha3}
-                for col_name in all_cols:
-                    row[col_name] = (
-                        all_projections[ssp_name][col_name]
-                        .get(alpha3, {})
-                        .get(yr, np.nan)
-                    )
+                row = {"year": year, "ssp": ssp_name, "alpha3": alpha3}
+                row.update(build_row(all_ssp[ssp_name], alpha3, year))
                 future_rows.append(row)
 
     future_df = pd.DataFrame(future_rows, columns=["year", "ssp", "alpha3"] + all_cols)
     future_df = future_df.sort_values(["ssp", "year", "alpha3"]).reset_index(drop=True)
-    for col in all_cols:
-        future_df[col] = future_df[col].map(lambda v: round(v, 2) if pd.notna(v) else v)
-    future_df.to_csv(TREATMENT_FUTURE_CSV, index=False, float_format="%.2f")
-    print(f"Saved {len(future_df)} rows to {TREATMENT_FUTURE_CSV}")
-
-    # --- treatment.csv (2025 baseline, mean across SSP1-5) ---
-    baseline_rows = []
-    for alpha3 in all_alpha3:
-        row = {"alpha3": alpha3}
-        for col_name in all_cols:
-            val = mean_across_ssps(all_projections, col_name, alpha3, 2025)
-            row[col_name] = val if not np.isnan(val) else np.nan
-        baseline_rows.append(row)
-
-    baseline_df = pd.DataFrame(baseline_rows, columns=["alpha3"] + all_cols)
-    for col in all_cols:
-        baseline_df[col] = baseline_df[col].map(lambda v: round(v, 2) if pd.notna(v) else v)
-    baseline_df.to_csv(TREATMENT_CSV, index=False, float_format="%.2f")
-    print(f"Saved {len(baseline_df)} countries to {TREATMENT_CSV}")
+    future_df.to_csv(TREATMENT_FUTURE_CSV, index=False)
+    print(f"  Saved {len(future_df)} rows to {TREATMENT_FUTURE_CSV}")
 
 
 if __name__ == "__main__":

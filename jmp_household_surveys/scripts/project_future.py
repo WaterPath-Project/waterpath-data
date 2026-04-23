@@ -387,7 +387,7 @@ else:
 # -- Save ---------------------------------------------------------------------
 out_path = os.path.join(SCRIPTS_DIR, '../data/sanitation_combined_future.csv')
 with open(out_path, 'w', encoding='utf-8') as f:
-    wide.to_csv(f, index=False, lineterminator='\n')
+    wide.to_csv(f, index=False, lineterminator='\n', float_format='%.3f')
 
 print(f"Rows     : {len(wide)}")
 print(f"Countries: {wide['alpha3'].nunique()}")

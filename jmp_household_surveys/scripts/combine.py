@@ -33,4 +33,4 @@ treat_lookup = treatment.set_index('alpha3')['sewageTreated']
 combined['sewageTreated_urb'] = combined['alpha3'].map(treat_lookup).combine_first(combined['sewageTreated_urb']).round(3)
 combined['sewageTreated_rur'] = combined['sewageTreated_urb']
 
-combined.to_csv("../data/sanitation_combined.csv", index=False)
+combined.to_csv("../data/sanitation_combined.csv", index=False, float_format='%.3f')

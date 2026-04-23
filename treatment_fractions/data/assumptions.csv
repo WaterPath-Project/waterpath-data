@@ -1,2 +1,4 @@
 id;scenario;year;admin_level;pathogen;assumption
-treatment_fractions_1;all;all;all;all;The 2019 treatment fractions at a country level are assumed for the case study area.
+treatment_fractions_1;all;all;all;all;The 2010 treatment fractions at a country level are assumed for the case study area. Values are taken directly from van Puijenbroek et al., 2023. Future projections (2020–2100) follow the per-SSP scenario trajectories from the same source.
+treatment_fractions_2;all;all;all;all;For countries absent from the SSP dataset that can be mapped to a dissolved predecessor state, treatment fractions are assigned from that predecessor's trajectory: Serbia and Montenegro use Yugoslavia (m49=891); Sudan and South Sudan use pre-2011 Sudan (m49=736); Curaçao, Bonaire and Sint Eustatius and Saba, and Sint Maarten use the Netherlands Antilles (m49=530).
+treatment_fractions_3;all;all;all;all;For island territories, overseas departments, and microstates absent from the SSP dataset and without an applicable predecessor, no sewage treatment is assumed (all fractions set to zero).
