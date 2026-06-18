@@ -134,6 +134,31 @@ combined = pd.concat([hdi_future, fallback_df], ignore_index=True)
 # Keep only the columns needed for output
 combined = combined[['alpha3', 'Scenario'] + year_cols]
 
+# ── Anchor projections to observed 2022 UNDP HDI values ──────────────────────
+# The SSP-Extensions model runs on a different (lower) scale than the current
+# UNDP methodology used in hdi.csv. To remove the discontinuity at the 2025
+# handover point, compute a per-country additive offset:
+#   offset = hdi_observed_2022 − mean(hdi_projected_2025 across all scenarios)
+# The same offset is applied to all scenarios and all future years, so the
+# absolute spread between scenarios is preserved exactly.
+hdi_observed_path = os.path.join(SCRIPTS_DIR, '..', 'data', 'hdi.csv')
+hdi_obs = pd.read_csv(hdi_observed_path).set_index('alpha3')['hdi']
+
+mean_2025 = combined.groupby('alpha3')['2025'].transform('mean')
+combined = combined.copy()
+combined['_offset'] = combined['alpha3'].map(hdi_obs) - combined.groupby('alpha3')['2025'].transform('mean')
+
+# Only apply to countries where we have an observed value
+has_obs = combined['alpha3'].isin(hdi_obs.index)
+for y in year_cols:
+    combined.loc[has_obs, y] = (combined.loc[has_obs, y] + combined.loc[has_obs, '_offset']).round(3)
+
+combined.drop(columns=['_offset'], inplace=True)
+
+# Clip to valid HDI range [0, 1]
+for y in year_cols:
+    combined[y] = combined[y].clip(0, 1)
+
 # Rename columns to lowercase
 combined.columns = combined.columns.str.lower()
 

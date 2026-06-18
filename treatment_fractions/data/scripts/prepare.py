@@ -19,6 +19,10 @@ Missing countries:
       CUW, BES, SXM → Netherlands Antilles (m49=530)
   Group B/C — all other countries absent from SSP: all fractions set to 0.
 
+Post-processing:
+  - Values below NOISE_THRESHOLD (floating-point noise) are zeroed.
+  - Quaternary (Q) is forced to 0 wherever Tertiary (T) is 0.
+
 Outputs:
   treatment.csv         — 2010 baseline, one row per country
   treatment_future.csv  — year, ssp, alpha3, Fraction*treatment
@@ -43,7 +47,7 @@ SHEET_TO_COL = {
     "prim": "FractionPrimarytreatment",
     "secu": "FractionSecondarytreatment",
     "tert": "FractionTertiarytreatment",
-    "quat": "FractionQuaternarytreatment",
+    "quat": "FractionQuarternarytreatment",
 }
 
 FUTURE_YEARS = [2020, 2030, 2040, 2050, 2060, 2070, 2080, 2090, 2100]
@@ -65,6 +69,9 @@ ZERO_COUNTRIES = [
     "MAF", "MCO", "MDV", "MHL", "MNP", "MYT", "NIU", "NRU", "PLW", "PSE",
     "PYF", "SHN", "SMR", "SYC", "TUV", "VGB", "WLF",
 ]
+
+# Values below this threshold are treated as floating-point noise and zeroed
+NOISE_THRESHOLD = 0.001
 
 
 def load_m49_to_alpha3():
@@ -96,8 +103,8 @@ def load_ssp_sheet(filepath, sheet, m49_to_alpha3):
 
 
 def clean(val):
-    """Return 0.0 for NaN; otherwise round to 4 d.p."""
-    if pd.isna(val):
+    """Return 0.0 for NaN or floating-point noise; otherwise round to 4 d.p."""
+    if pd.isna(val) or abs(val) < NOISE_THRESHOLD:
         return 0.0
     return round(float(val), 4)
 
@@ -124,6 +131,9 @@ def build_row(ssp_data, alpha3, year):
     row = {}
     for sheet, col in SHEET_TO_COL.items():
         row[col] = get_val(ssp_data, sheet, alpha3, year)
+    # Enforce Q=0 when T=0
+    if row["FractionTertiarytreatment"] == 0.0:
+        row["FractionQuarternarytreatment"] = 0.0
     return row
 
 

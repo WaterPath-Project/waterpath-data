@@ -50,6 +50,22 @@ Projection algorithm (for each country x scenario x year != 2025)
 
   8.  Renormalise within each context to sum = 1.
 
+Unimproved-share ratchet (applied after step 8, across the year sequence)
+--------------------------------------------------------------------------
+Because the technology ladder encodes the cross-country ascent trajectory, a
+naive reading would predict regression to worse technologies whenever a
+scenario's HDI falls.  Installed infrastructure and abandoned open defecation
+do not behave that way.  After projecting all years for a country x scenario,
+we enforce a single non-regression constraint: the combined share of all seven
+unimproved technologies (GROUPS['unop']) may only DECREASE over time.
+
+The constraint is limited to the unimproved share deliberately -- SSP scenarios
+explicitly project within-improved transitions for some countries (e.g. a shift
+from sewer to septic as suburban areas grow), and a stricter full-ordering
+ratchet would block those, defeating the SSP constraint.
+
+The measured 2025 baseline acts as the floor.
+
 For 2025: output sanitation_combined.csv values directly.
 
 Fallback (countries not in SSP data):
@@ -114,6 +130,55 @@ def round_fracs_3dp_sum1(values):
         idx = np.argsort(remainders)[:abs(n_add)]
         floored[idx] = np.maximum(0.0, floored[idx] - 0.001)
     return np.round(floored, 3)
+
+
+# -- Unimproved-share ratchet ------------------------------------------------
+# We constrain only the *unimproved* aggregate (GROUPS['unop']): its combined
+# population share may never increase from one projected year to the next.
+# This directly prevents open defecation or pit-without-slab from resurging
+# when a scenario's HDI dips, without touching transitions within the improved
+# tier (e.g. sewer -> septic), which the SSP scenarios legitimately project.
+#
+# Implementation: if the projected unop sum exceeds the previous year's value,
+# scale all unop fracs down to match the previous total, redistribute the freed
+# mass proportionally among improved technologies, then renormalise to sum = 1.
+UNOP_TECHS = GROUPS['unop']   # 7 technologies
+IMPR_TECHS = [t for g in ('latr', 'sept', 'sewr') for t in GROUPS[g]]  # 5 techs
+UNOP_IDX   = [TECH_COLS.index(t) for t in UNOP_TECHS]
+IMPR_IDX   = [TECH_COLS.index(t) for t in IMPR_TECHS]
+
+
+def apply_ratchet(series_by_year):
+    """Cap unimproved share so it never exceeds the previous year's level.
+
+    series_by_year : {year: array(len TECH_COLS)} fractions in TECH_COLS order.
+    Returns the same structure with the unop share non-increasing over years.
+    The earliest year (the measured 2025 baseline) is left unchanged.
+    """
+    out, prev_unop = {}, None
+    for y in sorted(series_by_year):
+        arr = series_by_year[y].copy()
+        s = arr.sum()
+        if s > 0:
+            arr = arr / s
+        unop_sum = arr[UNOP_IDX].sum()
+        if prev_unop is not None and unop_sum > prev_unop + 1e-9:
+            excess = unop_sum - prev_unop
+            # Scale down unop techs to match previous total
+            if unop_sum > 1e-9:
+                arr[UNOP_IDX] *= prev_unop / unop_sum
+            # Redistribute excess proportionally among improved techs
+            impr_sum = arr[IMPR_IDX].sum()
+            if impr_sum > 1e-9:
+                arr[IMPR_IDX] += excess * arr[IMPR_IDX] / impr_sum
+            else:
+                arr[IMPR_IDX] += excess / len(IMPR_IDX)
+            t = arr.sum()
+            if t > 0:
+                arr = arr / t
+        prev_unop = arr[UNOP_IDX].sum()
+        out[y] = arr
+    return out
 
 
 # -- Load UNSD country code mapping (M49 numeric -> ISO alpha-3) -------------
@@ -254,28 +319,29 @@ def project_delta_ladder(current_arr, cur_hdi, target_hdi, context):
 
 # -- Main projection loop -----------------------------------------------------
 print("Projecting ...")
-records = []
+# raw[(alpha3, scenario)] = {'Urban': {year: arr}, 'Rural': {year: arr}}
+raw = {}
 
 for _, hdi_row in hdi_future.iterrows():
     alpha3   = hdi_row['alpha3']
     scenario = hdi_row['scenario']
     hdi_2025 = float(hdi_row['2025'])
     cur_hdi  = float(hdi_row['hdi_hist']) if not pd.isna(hdi_row['hdi_hist']) else np.nan
-    has_current = (alpha3 in current_fracs) and not np.isnan(cur_hdi)
     in_ssp_data = (alpha3 in ssp_sheets[scenario]['sewr'].index)
 
-    for yr in PROJ_YEARS:
-        rec   = {'alpha3': alpha3, 'scenario': scenario, 'year': yr}
-        delta = float(hdi_row[str(yr)]) - hdi_2025
+    # Per-context baseline validity. Some countries have an all-zero (missing)
+    # current mix in sanitation_combined.csv; such a context must not be used
+    # as a passthrough value or as the ratchet floor -- it is projected instead.
+    base = current_fracs.get(alpha3)
+    base_ok = {
+        ctx: (base is not None and np.nansum(base[ctx]) > 1e-6)
+        for ctx in ('Urban', 'Rural')
+    }
 
-        # 2025: use current values directly (no projection needed)
-        if yr == 2025 and has_current:
-            for ctx, sfx in (('Urban', '_urb'), ('Rural', '_rur')):
-                arr = round_fracs_3dp_sum1(current_fracs[alpha3][ctx])
-                for t, v in zip(TECH_COLS, arr):
-                    rec[f'{t}{sfx}'] = v
-            records.append(rec)
-            continue
+    ctx_series = {'Urban': {}, 'Rural': {}}
+
+    for yr in PROJ_YEARS:
+        delta = float(hdi_row[str(yr)]) - hdi_2025
 
         # Target HDI: delta-anchored if hist available, else absolute SSP value
         target_hdi = (cur_hdi + delta) if not np.isnan(cur_hdi) else float(hdi_row[str(yr)])
@@ -291,19 +357,39 @@ for _, hdi_row in hdi_future.iterrows():
         if use_ssp:
             p_urb = float(np.clip(p_urb, 0.01, 0.99))
             u_d, r_d = project_ssp_constrained(target_hdi, f_ssp, p_urb)
-        elif has_current:
-            # Delta-ladder fallback
-            u_arr = project_delta_ladder(current_fracs[alpha3]['Urban'], cur_hdi, target_hdi, 'Urban')
-            r_arr = project_delta_ladder(current_fracs[alpha3]['Rural'], cur_hdi, target_hdi, 'Rural')
-            u_d = dict(zip(TECH_COLS, u_arr))
-            r_d = dict(zip(TECH_COLS, r_arr))
         else:
-            # Absolute ladder lookup (no current baseline)
-            u_d = ladder_fracs('Urban', target_hdi)
-            r_d = ladder_fracs('Rural', target_hdi)
+            # Per context: delta-ladder where a valid baseline exists,
+            # else absolute ladder lookup.
+            ctx_d = {}
+            for ctx in ('Urban', 'Rural'):
+                if base_ok[ctx] and not np.isnan(cur_hdi):
+                    arr = project_delta_ladder(base[ctx], cur_hdi, target_hdi, ctx)
+                    ctx_d[ctx] = dict(zip(TECH_COLS, arr))
+                else:
+                    ctx_d[ctx] = ladder_fracs(ctx, target_hdi)
+            u_d, r_d = ctx_d['Urban'], ctx_d['Rural']
 
-        u_arr = round_fracs_3dp_sum1([u_d[t] for t in TECH_COLS])
-        r_arr = round_fracs_3dp_sum1([r_d[t] for t in TECH_COLS])
+        # 2025: pass through the measured baseline for contexts that have one.
+        if yr == 2025:
+            if base_ok['Urban']:
+                u_d = dict(zip(TECH_COLS, np.nan_to_num(base['Urban'].astype(float))))
+            if base_ok['Rural']:
+                r_d = dict(zip(TECH_COLS, np.nan_to_num(base['Rural'].astype(float))))
+
+        ctx_series['Urban'][yr] = np.array([u_d[t] for t in TECH_COLS], dtype=float)
+        ctx_series['Rural'][yr] = np.array([r_d[t] for t in TECH_COLS], dtype=float)
+
+    raw[(alpha3, scenario)] = ctx_series
+
+# -- Apply monotone ratchet across years, then round --------------------------
+records = []
+for (alpha3, scenario), ctx_series in raw.items():
+    u_ratched = apply_ratchet(ctx_series['Urban'])
+    r_ratched = apply_ratchet(ctx_series['Rural'])
+    for yr in sorted(u_ratched):
+        rec = {'alpha3': alpha3, 'scenario': scenario, 'year': yr}
+        u_arr = round_fracs_3dp_sum1(u_ratched[yr])
+        r_arr = round_fracs_3dp_sum1(r_ratched[yr])
         for t, v in zip(TECH_COLS, u_arr):
             rec[f'{t}_urb'] = v
         for t, v in zip(TECH_COLS, r_arr):
@@ -333,7 +419,7 @@ wide = wide.fillna(0)
 # fall back to the treatment.csv baseline sum.
 TREAT_COLS = [
     'FractionPrimarytreatment', 'FractionSecondarytreatment',
-    'FractionTertiarytreatment', 'FractionQuarternarytreatment',
+    'FractionTertiarytreatment', 'FractionQuaternarytreatment',
 ]
 treat_base = pd.read_csv(os.path.join(SCRIPTS_DIR, '../../treatment_fractions/data/treatment.csv'))
 treat_base['sewageTreated'] = treat_base[TREAT_COLS].sum(axis=1).clip(upper=1.0).round(3)
