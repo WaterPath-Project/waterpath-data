@@ -1,0 +1,6 @@
+id;scenario;year;admin_level;pathogen;assumption
+gdp_1;all;2024;all;all;Observed national GDP per capita is World Bank indicator NY.GDP.PCAP.PP.KD (PPP, constant 2021 international dollars), 2024.
+gdp_2;SSP1-SSP5;2025-2100;all;all;Future growth follows OECD ENV-Growth 2025 GDP|PPP per-capita trajectories from IIASA SSP Basic Drivers release 3.2. Each country and SSP is multiplicatively anchored to the World Bank 2024 value.
+gdp_3;SSP1-SSP5;2025;all;all;The regular-economy 2025 value applies one year of compound growth from the IIASA historical-2020 to projected-2025 interval.
+gdp_4;SSP1-SSP5;2025-2100;all;all;Afghanistan and Palestine use IIASA's separately flagged Turbulent Economy Data and are not robust for country-level analysis. With no historical 2020 value, 2025 is held at the observed 2024 level. Syria and Venezuela are omitted because no World Bank 2024 anchor exists.
+gdp_5;all;all;subnational;all;National SSP growth factors are applied uniformly to the Kummu et al. 2024 gridded GDP-per-capita pattern for subnational projections.

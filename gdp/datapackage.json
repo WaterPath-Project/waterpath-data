@@ -1,0 +1,103 @@
+{
+  "profile": "data-package",
+  "name": "gdp-per-capita-ssp-projections",
+  "title": "GDP per Capita Baseline and SSP Projections",
+  "description": "Country-level observed GDP per capita for 2024 and SSP1-SSP5 projections for 2025, 2030, 2050 and 2100. OECD ENV-Growth 2025 SSP trajectories are multiplicatively anchored to World Bank 2024 GDP per capita in constant 2021 international dollars. The projections are used to scale the Kummu et al. gridded 2024 GDP-per-capita baseline for WaterPath QMRA drinking-water treatment maps.",
+  "homepage": "https://waterpath-project.github.io/waterpath-web/",
+  "keywords": [
+    "GDP per capita",
+    "purchasing power parity",
+    "Shared Socioeconomic Pathways",
+    "QMRA",
+    "World Bank",
+    "IIASA",
+    "OECD"
+  ],
+  "contributors": [
+    {
+      "title": "Panagis Katsivelis",
+      "role": "author"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "name": "IIASA-SSP-Public-License",
+      "title": "IIASA SSP Explorer Public License",
+      "path": "https://ssp.apps.ece.iiasa.ac.at/license"
+    }
+  ],
+  "sources": [
+    {
+      "title": "World Bank indicator NY.GDP.PCAP.PP.KD: GDP per capita, PPP (constant 2021 international dollars), 2024",
+      "path": "https://api.worldbank.org/v2/country/all/indicator/NY.GDP.PCAP.PP.KD?format=json&date=2024&per_page=400"
+    },
+    {
+      "title": "IIASA SSP Basic Drivers release 3.2 (May 2025), OECD ENV-Growth 2025 GDP projections",
+      "path": "https://files.ece.iiasa.ac.at/ssp/downloads/ssp_basic_drivers_release_3.2_full.xlsx"
+    },
+    {
+      "title": "IIASA SSP Basic Drivers documentation and recommended citations",
+      "path": "https://ssp.apps.ece.iiasa.ac.at/documentation/basic-drivers"
+    },
+    {
+      "title": "Kummu, Kosonen and Masoumzadeh Sayyar: Downscaled gridded global GDP per capita PPP, Zenodo v4",
+      "path": "https://doi.org/10.5281/zenodo.18429133"
+    }
+  ],
+  "resources": [
+    {
+      "name": "gdp",
+      "path": "data/gdp.csv",
+      "profile": "tabular-data-resource",
+      "description": "Observed country-level GDP per capita in 2024.",
+      "schema": {
+        "fields": [
+          {"name": "alpha3", "type": "string", "constraints": {"required": true, "pattern": "^[A-Z]{3}$"}},
+          {"name": "country", "type": "string", "constraints": {"required": true}},
+          {"name": "year", "type": "integer", "constraints": {"required": true, "enum": [2024]}},
+          {"name": "gdp_per_capita", "type": "number", "constraints": {"required": true, "minimum": 0}}
+        ],
+        "primaryKey": ["alpha3", "year"]
+      }
+    },
+    {
+      "name": "gdp-future",
+      "path": "data/gdp_future.csv",
+      "profile": "tabular-data-resource",
+      "description": "Country-level SSP GDP-per-capita projections starting from observed 2024 values.",
+      "schema": {
+        "fields": [
+          {"name": "alpha3", "type": "string", "constraints": {"required": true, "pattern": "^[A-Z]{3}$"}},
+          {"name": "ssp", "type": "string", "constraints": {"required": true, "enum": ["SSP1", "SSP2", "SSP3", "SSP4", "SSP5"]}},
+          {"name": "year", "type": "integer", "constraints": {"required": true, "enum": [2024, 2025, 2030, 2050, 2100]}},
+          {"name": "gdp_per_capita", "type": "number", "constraints": {"required": true, "minimum": 0}},
+          {"name": "turbulent_economy", "type": "boolean", "constraints": {"required": true}}
+        ],
+        "primaryKey": ["alpha3", "ssp", "year"]
+      }
+    },
+    {
+      "name": "assumptions",
+      "path": "data/assumptions.csv",
+      "profile": "tabular-data-resource",
+      "dialect": {"delimiter": ";"},
+      "description": "Methodological assumptions and known limitations.",
+      "schema": {
+        "fields": [
+          {"name": "id", "type": "string", "constraints": {"required": true, "unique": true}},
+          {"name": "scenario", "type": "string"},
+          {"name": "year", "type": "string"},
+          {"name": "admin_level", "type": "string"},
+          {"name": "pathogen", "type": "string"},
+          {"name": "assumption", "type": "string", "constraints": {"required": true}}
+        ],
+        "primaryKey": "id"
+      }
+    }
+  ]
+}
