@@ -11,6 +11,7 @@
   "keywords": [
 	"data sources",
 	"admin_level_0",
+  "waterpath:population",
     "GADM"
   ],
   "homepage": "https://waterpath-project.github.io/waterpath-web/",

@@ -65,7 +65,8 @@
   "keywords": [
 	"data sources",
 	"admin_level_0",
-    "JMP"
+    "JMP",
+	"waterpath:sanitation"
   ],
   "homepage": "https://waterpath-project.github.io/waterpath-web/",
   "name": "jmp_household",

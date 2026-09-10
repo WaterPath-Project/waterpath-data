@@ -17,7 +17,7 @@
   "keywords": [
 	  "data sources",
     "grid level",
-    "wastewater treatment"
+    "waterpath:wastewater_treatment"
   ],
   "homepage": "https://waterpath-project.github.io/waterpath-web/",
   "name": "treatment-fractions",

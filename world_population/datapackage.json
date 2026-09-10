@@ -22,7 +22,7 @@
   ],
   "keywords": [
 	"data sources",
-    "population",
+    "waterpath:population",
     "UN"
   ],
   "homepage": "https://waterpath-project.github.io/waterpath-web/",

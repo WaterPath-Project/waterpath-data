@@ -11,7 +11,8 @@
   "keywords": [
 	"data sources",
     "admin_level_0",
-    "UN"
+    "UN",
+    "waterpath:population"
   ],
   "homepage": "https://waterpath-project.github.io/waterpath-web/",
   "name": "unsd-countries",

@@ -18,7 +18,7 @@
 	  "data sources",
     "HydroSHEDS",
     "point level",
-    "wastewater treatment"
+    "waterpath:wastewater_treatment"
   ],
   "homepage": "https://waterpath-project.github.io/waterpath-web/",
   "name": "hydrosheds-treatment",
